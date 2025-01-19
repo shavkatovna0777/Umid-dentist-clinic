@@ -1,6 +1,11 @@
 import doctorImg1 from "../images/umidDoctor.jpg";
 import doctorImg2 from "../images/faxriddinDoctor.png";
 import doctorImg3 from "../images/muhammadDoctor.jpg";
+import clinicImg1 from "../images/clinicInside0.jpg";
+import clinicImg2 from "../images/clinicInside2.jpg";
+import clinicImg3 from "../images/clinicInside3.jpg";
+import clinicImg4 from "../images/clinicInside4.jpg";
+import clinicImg5 from "../images/clinicInside5.jpg";
 
 export const cardData = [
   {
@@ -372,15 +377,23 @@ export const PriceSectionCardData = [
 
 export const SwiperBigCardDatas = [
   {
-    img: "https://www.redclinica.cl/Portals/_default/Skins/Skin_HCUCH_17_03/images/slider_interno_hcuch/slider_interno_odontologia.jpg",
+    img: clinicImg5,
     url: "",
   },
   {
-    img: "https://www.proffittdentistry.com/wp-content/uploads/2021/07/ws4.jpg",
+    img: clinicImg1,
     url: "",
   },
   {
-    img: "https://www.novodent-ekb.ru/assets/template/images/dist/services/lechenie_kariesa_u_detey/3.jpg",
+    img: clinicImg2,
+    url: "",
+  },
+  {
+    img: clinicImg3,
+    url: "",
+  },
+  {
+    img: clinicImg4,
     url: "",
   },
 ];

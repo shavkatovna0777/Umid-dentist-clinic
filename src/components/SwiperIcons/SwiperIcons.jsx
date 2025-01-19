@@ -3,8 +3,12 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import img from "../../assets/images/biorepairLogoo1.jpg";
+import img2 from "../../assets/images/izenlogo2.png";
 
-const slides = Array(6).fill({ src: img, alt: "Biorepair Logo" });
+const slides = Array(6).fill(null).map((_, index) => ({
+  src: index % 2 === 0 ? img : img2,
+  alt: index % 2 === 0 ? "Biorepair Logo" : "Izen Logo"
+}));
 
 export default function SwiperIcons() {
   return (
@@ -35,7 +39,7 @@ export default function SwiperIcons() {
           spaceBetween: 15,
         },
       }}
-      className="mySwiper "
+      className="mySwiper"
     >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>

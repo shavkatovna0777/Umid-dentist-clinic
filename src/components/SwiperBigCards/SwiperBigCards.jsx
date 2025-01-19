@@ -2,7 +2,6 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperBtn from "./../../ui/SwiperBtn";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
-import Img from "../LazyLoadImg/Img";
 
 function SwiperBigCards({SwiperBigCardDatas}) {
   return (
