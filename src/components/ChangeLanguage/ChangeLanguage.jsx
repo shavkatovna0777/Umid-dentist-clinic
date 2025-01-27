@@ -5,9 +5,9 @@ import USFlag from "../../assets/images/united-states-flag.png";
 import { useTranslation } from "react-i18next";
 import Img from "../LazyLoadImg/Img";
 
-const ChangeLanguage = () => {
+const ChangeLanguage = ({ selectedLang, setSelectedLang }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedLang, setSelectedLang] = useState("Uz");
+
   const dropdownRef = useRef(null);
   const { i18n } = useTranslation();
 

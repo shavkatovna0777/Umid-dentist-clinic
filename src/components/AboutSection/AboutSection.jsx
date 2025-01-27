@@ -1,12 +1,10 @@
 import { IoIosArrowForward, IoMdCheckmarkCircleOutline } from "react-icons/io";
-import { Link, NavLink } from "react-router-dom";
-import Img from "../LazyLoadImg/Img";
+import { Link } from "react-router-dom";
 import { TiMinus } from "react-icons/ti";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-// import img1 from "../../assets/images/withPatient.jpg";
-import img2 from "../../assets/images/workingWithPatient.jpg";
+import LayeredImages from "../LayeredImages/LayeredImages";
 // import img3 from "../../assets/images/singleDoctor.jpg";
 // import img4 from "../../assets/images/doctors.jpg";
 
@@ -84,45 +82,7 @@ function AboutSection() {
               </div>
             </div>
             <div className="right flex-1 slg:mt-[50px] overflow-hidden mt-[40px] w-full h-full">
-              <div className="relative w-full h-[470px] md:mx-auto md:w-auto md:h-auto md:py-[130px]">
-                {/* First image with fixed dimensions */}
-                <div
-                  className="absolute"
-                  data-aos="fade-left"
-                  data-aos-once="true"
-                >
-                  <div className="w-full aspect-square overflow-hidden">
-                    <Img
-                      src={img2}
-                      alt="doctors img"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                {/* Overlay images */}
-                <div className="absolute inset-0 z-10 animate-slide-in-2">
-                  <div className="w-[470px] h-[470px] overflow-hidden">
-                    {" "}
-                    {/* Fixed container size */}
-                    <Img
-                      src="https://wgl-dsites.net/medify/wp-content/uploads/2019/08/image-layers-3_2.png"
-                      alt=""
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="absolute inset-0 z-[-1] animate-slide-in-3">
-                  <div className="w-[470px] h-[470px] overflow-hidden">
-                    {" "}
-                    {/* Fixed container size */}
-                    <Img
-                      src="https://wgl-dsites.net/medify/wp-content/uploads/2019/08/image-layers-3_3.png"
-                      alt=""
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
+              <LayeredImages />
             </div>
           </div>
         </div>

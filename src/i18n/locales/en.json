@@ -4,5 +4,10 @@
     "elements": "Elements",
     "shop": "Shop",
     "contacts": "Contacts"
+  },
+  "doctors_section": {
+    "description": "quality stuff",
+    "heading": "Team of Professionals",
+    "btn": "View More"
   }
 }

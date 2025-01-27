@@ -14,22 +14,19 @@ const Cart = ({ delivery = 0 }) => {
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {
-    // Get cart items from localStorage, default to an empty array if not available
     const savedCart = JSON.parse(localStorage.getItem("cartItems")) || [];
-    // Ensure the data is always an array
     if (Array.isArray(savedCart)) {
       setCartItems(savedCart);
     } else {
-      setCartItems([]); // fallback to empty array if invalid data is found
+      setCartItems([]); 
     }
   }, []);
+  
 
-  // Safely calculate total price only if cartItems is an array
   const totalPrice = Array.isArray(cartItems)
     ? cartItems.reduce((total, item) => total + item.price * item.quantity, 0)
     : 0;
 
-  // Update localStorage whenever cartItems change
   useEffect(() => {
     if (Array.isArray(cartItems)) {
       localStorage.setItem("cartItems", JSON.stringify(cartItems));

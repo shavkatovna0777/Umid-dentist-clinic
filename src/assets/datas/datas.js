@@ -6,6 +6,17 @@ import clinicImg2 from "../images/clinicInside2.jpg";
 import clinicImg3 from "../images/clinicInside3.jpg";
 import clinicImg4 from "../images/clinicInside4.jpg";
 import clinicImg5 from "../images/clinicInside5.jpg";
+import teethImg1 from "../images/teethWhitening.png";
+import teethImg2 from "../images/teethPlaced.png";
+import teethImg3 from "../images/teethImplant.png";
+import teethImg4 from "../images/teethTaking.png";
+import teethImg5 from "../images/teethProtez.png";
+import teethImg6 from "../images/teethBraces.png";
+import serviceSectionImg1 from "../images/docsForServiceSection.jpg"
+import serviceSectionImg2 from "../images/roomImg.jpg"
+import serviceSectionImg3 from "../images/patient.jpg"
+
+
 
 export const cardData = [
   {
@@ -204,45 +215,57 @@ export const doctorData = [
 export const SmallCardData = [
   {
     title: "Tooth Protection",
-    imageUrl:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/03_Home_03.png",
+    imageUrl: teethImg1,
     description:
       "We have introduced the principle of family medicine, which means that the family practitioner will",
   },
   {
     title: "Teeth Whitening",
-    imageUrl:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/03_Home_08.png",
+    imageUrl: teethImg2,
     description:
       "We have introduced the principle of family medicine, which means that the family practitioner will",
   },
   {
     title: "Cosmetic Dentistry",
-    imageUrl:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/03_Home_05.png",
+    imageUrl: teethImg3,
     description:
       "We have introduced the principle of family medicine, which means that the family practitioner will",
   },
   {
     title: "Tooth Protection",
-    imageUrl:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/03_Home_03.png",
+    imageUrl: teethImg4,
     description:
       "We have introduced the principle of family medicine, which means that the family practitioner will",
   },
   {
     title: "Teeth Whitening",
-    imageUrl:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/03_Home_08.png",
+    imageUrl: teethImg5,
     description:
       "We have introduced the principle of family medicine, which means that the family practitioner will",
   },
   {
     title: "Cosmetic Dentistry",
-    imageUrl:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/03_Home_05.png",
+    imageUrl: teethImg6,
     description:
       "We have introduced the principle of family medicine, which means that the family practitioner will",
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    title: "Malakali shifokorlar",
+    image: serviceSectionImg1,
+  },
+  {
+    id: 2,
+    title: "Zamonaviy uskunalar",
+    image: serviceSectionImg2,
+  },
+  {
+    id: 3,
+    title: "Sifatli davolash",
+    image: serviceSectionImg3,
   },
 ];
 

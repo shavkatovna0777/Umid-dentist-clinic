@@ -4,6 +4,9 @@ import { TiMinus } from "react-icons/ti";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Img from "../LazyLoadImg/Img";
+import { services } from "../../assets/datas/datas";
+import ServiceCard from "../ServiceCard/ServiceCard";
 function ServiceSection() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200, once: true });
@@ -32,53 +35,7 @@ function ServiceSection() {
               requests, with a specialists involved only if necessary.
             </p>
           </div>
-          <div
-            className="cards w-[calc(100%+30px)] flex slg:flex-wrap items-center justify-center md:w-[calc(100%+3px)]"
-            data-aos="fade-right"
-            data-aos-once="true"
-          >
-            <div className="card cursor-pointer p-[15px] ">
-              <div className="img-wrapper rounded-[15px] overflow-hidden">
-                {" "}
-                <img
-                  className="max-w-[100%] h-auto"
-                  src="https://wgl-dsites.net/medify/wp-content/uploads/2019/08/service3-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="cursor-pointer transition-all duration-400 ease-in-out text-center m-[-30px_20px_0_20px] ">
-                <h3 className="inline-block text-[24px] p-[18px_33px_18px_33px] rounded-[10px] text-darkBlue font-semibold leading-[1] shadow-[8px_9px_35px_rgba(49,49,49,0.08)] bg-white">
-                  Dental Fillings
-                </h3>
-              </div>
-            </div>
-            <div className="card cursor-pointer p-[15px]">
-              <div className="img-wrapper rounded-[15px] overflow-hidden">
-                <img
-                  src="https://wgl-dsites.net/medify/wp-content/uploads/2019/08/service3-2.jpg"
-                  alt=""
-                />
-              </div>
-              <div className=" cursor-pointer m-[-30px_20px_0_20px] transition-all duration-400 ease-in-out text-center  ">
-                <h3 className="inline-block text-[24px] p-[18px_33px_18px_33px] rounded-[10px] text-darkBlue font-semibold leading-[1] shadow-[8px_9px_35px_rgba(49,49,49,0.08)] transition-all duration-400 bg-white">
-                  Orthodonics
-                </h3>
-              </div>
-            </div>
-            <div className="card cursor-pointer p-[15px]">
-              <div className="img-wrapper rounded-[15px] overflow-hidden">
-                <img
-                  src="https://wgl-dsites.net/medify/wp-content/uploads/2019/08/service3-3.jpg"
-                  alt=""
-                />
-              </div>
-              <div className=" cursor-pointer m-[-30px_20px_0_20px] transition-all duration-400 ease-in-out text-center ">
-                <h3 className="inline-block text-[24px] p-[18px_33px_18px_33px] rounded-[10px] text-darkBlue font-semibold leading-[1] shadow-[8px_9px_35px_rgba(49,49,49,0.08)] transition-all duration-400 bg-white">
-                  Tooth Extraction
-                </h3>
-              </div>
-            </div>
-          </div>
+          <ServiceCard />
           <div className="speacer h-[90px] md:h-[30px]"></div>
           <div className="swiper flex items-center">
             <SwiperIcons />

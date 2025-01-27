@@ -1,11 +1,15 @@
 import { TiMinus } from "react-icons/ti";
 import DoctorsCard from "../DoctorsCard/DoctorsCard";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 
 function DoctorsSection({ DoctorsSectionData }) {
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  const { t } = useTranslation();
+
   return (
     <section>
       <div className="container">
@@ -14,7 +18,7 @@ function DoctorsSection({ DoctorsSectionData }) {
           <div className="heading">
             <div className="top text-orange">
               <span className=" gap-[5px] text-[15px] flex items-center uppercase font-semibold">
-                quality stuff
+                {t("doctors_section.description")}
                 <b>
                   <TiMinus />
                 </b>
@@ -22,14 +26,14 @@ function DoctorsSection({ DoctorsSectionData }) {
             </div>
             <div className="bottom flex justify-between items-center md:flex-wrap">
               <h1 className="text-[42px] leading-60 font-bold inline text-darkBlue md:text-[30px]">
-                Team of Professionals
+                {t("doctors_section.heading")}
               </h1>
               <Link
                 onClick={handleClick}
                 to={"page"}
                 className="text-white bg-lightBlue font-semibold text-[16px] p-[12px_35px] rounded-[5px] hover:bg-blue transform ease-in-out duration-300"
               >
-                View More
+                {t("doctors_section.btn")}{" "}
               </Link>
             </div>
           </div>

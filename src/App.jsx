@@ -33,9 +33,9 @@ function App() {
     return savedCartItems ? JSON.parse(savedCartItems) : [];
   });
 
-  useEffect(() => {
-    console.log("Loaded cartItems from localStorage: ", cartItems);
-  }, [cartItems]);
+  // useEffect(() => {
+  //   console.log("Loaded cartItems from localStorage: ", cartItems);
+  // }, [cartItems]);
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1000);
     return () => clearTimeout(timer);
@@ -44,7 +44,7 @@ function App() {
   useEffect(() => {
     if (cartItems.length > 0) {
       localStorage.setItem("cartItems", JSON.stringify(cartItems));
-      console.log("Updated cartItems in localStorage: ", cartItems);
+      // console.log("Updated cartItems in localStorage: ", cartItems);
     }
   }, [cartItems]);
 

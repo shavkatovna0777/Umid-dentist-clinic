@@ -32,8 +32,7 @@ function Footer() {
               </div>
             </Link>
             <Link
-              onClick={handleClick}
-              to={"contact"}
+              to="tel:+998932997073"
               className="content cursor-pointer text-left flex flex-row mb-[20px] whitespace-nowrap"
             >
               <div className="icon-wrapper inline-flex flex-none  m-[0_15px_0_0]">
@@ -41,10 +40,7 @@ function Footer() {
               </div>
               <div className="infobox m-[-5px_0_0_0] leading-6">
                 <p className="text-[#3b4964]">
-                  Biz bilan bog‘laning: <br />{" "}
-                  <Link target="_blank" to="tel:+998932997073">
-                    +998 93 299 70 73
-                  </Link>
+                  Biz bilan bog‘laning: <br /> +998 93 299 70 73
                 </p>
               </div>
             </Link>

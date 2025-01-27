@@ -4,5 +4,10 @@
     "elements": "О нас",
     "shop": "Mагазин",
     "contacts": "Контакты"
+  },
+  "doctors_section": {
+    "description": "Качественная работа",
+    "heading": "Команда профессионалов",
+    "btn": "Подробнее"
   }
 }

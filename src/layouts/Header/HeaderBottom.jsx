@@ -7,7 +7,7 @@ import { FaPhone } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import ChangeLanguage from "../../components/ChangeLanguage/ChangeLanguage.jsx";
 
-function HeaderBottom() {
+function HeaderBottom({ selectedLang, setSelectedLang }) {
   const [isSearchActive, setIsSearchActive] = useState(false);
 
   const toggleSearch = () => {
@@ -37,7 +37,10 @@ function HeaderBottom() {
         <div className="right flex items-center h-full ">
           <Navbar />
           <div className="h-[50px] w-[2px] bg-[#E5E5E5] mx-[25px]"></div>
-          <ChangeLanguage />
+          <ChangeLanguage
+            selectedLang={selectedLang}
+            setSelectedLang={setSelectedLang}
+          />
 
           {/* <div className="border cursor-pointer">
             <div

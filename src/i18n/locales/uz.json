@@ -4,5 +4,11 @@
     "elements": "Haqida",
     "shop": "Xarid",
     "contacts": "Aloqa"
+  },
+  "doctors_section": {
+    "description": "sifatli Ish",
+    "heading": "Mutaxassislar Jamoasi",
+    "btn": "Batafsil"
+
   }
 }
