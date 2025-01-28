@@ -7,7 +7,10 @@ import { useEffect } from "react";
 import Img from "../LazyLoadImg/Img";
 import { services } from "../../assets/datas/datas";
 import ServiceCard from "../ServiceCard/ServiceCard";
+import { useTranslation } from "react-i18next";
 function ServiceSection() {
+  const { t } = useTranslation();
+
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200, once: true });
   }, []);
@@ -21,18 +24,16 @@ function ServiceSection() {
               <b>
                 <TiMinus />
               </b>
-              our services{" "}
+              {t("service_section.description")}{" "}
               <b>
                 <TiMinus />
               </b>
             </span>
             <h1 className="text-[42px] text-darkBlue font-bold slg:whitespace-nowrap md:text-[25px] ">
-              What We Can Offer You
+            {t("service_section.heading")}{" "}
             </h1>
             <p className="items-center text-center text-[16px] text-[#3b4964] m-[0_0_20px_0] slg:text-[13px] md:hidden">
-              We have introduced the principle of family medicine, which means
-              that the family practitioner will handle the majority of medical
-              requests, with a specialists involved only if necessary.
+            {t("service_section.paragraph")}{" "}
             </p>
           </div>
           <ServiceCard />

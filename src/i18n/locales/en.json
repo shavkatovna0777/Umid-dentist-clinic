@@ -1,13 +1,47 @@
 {
   "navbar": {
     "home": "Home",
-    "elements": "Elements",
+    "elements": "Prices",
     "shop": "Shop",
     "contacts": "Contacts"
+  },
+  "service_section": {
+    "description": "our services",
+    "heading": "What We Can Offer You",
+    "paragraph": "In our clinic, most medical services are provided by our general practitioners, with specialized care available for more complex cases to ensure the best treatment."
+  },
+  "service_section_cards": {
+    "description1": "qualified doctors",
+    "description2": "modern equipment",
+    "description3": "quality treatment"
+  },
+  "about_section": {
+    "heading": "About Us",
+    "subtitle": "Advanced Equipment and Best Dentists",
+    "description": "For us, there are no minor aspects, because a quality result always depends on trifles:",
+    "services": {
+      "service1": "Advanced 3D dental scanning",
+      "service2": "Digital X-ray diagnostics",
+      "service3": "Modern dental treatment equipment",
+      "service4": "Professional dental care tools"
+    },
+    "btn": "Read More"
+  },
+  "checkUP_section": {
+    "description": "Need a Doctor for Check-up? Call for an Emergency Service!"
   },
   "doctors_section": {
     "description": "quality stuff",
     "heading": "Team of Professionals",
     "btn": "View More"
+  },
+  "doctors_cards": {
+    "fullName": "quality stuff",
+    "description": "Team of Professionals",
+    "working": "View More"
+  },
+  "whyChooseUs":{
+    "shortHeading": "See the Difference",
+    "heading": "Why Choose Us?"
   }
 }

@@ -72,7 +72,7 @@ function Footer() {
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  8.00 - 21.00
+                  9.00 - 20.00
                 </div>
               </div>
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
@@ -81,7 +81,7 @@ function Footer() {
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  8.00 - 21.00
+                  9.00 - 20.00
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
@@ -90,7 +90,7 @@ function Footer() {
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  8.00 - 21.00
+                  9.00 - 20.00
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
@@ -99,7 +99,7 @@ function Footer() {
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  8.00 - 21.00
+                  9.00 - 20.00
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
@@ -108,7 +108,7 @@ function Footer() {
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  8.00 - 21.00
+                  9.00 - 20.00{" "}
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
@@ -117,7 +117,7 @@ function Footer() {
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  8.00 - 18.00
+                  10.00 - 18.00
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@ function Footer() {
           </div>
           <div className="py-[15px]">
             <p className="text-[#3b4964] slg:whitespace-nowrap md:whitespace-wrap md:hidden">
-              Copyright © 2024 Medify by{" "}
+              Copyright © 2025 Umid-dentist by
               <Link
                 to={"http://t.me/kamola_tech"}
                 target="_blank"

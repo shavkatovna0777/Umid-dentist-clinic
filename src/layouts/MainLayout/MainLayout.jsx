@@ -11,7 +11,7 @@ function Main() {
     <>
       <Header />
       <main className="relative">
-        {/* <Outlet/> */}
+        <Outlet/>
       </main>
       <Footer/>
     </>

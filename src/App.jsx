@@ -5,8 +5,8 @@ import {
   useNavigation,
 } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n/i18n.js';
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n/i18n.js";
 import Home from "./pages/Home/Home";
 import Main from "./layouts/MainLayout/MainLayout";
 import NotFound from "./pages/NotFound/NotFound";
@@ -33,9 +33,6 @@ function App() {
     return savedCartItems ? JSON.parse(savedCartItems) : [];
   });
 
-  // useEffect(() => {
-  //   console.log("Loaded cartItems from localStorage: ", cartItems);
-  // }, [cartItems]);
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1000);
     return () => clearTimeout(timer);
@@ -44,7 +41,6 @@ function App() {
   useEffect(() => {
     if (cartItems.length > 0) {
       localStorage.setItem("cartItems", JSON.stringify(cartItems));
-      // console.log("Updated cartItems in localStorage: ", cartItems);
     }
   }, [cartItems]);
 

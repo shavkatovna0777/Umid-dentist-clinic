@@ -1,7 +1,7 @@
 import doctorImg1 from "../images/umidDoctor.jpg";
 import doctorImg2 from "../images/faxriddinDoctor.png";
 import doctorImg3 from "../images/muhammadDoctor.jpg";
-import clinicImg1 from "../images/clinicInside0.jpg";
+import clinicImg1 from "../images/inside_img.jpg";
 import clinicImg2 from "../images/clinicInside2.jpg";
 import clinicImg3 from "../images/clinicInside3.jpg";
 import clinicImg4 from "../images/clinicInside4.jpg";
@@ -12,11 +12,9 @@ import teethImg3 from "../images/teethImplant.png";
 import teethImg4 from "../images/teethTaking.png";
 import teethImg5 from "../images/teethProtez.png";
 import teethImg6 from "../images/teethBraces.png";
-import serviceSectionImg1 from "../images/docsForServiceSection.jpg"
-import serviceSectionImg2 from "../images/roomImg.jpg"
-import serviceSectionImg3 from "../images/patient.jpg"
-
-
+import serviceSectionImg1 from "../images/docsForServiceSection.jpg";
+import serviceSectionImg2 from "../images/roomImg.jpg";
+import serviceSectionImg3 from "../images/patient.jpg";
 
 export const cardData = [
   {
@@ -214,57 +212,111 @@ export const doctorData = [
 
 export const SmallCardData = [
   {
-    title: "Tooth Protection",
+    title: {
+      uz: "Tishni oqartirish",
+      eng: "Tooth Whitening",
+      ru: "Отбеливание зубов",
+    },
     imageUrl: teethImg1,
-    description:
-      "We have introduced the principle of family medicine, which means that the family practitioner will",
+    description: {
+      uz: "Tish oqartirish – bu tishlarning rangini ochish va yuzaga kelgan dog‘ yoki rang o‘zgarishlarini yo‘qotish.",
+      eng: "Tooth whitening is a process of lightening the color of teeth and removing stains or discoloration.",
+      ru: "Отбеливание зубов – это процесс осветления цвета зубов и удаления пятен или изменения цвета.",
+    },
   },
   {
-    title: "Teeth Whitening",
+    title: {
+      uz: "Tish qo'yish",
+      eng: "Tooth Implant",
+      ru: "Установка импланта",
+    },
     imageUrl: teethImg2,
-    description:
-      "We have introduced the principle of family medicine, which means that the family practitioner will",
+    description: {
+      uz: "Tish qo‘yish – bu tish yo‘qotilganda uning o‘rniga sun'iy implant qo‘yish jarayoni.",
+      eng: "Tooth implant is the process of replacing a missing tooth with an artificial implant.",
+      ru: "Установка импланта – это процесс замены отсутствующего зуба искусственным.",
+    },
   },
   {
-    title: "Cosmetic Dentistry",
+    title: {
+      uz: "Implant",
+      eng: "Implant",
+      ru: "Имплант",
+    },
     imageUrl: teethImg3,
-    description:
-      "We have introduced the principle of family medicine, which means that the family practitioner will",
+    description: {
+      uz: "Implant – bu tish yo‘qotilganda, uning o‘rniga mustahkam sun'iy ildiz o‘rnatish jarayoni.",
+      eng: "An implant is a procedure where a durable and strong artificial root is placed to replace a missing tooth.",
+      ru: "Имплант – это установка искусственного корня для замены отсутствующего зуба.",
+    },
   },
   {
-    title: "Tooth Protection",
+    title: {
+      uz: "Og'riqsz tish olish",
+      eng: "Painless Tooth Extraction",
+      ru: "Удаление зуба",
+    },
     imageUrl: teethImg4,
-    description:
-      "We have introduced the principle of family medicine, which means that the family practitioner will",
+    description: {
+      uz: "Protez qo‘yish – bu yo‘qolgan tishlarni sun'iy tishlar bilan tiklash usuli.",
+      eng: "Tooth prosthetics is the method of restoring missing teeth with artificial ones.",
+      ru: "Установка протеза – это способ восстановления отсутствующих зубов с помощью искусственных.",
+    },
   },
   {
-    title: "Teeth Whitening",
+    title: {
+      uz: "Protez qo'yish",
+      eng: "Protez",
+      ru: "Протез",
+    },
     imageUrl: teethImg5,
-    description:
-      "We have introduced the principle of family medicine, which means that the family practitioner will",
+    description: {
+      uz: "Protez qo‘yish – bu yo‘qolgan tishlarni sun'iy tishlar bilan tiklash usuli.",
+      eng: "Tooth prosthetics is the method of restoring missing teeth with artificial ones.",
+      ru: "Установка протеза – это способ восстановления отсутствующих зубов с помощью искусственных.",
+    },
   },
   {
-    title: "Cosmetic Dentistry",
+    title: {
+      uz: "Breket qo'yish",
+      eng: "Braces",
+      ru: "Брекеты",
+    },
     imageUrl: teethImg6,
-    description:
-      "We have introduced the principle of family medicine, which means that the family practitioner will",
+    description: {
+      uz: "Breket qo‘yish – tishlarni to‘g‘rilash uchun maxsus qurilmalar o‘rnatish jarayoni.",
+      eng: "Braces are the process of installing devices to straighten teeth.",
+      ru: "Установка брекетов – процесс установки устройств для выравнивания зубов.",
+    },
   },
 ];
 
 export const services = [
   {
     id: 1,
-    title: "Malakali shifokorlar",
+    title: {
+      en: "Qualified doctors",
+      uz: "Malakali shifokorlar",
+      ru: "Kвалифицированные врачи",
+    },
     image: serviceSectionImg1,
   },
   {
     id: 2,
-    title: "Zamonaviy uskunalar",
+    title: {
+      en: "Modern equipment",
+      uz: "Zamonaviy uskunalar",
+      ru: "Cовременное оборудование",
+    },
     image: serviceSectionImg2,
   },
   {
     id: 3,
-    title: "Sifatli davolash",
+    title: {
+      en: "Quality treatment",
+      uz: "Sifatli davolash",
+      ru: "Kачественное лечение",
+    },
     image: serviceSectionImg3,
   },
 ];
@@ -300,23 +352,44 @@ export const WhyChooseUsCardData = [
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/infobox1-1.png",
-    title: "Basic Gumrace",
-    description:
-      "We are not just a regular clinic, but a medical service provider, which you can share any problem",
+    title: {
+      uz: "Professional xizmat",
+      ru: "Профессиональный сервис",
+      en: "Professional Service",
+    },
+    description: {
+      uz: "Bizning jamoamiz yuqori malakali mutaxassislar bilan ta'minlangan bo'lib, har doim eng yaxshi xizmatni taqdim etishga intiladi.",
+      ru: "Наша команда состоит из высококвалифицированных специалистов, всегда стремящихся предоставить наилучший сервис.",
+      en: "Our team is made up of highly qualified specialists who are always striving to provide the best service possible.",
+    }
   },
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/infobox1-2.png",
-    title: "First Class Support",
-    description:
-      "We are not just a regular clinic, but a medical service provider, which you can share any problem",
+    title: {
+      uz: "Tejamkor narxlar",
+      ru: "Доступные цены",
+      en: "Affordable Prices",
+    },
+    description: {
+      uz: "Biz eng yaxshi xizmatni eng maqbul narxlarda taklif etamiz, bozor narxlariga nisbatan yaxshiroq imkoniyatlar taqdim etamiz.",
+      ru: "Мы предлагаем лучшие услуги по самым доступным ценам, предоставляя лучшие возможности на рынке по сравнению с конкурентами.",
+      en: "We offer the best services at the most affordable prices, providing better opportunities compared to market prices.",
+    }
   },
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/infobox1-3.png",
-    title: "Awesome Services",
-    description:
-      "We are not just a regular clinic, but a medical service provider, which you can share any problem",
+    title: {
+      uz: "24/7 qo'llab-quvvatlash",
+      ru: "Поддержка 24/7",
+      en: "24/7 Support",
+    },
+    description: {
+      uz: "Bizning jamoamiz har doim mavjud bo'lib, mijozlarga doimiy yordam va maslahatlar taqdim etadi, hatto tungi soatlarda ham.",
+      ru: "Наша команда всегда доступна, предоставляя постоянную поддержку и консультации, даже в ночное время.",
+      en: "Our team is always available to provide continuous support and advice, even during the late hours of the night.",
+    }
   },
 ];
 
@@ -324,9 +397,21 @@ export const DoctorsSectionData = [
   {
     id: 1,
     imgSrc: doctorImg1,
-    name: "Buribayev Umid",
-    role: "Ortoped, Xirurg, Implantolog",
-    workingSince: 2011,
+    name: {
+      uz: "Buribayev Umid",
+      ru: "Бурибаев Умид",
+      en: "Buribayev Umid",
+    },
+    role: {
+      uz: "Ortoped, Xirurg, Implantolog",
+      ru: "Ортопед, Хирург, Имплантолог",
+      en: "Orthopedist, Surgeon, Implantologist",
+    },
+    workingSince: {
+      uz: "2011 yildan beri ishlamoqda",
+      ru: "Работает с 2011 года",
+      en: "Working since 2011",
+    },
     socialLinks: {
       telegram: "http://t.me/umid_dentist1",
       instagram:
@@ -337,9 +422,21 @@ export const DoctorsSectionData = [
   {
     id: 2,
     imgSrc: doctorImg2,
-    name: "Murodov Faxriddin",
-    role: "Terapevt, Ortoped",
-    workingSince: 2023,
+    name: {
+      uz: "Murodov Faxriddin",
+      ru: "Муродов Фахриддин",
+      en: "Murodov Faxriddin",
+    },
+    role: {
+      uz: "Terapevt, Ortoped",
+      ru: "Терапевт, Ортопед",
+      en: "Therapist, Orthopedist",
+    },
+    workingSince: {
+      uz: "2023 yildan beri ishlamoqda",
+      ru: "Работает с 2023 года",
+      en: "Working since 2023",
+    },
     socialLinks: {
       telegram: "http://t.me/Faxriddin_m13",
       instagram:
@@ -350,9 +447,21 @@ export const DoctorsSectionData = [
   {
     id: 3,
     imgSrc: doctorImg3,
-    name: "Orziqulov Muhammad",
-    role: "Terapevt (kattalar va bolalar)",
-    workingSince: 2024,
+    name: {
+      uz: "Orziqulov Muhammad",
+      ru: "Орзикулов Мухаммад",
+      en: "Orziqulov Muhammad",
+    },
+    role: {
+      uz: "Terapevt (kattalar va bolalar)",
+      ru: "Терапевт (взрослые и дети)",
+      en: "Therapist (Adults and Children)",
+    },
+    workingSince: {
+      uz: "2024 yildan beri ishlamoqda",
+      ru: "Работает с 2024 года",
+      en: "Working since 2024",
+    },
     socialLinks: {
       telegram: "http://t.me/Muhammad_dent",
       instagram:

@@ -1,14 +1,42 @@
 {
   "navbar": {
     "home": "Asosiy",
-    "elements": "Haqida",
+    "elements": "Narxlar",
     "shop": "Xarid",
     "contacts": "Aloqa"
+  },
+  "service_section": {
+    "description": "bizning xizmatlar",
+    "heading": "Biz Sizga Nima Taklif Qila Olamiz",
+    "paragraph": "Klinikamizda ko‘pchilik tibbiy xizmatlar shifokorlarimiz tomonidan amalga oshiriladi, murakkab holatlar esa alohida yondashuvni talab qiladi."
+  },
+  "about_section": {
+    "heading": "Biz haqimizda",
+    "subtitle": "Zamonaviy uskunalar va malakali tish shifokorlari",
+    "description": "Biz uchun tish parvarishida mukammal natijaga erishish uchun aniqlik, tajriba va bemorlarimizga bo'lgan e'tibor zarur deb bilamiz:",
+    "services": {
+      "service1": "Zamonaviy 3D tish skanerlash",
+        "service2": "Raqamli rentgen diagnostikasi",
+        "service3": "Zamonaviy tish davolash uskunalari",
+        "service4": "Professional tish parvarish jihozlari"
+    },
+    "btn": "Batafsil"
+  },
+  "checkUP_section": {
+    "description": "Tibbiy ko'rik uchun shifokor kerakmi? Biz bilan bo'g'laning!"
   },
   "doctors_section": {
     "description": "sifatli Ish",
     "heading": "Mutaxassislar Jamoasi",
     "btn": "Batafsil"
-
+  },
+  "doctors_cards": {
+    "fullName": "quality stuff",
+    "description": "Team of Professionals",
+    "working": "View More"
+  },
+  "whyChooseUs":{
+    "shortHeading": "Farqni ko'ring",
+    "heading": "Nima uchun biz?"
   }
 }

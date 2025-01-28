@@ -1,8 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { LuPhoneCall } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
 function CheckUpSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-fixed transition-all duration-300 bg-blue-500 border-blue-600 shadow-md hover:shadow-xl bg-blue bg-center  bg-no-repeat bg-[url(https://wgl-dsites.net/medify/wp-content/uploads/2019/08/home-2_section_03.png)] ">
       <div className="container">
@@ -16,7 +19,7 @@ function CheckUpSection() {
                 </div>
                 <div className="div paragraph text-white flex flex-col justify-center items-center mx-auto">
                   <h3 className="text-[28px] inline leading-[60px] font-normal md:leading-[30px] md:text-[22px] md:text-center">
-                    Need a Doctor for Check-up? Call for an Emergency Service!
+                  {t("checkUP_section.description")}
                   </h3>
                 </div>
                 <div className="div paragraph text-white justify-center items-center mx-auto">

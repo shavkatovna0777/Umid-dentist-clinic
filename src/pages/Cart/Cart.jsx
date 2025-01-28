@@ -8,7 +8,6 @@ import {
 } from "react-icons/io";
 import { AiOutlineClose } from "react-icons/ai";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
-import { formatCurrency } from "/src/utils/formatCurrency.js";
 
 const Cart = ({ delivery = 0 }) => {
   const [cartItems, setCartItems] = useState([]);

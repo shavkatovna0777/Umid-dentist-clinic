@@ -21,7 +21,7 @@ function SwiperBigCards({SwiperBigCardDatas}) {
         }}
       >
         {SwiperBigCardDatas.map((data, index) => (
-          <SwiperSlide key={index} className="aspect-[3/1.2] h-full fixed md:h-full md:aspect-[4/2.5]">
+          <SwiperSlide key={index} className="aspect-[3/1.5] h-full fixed md:h-full md:aspect-[4/2.5]">
             <img
               className="absolute top-0 left-0 w-full h-full object-cover "
               src={data.img}
