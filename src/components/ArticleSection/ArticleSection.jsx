@@ -3,8 +3,11 @@ import { TiMinus } from "react-icons/ti";
 import PriceCard from "../PriceCard/PriceCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 
-function PriceSection({ PriceSectionCardData }) {
+function  ArticleSection({ ArticleSectionCardData }) {
+  const { t } = useTranslation();
+
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200, once: true });
   }, []);
@@ -20,7 +23,7 @@ function PriceSection({ PriceSectionCardData }) {
                 <b>
                   <TiMinus />
                 </b>
-                pricing plan
+                {t("price_section.subHeading")}{" "}
                 <b>
                   <TiMinus />
                 </b>
@@ -28,7 +31,7 @@ function PriceSection({ PriceSectionCardData }) {
             </div>
             <div className="title mb-[10px]">
               <h1 className="text-[42px] leading-60 font-bold inline text-darkBlue md:text-[30px] md:leading-10">
-                Choose Your Optimal Plan
+              {t("price_section.heading")}{" "}
               </h1>
               <p className="text-[#3b4964] justify-center mx-auto text-center w-[65%] md:w-full">
                 We have introduced the principle of family medicine, which means
@@ -43,7 +46,7 @@ function PriceSection({ PriceSectionCardData }) {
           data-aos="fade-right"
           data-aos-once="true"
         >
-          {PriceSectionCardData.map((card, index) => (
+          {ArticleSectionCardData.map((card, index) => (
             <PriceCard
               key={index}
               title={card.title}
@@ -62,4 +65,4 @@ function PriceSection({ PriceSectionCardData }) {
   );
 }
 
-export default PriceSection;
+export default ArticleSection;

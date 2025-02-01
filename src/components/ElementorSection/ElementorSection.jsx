@@ -13,7 +13,7 @@ function ElementorSection({ ElementorCardData }) {
       <div className="container py-[70px]">
         <div className="elementor-main ">
           <div
-            className="cards flex items-center text-center slg:flex-wrap"
+            className="cards grid grid-cols-4 items-center text-center md:grid-cols-2 slg:grid-cols-1"
             data-aos="fade-up"
             data-aos-once="true"
           >

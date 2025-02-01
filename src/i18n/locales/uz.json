@@ -16,27 +16,56 @@
     "description": "Biz uchun tish parvarishida mukammal natijaga erishish uchun aniqlik, tajriba va bemorlarimizga bo'lgan e'tibor zarur deb bilamiz:",
     "services": {
       "service1": "Zamonaviy 3D tish skanerlash",
-        "service2": "Raqamli rentgen diagnostikasi",
-        "service3": "Zamonaviy tish davolash uskunalari",
-        "service4": "Professional tish parvarish jihozlari"
+      "service2": "Raqamli rentgen diagnostikasi",
+      "service3": "Zamonaviy tish davolash uskunalari",
+      "service4": "Professional tish parvarish jihozlari"
     },
     "btn": "Batafsil"
   },
   "checkUP_section": {
-    "description": "Tibbiy ko'rik uchun shifokor kerakmi? Biz bilan bo'g'laning!"
+    "description": "Tish shifokori kerakmi? Biz bilan bo'g'laning!"
   },
   "doctors_section": {
     "description": "sifatli Ish",
     "heading": "Mutaxassislar Jamoasi",
     "btn": "Batafsil"
   },
-  "doctors_cards": {
-    "fullName": "quality stuff",
-    "description": "Team of Professionals",
-    "working": "View More"
-  },
-  "whyChooseUs":{
+  "whyChooseUs": {
     "shortHeading": "Farqni ko'ring",
     "heading": "Nima uchun biz?"
+  },
+  "price_section": {
+    "subHeading": "xizmat narxlarimiz",
+    "heading": "Eng maqbul rejangizni tanlang",
+    "paragraph": "Biz barcha uchun arzon stomatologik xizmatlarni taklif etamiz, tish muammolarini hal qilish uchun birinchi navbatda bizga murojaat qilishingiz mumkin"
+  },
+  "footer": {
+    "subHeading1": "Biz bilan bog'lanish",
+    "location": "25 Alisher Navoiy ko‘chasi,",
+    "location2": " Jizzakh shahar, O‘zbekiston",
+    "call": "Biz bilan bog‘laning:",
+    "working_hours": {
+      "mon_fri": "Dush - Juma: 8:00 - 9:00",
+      "sat_sun": "Shan - Yak: 9:00 - 6:00"
+    },
+    "subHeading2": "Ish vaqti",
+    "working_days": {
+      "monday": "Dushanba",
+      "tuesday": "Seshanba",
+      "wednesday": "Chorshanba",
+      "thursday": "Payshanba",
+      "friday": "Juma",
+      "weekend": "Shanba",
+      "weekHours": "9:00 - 20:00",
+      "weekendHours": "10:00 - 18:00"
+    },
+    "termsUse": "Foydalanish shartlari | Maxfiylik | Atrof-muhit siyosati",
+    "copyright": "Copyright © 2025 Umid-dentist ",
+    "policy": "Barcha huquqlar himoyalangan."
+  },
+  "price_page":{
+    "subHeading": "Narxlar",
+    "home": "Bosh Sahifa",
+    "prices": "Narxlar"
   }
 }

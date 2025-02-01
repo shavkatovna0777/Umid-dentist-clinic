@@ -40,8 +40,42 @@
     "description": "Team of Professionals",
     "working": "View More"
   },
-  "whyChooseUs":{
+  "whyChooseUs": {
     "shortHeading": "See the Difference",
     "heading": "Why Choose Us?"
+  },
+  "price_section": {
+    "subHeading": "pricing plan",
+    "heading": "Choose Your Optimal Plan",
+    "paragraph": "We offer affordable dental services for all ages, and you can first consult your primary dentist to address dental issues"
+  },
+  "footer": {
+    "subHeading1": "Our Contacts",
+    "location": "25 Alisher Navoi Street, ",
+    "location2": "Jizzakh City, Uzbekistan",
+    "call": "Contact us:",
+    "working_hours": {
+      "mon_fri": "Mon - Fri: 8:00 AM - 9:00 PM",
+      "sat_sun": "Sat - Sun: 9:00 AM - 6:00 PM"
+    },
+    "subHeading2": "Open Hours",
+    "working_days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "weekend": "Saturday",
+      "weekHours": "9:00 AM - 8:00 PM",
+      "weekendHours": "10:00 AM - 6:00 PM"
+    },
+    "termsUse": "Terms of use | Privacy Environmental Policy",
+    "copyright": "Copyright © 2025 Medify by ",
+    "policy": "All Rights Reserved."
+  },
+  "price_page": {
+    "subHeading": "Prices",
+    "home": "Home",
+    "prices": "Prices"
   }
 }

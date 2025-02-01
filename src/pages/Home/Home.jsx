@@ -5,17 +5,17 @@ import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import ElementorSection from "../../components/ElementorSection/ElementorSection";
 import WhyChooseUsSection from "../../components/WhyChooseUsSection/WhyChooseUsSection";
 import DoctorsSection from "../../components/DoctorsSection/DoctorsSection";
-import PriceSection from "../../components/PriceSection/PriceSection";
 import CheckUpSection from "../../components/CheckUpSection/CheckUpSection";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import {
   DoctorsSectionData,
   ElementorCardData,
-  PriceSectionCardData,
+  ArticleSectionCardData,
   SmallCardData,
   SwiperBigCardDatas,
   WhyChooseUsCardData,
 } from "../../assets/datas/datas";
+import ArticleSection from "../../components/ArticleSection/ArticleSection";
 
 function Home() {
   return (
@@ -28,7 +28,7 @@ function Home() {
       <WhyChooseUsSection WhyChooseUsCardData={WhyChooseUsCardData} />
       <DoctorsSection DoctorsSectionData={DoctorsSectionData} />
       <CheckUpSection />
-      <PriceSection PriceSectionCardData={PriceSectionCardData} />
+      <ArticleSection ArticleSectionCardData={ArticleSectionCardData} />
       <ScrollToTop />
     </main>
   );

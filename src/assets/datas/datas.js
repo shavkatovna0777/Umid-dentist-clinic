@@ -325,26 +325,58 @@ export const ElementorCardData = [
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/services4-1.png",
-    title: "Comfortable Care",
-    description: "We have introduced the principle of family medicine",
+    title: {
+      uz: "Qulay parvarish",
+      ru: "Уютный уход",
+      en: "Comfortable Care",
+    },
+    description: {
+      uz: "Biz barcha yoshdagilar uchun qulay va sifatli tibbiy xizmatni joriy qildik",
+      ru: "Мы внедрили удобное и качественное медицинское обслуживание для всех возрастов",
+      en: "We have introduced comfortable and high-quality medical care for all ages",
+    },
   },
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/services4-2.png",
-    title: "Trusted Doctors",
-    description: "Our clinic provides high-quality medical care",
+    title: {
+      uz: "Ishonchli shifokorlar",
+      ru: "Надежные врачи",
+      en: "Trusted Doctors",
+    },
+    description: {
+      uz: "Klinikamiz yuqori sifatli tibbiy xizmatlarni taqdim etadi",
+      ru: "Наша клиника предоставляет высококачественную медицинскую помощь",
+      en: "Our clinic provides high-quality medical care",
+    },
   },
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/services4-3.png",
-    title: "Highest Quality",
-    description: "State-of-the-art tools for diagnosis and treatment",
+    title: {
+      uz: "Eng yuqori sifat",
+      ru: "Высочайшее качество",
+      en: "Highest Quality",
+    },
+    description: {
+      uz: "Diagnostika va davolash uchun zamonaviy vositalar",
+      ru: "Современные инструменты для диагностики и лечения",
+      en: "State-of-the-art tools for diagnosis and treatment",
+    },
   },
   {
     imageSrc:
       "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/services4-4.png",
-    title: "Always Smiling",
-    description: "Always available to assist you with your needs",
+    title: {
+      uz: "Doim tabassumda",
+      ru: "Всегда с улыбкой",
+      en: "Always Smiling",
+    },
+    description: {
+      uz: "Har doim ehtiyojlaringizga yordam berishga tayyor",
+      ru: "Всегда готовы помочь вам с вашими потребностями",
+      en: "Always available to assist you with your needs",
+    },
   },
 ];
 
@@ -361,7 +393,7 @@ export const WhyChooseUsCardData = [
       uz: "Bizning jamoamiz yuqori malakali mutaxassislar bilan ta'minlangan bo'lib, har doim eng yaxshi xizmatni taqdim etishga intiladi.",
       ru: "Наша команда состоит из высококвалифицированных специалистов, всегда стремящихся предоставить наилучший сервис.",
       en: "Our team is made up of highly qualified specialists who are always striving to provide the best service possible.",
-    }
+    },
   },
   {
     imageSrc:
@@ -375,7 +407,7 @@ export const WhyChooseUsCardData = [
       uz: "Biz eng yaxshi xizmatni eng maqbul narxlarda taklif etamiz, bozor narxlariga nisbatan yaxshiroq imkoniyatlar taqdim etamiz.",
       ru: "Мы предлагаем лучшие услуги по самым доступным ценам, предоставляя лучшие возможности на рынке по сравнению с конкурентами.",
       en: "We offer the best services at the most affordable prices, providing better opportunities compared to market prices.",
-    }
+    },
   },
   {
     imageSrc:
@@ -389,7 +421,7 @@ export const WhyChooseUsCardData = [
       uz: "Bizning jamoamiz har doim mavjud bo'lib, mijozlarga doimiy yordam va maslahatlar taqdim etadi, hatto tungi soatlarda ham.",
       ru: "Наша команда всегда доступна, предоставляя постоянную поддержку и консультации, даже в ночное время.",
       en: "Our team is always available to provide continuous support and advice, even during the late hours of the night.",
-    }
+    },
   },
 ];
 
@@ -471,7 +503,7 @@ export const DoctorsSectionData = [
   },
 ];
 
-export const PriceSectionCardData = [
+export const ArticleSectionCardData = [
   {
     title: "Standard",
     price: 199,

@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { HiLocationMarker } from "react-icons/hi";
 import { TbClockHour10Filled } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const { t } = useTranslation();
+
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -14,7 +17,7 @@ function Footer() {
           <div className="left p-[15px] md:p-0">
             <div className="heading mb-[20px] ">
               <h6 className="text-[20px] font-semibold text-darkBlue">
-                Our Contacts
+                {t("footer.subHeading1")}{" "}
               </h6>
             </div>
             <Link
@@ -27,7 +30,7 @@ function Footer() {
               </div>
               <div className="infobox m-[-5px_0_0_0] leading-6">
                 <p className="text-[#3b4964]">
-                  Alisher Navoiy ko‘chasi 25-uy, <br /> Jizzakh sh. O‘zbekiston
+                  {t("footer.location")} <br /> {t("footer.location2")}
                 </p>
               </div>
             </Link>
@@ -40,7 +43,7 @@ function Footer() {
               </div>
               <div className="infobox m-[-5px_0_0_0] leading-6">
                 <p className="text-[#3b4964]">
-                  Biz bilan bog‘laning: <br /> +998 93 299 70 73
+                  {t("footer.call")} <br /> +998 93 299 70 73
                 </p>
               </div>
             </Link>
@@ -54,7 +57,8 @@ function Footer() {
               </div>
               <div className="infobox m-[-5px_0_0_0] leading-6">
                 <p className="text-[#3b4964]">
-                  Dush - Juma: 8.00 - 21.00 <br /> Shan -Yak: 9.00 - 18.00
+                  {t("footer.working_hours.mon_fri")} <br />{" "}
+                  {t("footer.working_hours.sat_sun")}
                 </p>
               </div>
             </Link>
@@ -62,62 +66,62 @@ function Footer() {
           <div className="center py-[15px] px-[15px] mx-[30px] md:mx-0 md:w-full md:items-start md:flex md:flex-col md:justify-center">
             <div className="heading mb-[20px]">
               <h6 className="text-[20px] font-semibold text-darkBlue">
-                Open Hours
+                {t("footer.subHeading2")}{" "}
               </h6>
             </div>
             <div className="working-hours flex flex-col">
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
                 <div className="working-day mr-[13px] text-[#3b4964] font-normal">
-                  Dushanba
+                  {t("footer.working_days.monday")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  9.00 - 20.00
+                  {t("footer.working_days.weekHours")}{" "}
                 </div>
               </div>
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
                 <div className="working-day mr-[13px] text-[#3b4964] font-normal">
-                  Seshanba
+                  {t("footer.working_days.tuesday")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  9.00 - 20.00
+                  {t("footer.working_days.weekHours")}{" "}
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
                 <div className="working-day mr-[13px] text-[#3b4964] font-normal">
-                  Chorshanba
+                  {t("footer.working_days.wednesday")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  9.00 - 20.00
+                  {t("footer.working_days.weekHours")}{" "}
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
                 <div className="working-day mr-[13px] text-[#3b4964] font-normal">
-                  Payshanba
+                  {t("footer.working_days.thursday")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  9.00 - 20.00
+                  {t("footer.working_days.weekHours")}{" "}
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
                 <div className="working-day mr-[13px] text-[#3b4964] font-normal">
-                  Juma
+                  {t("footer.working_days.friday")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue">
-                  9.00 - 20.00{" "}
+                  {t("footer.working_days.weekHours")}{" "}
                 </div>
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
-                <div className="working-day mr-[13px] text-[#3b4964] font-normal">
-                  Shanba/Yakshanba
+                <div className="working-day mr-[13px] text-[#3b4964] font-normal whitespace-nowrap">
+                {t("footer.working_days.weekend")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
-                <div className="woring-hour ml-[13px] text-blue">
-                  10.00 - 18.00
+                <div className="woring-hour ml-[13px] text-blue whitespace-nowrap">
+                  {t("footer.working_days.weekendHours")}{" "}
                 </div>
               </div>
             </div>
@@ -141,12 +145,12 @@ function Footer() {
         <div className="main flex items-center justify-between slg:gap-[10px] slg:text-center">
           <div className="py-[15px]">
             <p className="text-[#3b4964] slg:whitespace-nowrap md:justify-center md:flex md:items-center">
-              Terms of use | Privacy Environmental Policy
+            {t("footer.termsUse")}{" "}
             </p>
           </div>
           <div className="py-[15px]">
             <p className="text-[#3b4964] slg:whitespace-nowrap md:whitespace-wrap md:hidden">
-              Copyright © 2025 Umid-dentist by
+            {t("footer.copyright")}{" "}
               <Link
                 to={"http://t.me/kamola_tech"}
                 target="_blank"
@@ -154,7 +158,7 @@ function Footer() {
               >
                 Kamola_Tech
               </Link>{" "}
-              All Rights Reserved.
+              {t("footer.policy")}{" "}
             </p>
           </div>
         </div>
