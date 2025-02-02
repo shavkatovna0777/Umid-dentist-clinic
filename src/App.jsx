@@ -13,7 +13,12 @@ import NotFound from "./pages/NotFound/NotFound";
 import PricesPage from "./pages/PricesPage/PricesPage";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
-import { cardData, categories, doctorData, images } from "./assets/datas/datas";
+import {
+  cardData,
+  categories,
+  servicesData,
+  images,
+} from "./assets/datas/datas";
 import Cart from "./pages/Cart/Cart";
 import { Checkout, ProductSingle } from "./pages";
 import DoctorsSingle from "./pages/DoctorsSingle/DoctorsSingle";
@@ -93,7 +98,7 @@ function App() {
           path: "page/*",
           element: (
             <LoadingWrapper>
-              <PricesPage />
+              <PricesPage servicesData={servicesData} />
             </LoadingWrapper>
           ),
           loader: async () => {

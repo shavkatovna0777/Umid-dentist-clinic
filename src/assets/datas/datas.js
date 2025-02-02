@@ -24,9 +24,10 @@ export const cardData = [
     quantity: 1,
     title: "Ceil Blue Littmann",
     price: "85.50",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_01_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.748a2b52808b5e1eab81/pro_white.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_01_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.748a2b52808b5e1eab81/pro_white.png",
+
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -37,9 +38,9 @@ export const cardData = [
     quantity: 1,
     title: "Orange Littmann",
     price: "86.25",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_02_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.5db9a9742b15fa689b63/total_protective.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_02_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.5db9a9742b15fa689b63/total_protective.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -50,9 +51,9 @@ export const cardData = [
     quantity: 1,
     title: "Navy Blue Littmann",
     price: "240.20",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_03_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.17121274da0cb495c6f4/scudo_prodotti.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_03_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.91ba2310e044a5161c20/Progetto_senza_titolo__3_.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -63,9 +64,9 @@ export const cardData = [
     quantity: 1,
     title: "Plum Littmann",
     price: "85.50",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_04_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.b30f1f73a6317f90a105/notte.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_04_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.988f6c2828fb76641af7/Progetto_senza_titolo__2_.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -77,9 +78,9 @@ export const cardData = [
     quantity: 1,
     title: "Lilac Littmann Light",
     price: "86.25",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_05_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.813dc7f4c4092238277c/fast_sensitive.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_05_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.35da8c816a93a6fda2a4/ripara_smalto.png",
   },
   {
     categories: ["Stethoscope", "Tools"],
@@ -88,9 +89,9 @@ export const cardData = [
     quantity: 1,
     title: "Caribbean Littmann",
     price: "240.20",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_06_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.f7e0b6a8f362f53365f8/periboma_rosa_piccolo.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_06_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.307c751cd3f6ad856447/Progetto_senza_titolo__4_.png",
   },
 
   {
@@ -100,9 +101,9 @@ export const cardData = [
     quantity: 1,
     title: "Royal Blue Littmann",
     price: "85.50",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_07_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.7aabac5b452de840ffdf/Progetto_senza_titolo.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_07_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.7aabac5b452de840ffdf/Progetto_senza_titolo.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -113,9 +114,9 @@ export const cardData = [
     quantity: 1,
     title: "Burgundy Littmann",
     price: "86.25",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_08_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.16ff3a11c2f0d021c4ea/Progetto_senza_titolo__12_.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_08_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.16ff3a11c2f0d021c4ea/Progetto_senza_titolo__12_.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -126,9 +127,9 @@ export const cardData = [
     quantity: 1,
     title: "Master Blue",
     price: "195.00",
-    img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_09_1-768x768.jpg",
+    img: "https://www.biorepair.it/flex/images/u/n/i/D.2bc42cdd1374a5f4dc94/Progetto_senza_titolo__10_.png",
     hoverImg:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_09_2-540x540.jpg",
+      "https://www.biorepair.it/flex/images/u/n/i/D.2bc42cdd1374a5f4dc94/Progetto_senza_titolo__10_.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
@@ -550,6 +551,69 @@ export const ArticleSectionCardData = [
     category: "вопросики",
     author: "Дрик Ирина Валерьевна",
     role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
+  },
+];
+
+export const servicesData = [
+  {
+    category: "Профессиональная гигиена",
+    items: [
+      {
+        name: "Профессиональная чистка зубов ClinPro",
+        ourPrice: "7 500 ₽",
+        moscowPrice: "9 800 ₽",
+      },
+      {
+        name: "Профессиональная чистка Air Flow",
+        ourPrice: "5 500 ₽",
+        moscowPrice: "7 200 ₽",
+      },
+    ],
+  },
+  {
+    category: "Диагностика",
+    items: [
+      {
+        name: "Консультация стоматолога",
+        ourPrice: "Бесплатно",
+        moscowPrice: "Бесплатно",
+      },
+      {
+        name: "Панорамный снимок (ортопантомограмма)",
+        ourPrice: "Бесплатно до 10 февраля",
+        moscowPrice: "1 500 ₽",
+      },
+    ],
+  },
+  {
+    category: "Лечение зубов",
+    items: [
+      {
+        name: "Лечение кариеса",
+        ourPrice: "7 000 ₽",
+        moscowPrice: "9 500 ₽",
+      },
+      {
+        name: "Лечение пульпита",
+        ourPrice: "11 500 ₽",
+        moscowPrice: "14 700 ₽",
+      },
+      {
+        name: "Лечение кисты",
+        ourPrice: "4 800 ₽",
+        moscowPrice: "6 750 ₽",
+      },
+    ],
+  },
+  {
+    category: "Отбеливание зубов",
+    items: [
+      {
+        name: "Amazing White",
+        ourPrice: "9 800 ₽",
+        moscowPrice: "12 000 ₽",
+      },
+    ],
   },
 ];
 

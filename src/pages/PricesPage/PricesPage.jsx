@@ -6,74 +6,13 @@ import "aos/dist/aos.css";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import { useTranslation } from "react-i18next";
 
-function PricesPage({}) {
+function PricesPage({ servicesData }) {
   const { t } = useTranslation();
 
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200, once: true });
   }, []);
-  const services = [
-    {
-      category: "Профессиональная гигиена",
-      items: [
-        {
-          name: "Профессиональная чистка зубов ClinPro",
-          ourPrice: "7 500 ₽",
-          moscowPrice: "9 800 ₽",
-        },
-        {
-          name: "Профессиональная чистка Air Flow",
-          ourPrice: "5 500 ₽",
-          moscowPrice: "7 200 ₽",
-        },
-      ],
-    },
-    {
-      category: "Диагностика",
-      items: [
-        {
-          name: "Консультация стоматолога",
-          ourPrice: "Бесплатно",
-          moscowPrice: "Бесплатно",
-        },
-        {
-          name: "Панорамный снимок (ортопантомограмма)",
-          ourPrice: "Бесплатно до 10 февраля",
-          moscowPrice: "1 500 ₽",
-        },
-      ],
-    },
-    {
-      category: "Лечение зубов",
-      items: [
-        {
-          name: "Лечение кариеса",
-          ourPrice: "7 000 ₽",
-          moscowPrice: "9 500 ₽",
-        },
-        {
-          name: "Лечение пульпита",
-          ourPrice: "11 500 ₽",
-          moscowPrice: "14 700 ₽",
-        },
-        {
-          name: "Лечение кисты",
-          ourPrice: "4 800 ₽",
-          moscowPrice: "6 750 ₽",
-        },
-      ],
-    },
-    {
-      category: "Отбеливание зубов",
-      items: [
-        {
-          name: "Amazing White",
-          ourPrice: "9 800 ₽",
-          moscowPrice: "12 000 ₽",
-        },
-      ],
-    },
-  ];
+
   return (
     <>
       <div className="prices-page bg-[url(https://wgl-dsites.net/medify/wp-content/uploads/2019/08/page-title__elements.jpg)] bg-cover bg-no-repeat bg-scroll bg-center h-[300px] mb-[40px] py-[80px] relative z-[1] p-[10px_0] pb-[88px] bg-[#f2f2f4] w-full">
@@ -113,7 +52,7 @@ function PricesPage({}) {
             </tr>
           </thead>
           <tbody>
-            {services.map((category, categoryIndex) => (
+            {servicesData.map((category, categoryIndex) => (
               <React.Fragment key={categoryIndex}>
                 <tr className="bg-blue-100">
                   <td colSpan={3} className="p-4 font-bold text-blue-700">

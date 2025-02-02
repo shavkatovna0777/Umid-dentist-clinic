@@ -15,7 +15,7 @@ const ArticleCards = ({ image, title, date, views, link }) => {
           </h3>
           <div className="flex justify-between text-sm text-gray-600">
             <span>{date}</span>
-            <span>👁 {views}</span>
+
           </div>
         </div>
       </div>
