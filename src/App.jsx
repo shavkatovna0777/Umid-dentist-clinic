@@ -10,14 +10,13 @@ import i18n from "./i18n/i18n.js";
 import Home from "./pages/Home/Home";
 import Main from "./layouts/MainLayout/MainLayout";
 import NotFound from "./pages/NotFound/NotFound";
-import DoctorsPage from "./pages/DoctorsPage/DoctorsPage";
+import PricesPage from "./pages/PricesPage/PricesPage";
 import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import { cardData, categories, doctorData, images } from "./assets/datas/datas";
 import Cart from "./pages/Cart/Cart";
 import { Checkout, ProductSingle } from "./pages";
 import DoctorsSingle from "./pages/DoctorsSingle/DoctorsSingle";
-
 import { MedicalLoading } from "./components/Loading/MedicalLoading.jsx";
 
 const LoadingWrapper = ({ children }) => {
@@ -94,7 +93,7 @@ function App() {
           path: "page/*",
           element: (
             <LoadingWrapper>
-              <DoctorsPage doctorData={doctorData} />
+              <PricesPage />
             </LoadingWrapper>
           ),
           loader: async () => {

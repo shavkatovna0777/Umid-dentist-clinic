@@ -15,7 +15,6 @@ const StarRating = ({ rating }) => {
       ))}
       {halfStar && (
         <span className="text-orange text-[12px] ml-[1px] mb-1">
-          {" "}
           <TbStarHalfFilled />
         </span>
       )}
@@ -52,7 +51,6 @@ const BestSellers = ({ BestSellersData }) => {
             </Link>
             <div>
               <Link onClick={handleClickTop} to={`/product/${item.id}`}>
-                {" "}
                 <h3 className="text-[16px] font-bold mb-1 text-darkBlue hover:text-lightBlue transition-all duration-300 ease-in-out">
                   {item.name}
                 </h3>

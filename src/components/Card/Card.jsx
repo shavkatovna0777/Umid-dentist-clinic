@@ -13,7 +13,10 @@ function Card({ title, imageUrl, description }) {
         <h2 className="text-[22px] leading-[1.4] font-semibold mb-3 text-darkBlue">
           {title[i18n.language] || title.eng}
         </h2>
-        <p className="text-[16px] text-[#47546D]"> {description[i18n.language] || description.eng}</p>
+        <p className="text-[16px] text-[#47546D]">
+          {" "}
+          {description[i18n.language] || description.eng}
+        </p>
       </div>
     </div>
   );
