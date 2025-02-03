@@ -70,7 +70,6 @@ export const cardData = [
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
   },
-
   {
     categories: ["Stethoscope"],
     tags: ["Clinic", "Health", "Medicine"],
@@ -162,52 +161,6 @@ export const doctorData = [
     role: "Internist, Dantist",
     workingSince: 2008,
     email: "nicolas.sparks",
-  },
-  {
-    id: 4,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_05-540x640.jpg",
-    name: "Morgan Firmen",
-    role: "General Endocrinologist",
-    workingSince: 1990,
-    email: "morgan.firman",
-  },
-
-  {
-    id: 5,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_01-540x640.jpg",
-    name: "Samanta Crane",
-    role: "Internist, General Practitioner",
-    workingSince: 1988,
-    email: "samanta.crane",
-  },
-  {
-    id: 6,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_02-540x640.jpg",
-    name: "Ostin Green",
-    role: "Internist, Emergency Physician",
-    workingSince: 2002,
-    email: "ostin.green",
-  },
-  {
-    id: 7,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_03-540x640.jpg",
-    name: "Norman Colins",
-    role: "Surgeon, Cardiologist",
-    workingSince: 2008,
-    email: "norman.colins",
-  },
-  {
-    id: 8,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_04-540x640.jpg",
-    name: "Harry Poterson",
-    role: "Internist, Orthopedic Surgeon",
-    workingSince: 2012,
-    email: "harry.poterson",
   },
 ];
 

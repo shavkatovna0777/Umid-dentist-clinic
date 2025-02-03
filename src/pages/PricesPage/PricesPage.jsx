@@ -44,9 +44,6 @@ function PricesPage({ servicesData }) {
             <tr className="bg-blue-50">
               <th className="p-4 text-left font-bold text-gray-800">Услуги</th>
               <th className="p-4 text-right font-bold text-gray-800">
-                Наша цена
-              </th>
-              <th className="p-4 text-right font-bold text-gray-800">
                 Средняя в Москве
               </th>
             </tr>
@@ -68,9 +65,7 @@ function PricesPage({ servicesData }) {
                     <td className="p-4 text-right text-blue-600 font-medium">
                       {item.ourPrice}
                     </td>
-                    <td className="p-4 text-right text-gray-600">
-                      {item.moscowPrice}
-                    </td>
+                   
                   </tr>
                 ))}
               </React.Fragment>

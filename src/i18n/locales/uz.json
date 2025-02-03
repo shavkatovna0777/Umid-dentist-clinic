@@ -45,8 +45,8 @@
     "location2": " Jizzakh shahar, O‘zbekiston",
     "call": "Biz bilan bog‘laning:",
     "working_hours": {
-      "mon_fri": "Dush - Juma: 8:00 - 9:00",
-      "sat_sun": "Shan - Yak: 9:00 - 6:00"
+      "mon_fri": "Dush - Juma: 9:00 - 20:00",
+      "sat_sun": "Shanba: 10:00 - 18:00"
     },
     "subHeading2": "Ish vaqti",
     "working_days": {
