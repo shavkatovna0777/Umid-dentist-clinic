@@ -42,8 +42,8 @@ function PricesPage({ servicesData }) {
         <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
           <thead>
             <tr className="bg-blue-50">
-              <th className="p-4 text-left font-bold text-gray-800">Услуги</th>
-              <th className="p-4 text-right font-bold text-gray-800">
+              <th className="p-4 text-left font-bold text-darkBlue">Услуги</th>
+              <th className="p-4 text-right font-bold text-darkBlue">
                 Средняя в Москве
               </th>
             </tr>
@@ -52,17 +52,17 @@ function PricesPage({ servicesData }) {
             {servicesData.map((category, categoryIndex) => (
               <React.Fragment key={categoryIndex}>
                 <tr className="bg-blue-100">
-                  <td colSpan={3} className="p-4 font-bold text-blue-700">
+                  <td colSpan={3} className="p-4 font-bold text-blue">
                     {category.category}
                   </td>
                 </tr>
                 {category.items.map((item, itemIndex) => (
                   <tr
                     key={`${categoryIndex}-${itemIndex}`}
-                    className="border-b border-gray-200 hover:bg-gray-50"
+                    className="border-b border-gray"
                   >
-                    <td className="p-4 text-gray-800">{item.name}</td>
-                    <td className="p-4 text-right text-blue-600 font-medium">
+                    <td className="p-4 text-black font-medium">{item.name}</td>
+                    <td className="p-4 text-right text-black font-semibold">
                       {item.ourPrice}
                     </td>
                    
