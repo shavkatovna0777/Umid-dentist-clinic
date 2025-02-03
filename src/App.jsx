@@ -83,10 +83,22 @@ function App() {
       element: <Main />,
       children: [
         {
-          path: "/",
+          index:true,
           element: (
             <LoadingWrapper>
               <Home />
+            </LoadingWrapper>
+          ),
+          loader: async () => {
+            await new Promise((resolve) => setTimeout(resolve, 900));
+            return null;
+          },
+        },
+        {
+          path: ":id",
+          element: (
+            <LoadingWrapper>
+              <DoctorsSingle />
             </LoadingWrapper>
           ),
           loader: async () => {
@@ -99,18 +111,6 @@ function App() {
           element: (
             <LoadingWrapper>
               <PricesPage servicesData={servicesData} />
-            </LoadingWrapper>
-          ),
-          loader: async () => {
-            await new Promise((resolve) => setTimeout(resolve, 900));
-            return null;
-          },
-        },
-        {
-          path: "page/:id",
-          element: (
-            <LoadingWrapper>
-              <DoctorsSingle />
             </LoadingWrapper>
           ),
           loader: async () => {

@@ -16,7 +16,7 @@ const DoctorsCard = ({ doctor = {} }) => {
   return (
     <div className="card px-[15px] slg:w-[100%] md:w-full pb-[30px]">
       <div className="img-wrapper w-[100%] h-full overflow-hidden rounded-[15px] relative">
-        <Link to={`/page/${doctor.id}`} onClick={handleClickTop}>
+        <Link to={`/${doctor.id}`} onClick={handleClickTop}>
           <Img
             className="w-full h-[400px] object-cover rounded-[15px]"
             src={doctor.imgSrc}

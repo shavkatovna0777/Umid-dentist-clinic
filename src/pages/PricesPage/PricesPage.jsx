@@ -42,30 +42,33 @@ function PricesPage({ servicesData }) {
         <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
           <thead>
             <tr className="bg-blue-50">
-              <th className="p-4 text-left font-bold text-darkBlue">Услуги</th>
-              <th className="p-4 text-right font-bold text-darkBlue">
-                Средняя в Москве
+              <th className="p-4 text-left font-bold text-blue">
+                Stamatologik xizmat turlari
               </th>
+              <th className="p-4 text-right font-bold text-blue">Soni</th>
+              <th className="p-4 text-right font-bold text-blue">Narxlar</th>
             </tr>
           </thead>
           <tbody>
             {servicesData.map((category, categoryIndex) => (
               <React.Fragment key={categoryIndex}>
                 <tr className="bg-blue-100">
-                  <td colSpan={3} className="p-4 font-bold text-blue">
+                  <td colSpan={3} className="p-4 font-bold text-darkBlue">
                     {category.category}
                   </td>
                 </tr>
                 {category.items.map((item, itemIndex) => (
                   <tr
                     key={`${categoryIndex}-${itemIndex}`}
-                    className="border-b border-gray"
+                    className="border-b border-gray "
                   >
-                    <td className="p-4 text-black font-medium">{item.name}</td>
-                    <td className="p-4 text-right text-black font-semibold">
-                      {item.ourPrice}
+                    <td className="p-4 text-darkBlue">{item.name}</td>
+                    <td className="p-4 text-right text-black font-medium">
+                      {item.times}
                     </td>
-                   
+                    <td className="p-4 text-right text-black font-medium">
+                      {item.prices.toLocaleString()} UZS
+                    </td>
                   </tr>
                 ))}
               </React.Fragment>

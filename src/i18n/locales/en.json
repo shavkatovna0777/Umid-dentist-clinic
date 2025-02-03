@@ -77,5 +77,10 @@
     "subHeading": "Prices",
     "home": "Home",
     "prices": "Prices"
+  },
+  "contact_page":{
+    "subHeading": "quick support",
+    "heading": "Contact Us",
+    "paragraph": "Contact us to use our dental services, where we provide safe and high-quality care."
   }
 }

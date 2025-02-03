@@ -4,14 +4,13 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoCallOutline } from "react-icons/io5";
 import { TiMinus } from "react-icons/ti";
 import { Link } from "react-router-dom";
-import Img from "../../components/LazyLoadImg/Img";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import FormContactPage from "../../components/FormContactPage/FormContactPage";
 
 function ContactPage() {
   return (
     <>
-      <div className="contact-page bg-[url(https://wgl-dsites.net/medify/wp-content/uploads/2019/08/page-title__typography.jpg)] bg-cover bg-no-repeat bg-scroll bg-center h-[300px] mb-[40px] py-[80px] relative z-[1] p-[10px_0] pb-[88px] bg-[#f2f2f4] w-full">
+      <div className="contact-page bg-[url(https://wgl-dsites.net/medify/wp-content/uploads/2019/08/page-title-3.jpg)] bg-cover bg-no-repeat bg-scroll bg-center h-[300px] mb-[40px] py-[80px] relative z-[1] p-[10px_0] pb-[88px] bg-[#f2f2f4] w-full">
         <div className="wrapper">
           <div className="container">
             <div className="content flex flex-col justify-center items-center h-[100%]">
@@ -99,18 +98,10 @@ function ContactPage() {
               </div>
               <FormContactPage />
             </div>
-            <div className="spacer h-[90px] slg:h-[90px] md:h-0"></div>
-            <div className="bottom  rounded-[15px] overflow-hidden w-full h-[500px] slg:h-[300px] md:h-full ">
-              <Img
-                className="object-cover w-full h-full"
-                src="https://wgl-dsites.net/medify/wp-content/uploads/2019/08/section-bg-13.jpg"
-                alt=""
-              />
-            </div>
           </div>
         </div>
       </section>
-      <div className="spacer h-[50px] slg:h-0 "></div> <ScrollToTop />
+      <div className="spacer h-[20px] slg:h-0 "></div> <ScrollToTop />
     </>
   );
 }

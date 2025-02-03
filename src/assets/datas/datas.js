@@ -509,62 +509,218 @@ export const ArticleSectionCardData = [
 
 export const servicesData = [
   {
-    category: "Профессиональная гигиена",
+    category: "Diagnostika va Konsultatsiya",
     items: [
       {
-        name: "Профессиональная чистка зубов ClinPro",
-        ourPrice: "7 500 ₽",
-        moscowPrice: "9 800 ₽",
+        name: "Stamatolog ko'rigi",
+        times: "1 marta",
+        prices: 50000,
       },
       {
-        name: "Профессиональная чистка Air Flow",
-        ourPrice: "5 500 ₽",
-        moscowPrice: "7 200 ₽",
+        name: "Tish nervini olish",
+        times: "",
+        prices: "",
       },
     ],
   },
   {
-    category: "Диагностика",
+    category: "Ildiz Kanali Davolash va Qayta Davolash ",
     items: [
       {
-        name: "Консультация стоматолога",
-        ourPrice: "Бесплатно",
-        moscowPrice: "Бесплатно",
+        name: "3 ildizli kanal uchun",
+        times: "1 ta tish",
+        prices: 250000,
       },
       {
-        name: "Панорамный снимок (ортопантомограмма)",
-        ourPrice: "Бесплатно до 10 февраля",
-        moscowPrice: "1 500 ₽",
+        name: "1 va 2 ildizli kanal uchun ",
+        times: " 1 ta tish",
+        prices: 200000,
+      },
+      {
+        name: "Kanalni qayta plomba qilish (Rendo)",
+        times: " 1 ta tish",
+        prices: 300000,
       },
     ],
   },
   {
-    category: "Лечение зубов",
+    category: "Endodontiya (Ildiz Kanali Davolash)",
     items: [
       {
-        name: "Лечение кариеса",
-        ourPrice: "7 000 ₽",
-        moscowPrice: "9 500 ₽",
+        name: "Davolovchi taglik qo‘yish",
+        times: "1 ta tish",
+        prices: 50000,
       },
       {
-        name: "Лечение пульпита",
-        ourPrice: "11 500 ₽",
-        moscowPrice: "14 700 ₽",
+        name: "Devitalizatsiyalovchi pasta qo‘yish, vaqtinchalik plomba",
+        times: "1 ta tish",
+        prices: 30000,
       },
       {
-        name: "Лечение кисты",
-        ourPrice: "4 800 ₽",
-        moscowPrice: "6 750 ₽",
+        name: "Tish osti yiringni davolash (abstsessni davolash)",
+        times: "1 ta tish",
+        prices: 250000,
+      },
+      {
+        name: "Ottok (tish ildizidagi yallig‘lanishni davolash)",
+        times: "1 ta tish",
+        prices: 100000,
       },
     ],
   },
   {
-    category: "Отбеливание зубов",
+    category: "Professional Gigiyena va Profilaktika ",
     items: [
       {
-        name: "Amazing White",
-        ourPrice: "9 800 ₽",
-        moscowPrice: "12 000 ₽",
+        name: "Tish toshlarini tozalash",
+        times: "umumiy",
+        prices: 300000,
+      },
+      {
+        name: "Professional chistka (tishlarni chuqur tozalash)",
+        times: "umumiy",
+        prices: 500000,
+      },
+      {
+        name: "Milkni davolash (gingivit, parodontit va boshqalar)",
+        times: "1 kunlik",
+        prices: 40000,
+      },
+      {
+        name: "Milkni korreksiya qilish",
+        times: "",
+        prices: 100000,
+      },
+      {
+        name: "Plazma terapiya (milk va yumshoq to‘qimalarni tiklash uchun)",
+        times: "2 marta",
+        prices: 500000,
+      },
+    ],
+  },
+  {
+    category: "Tish Plombalash va Restavratsiya",
+    items: [
+      {
+        name: "Plomba qo‘yish",
+        times: "",
+        prices: "",
+      },
+      {
+        name: "Stiklionomer sement (ionomer asosidagi plomba materiali)",
+        times: "1 ta tish",
+        prices: 80000,
+      },
+      {
+        name: "Kompozit plombalar",
+        times: "1 ta tish",
+        prices: 95000,
+      },
+      {
+        name: "Estilite asteria-japan",
+        times: "1 ta tish",
+        prices: 500000,
+      },
+      {
+        name: "Estilite palfique-japan",
+        times: "1 ta tish",
+        prices: 400000,
+      },
+      {
+        name: "Capo",
+        times: "1 ta tish",
+        prices: 160000,
+      },
+      {
+        name: "Charizma",
+        times: "1 ta tish",
+        prices: 200000,
+      },
+      {
+        name: "Escom 100 ",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Derifill ",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Tish formasini qayta tiklash ",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+    ],
+  },
+  {
+    category:
+      "Jarrohlik Stomatologiya (Tishlarni Olish va Implantatsiya Tayyorligi)",
+    items: [
+      {
+        name: "Oddiy tishni olish",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Aql tishini olish",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Shisha tolali shtift (tish ildiziga qo‘yiladigan mustahkamlovchi element)",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Individual shtift (tish ildiziga moslashtirilgan tayyor mahsulot)",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Metal qoplamani kesib olish",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+    ],
+  },
+  {
+    category: "Ortopedik Stomatologiya (Protez va Qoplamalar)",
+    items: [
+      {
+        name: "Metokeramika (metal asosli keramik qoplama)",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Bez metal keramika (sirkoniy qoplama)",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Qoplamani sementga qo‘yish",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Protez (14 ta sun’iy tish bilan)",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Akril protez",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Termoplast protez",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
+      },
+      {
+        name: "Atsital protez",
+        times: "9 800 ₽",
+        prices: "12 000 ₽",
       },
     ],
   },
