@@ -34,9 +34,10 @@
     "shortHeading": "Farqni ko'ring",
     "heading": "Nima uchun biz?"
   },
-  "price_section": {
-    "subHeading": "xizmat narxlarimiz",
-    "heading": "Eng maqbul rejangizni tanlang",
+
+  "article_section": {
+    "subHeading": "foydali maslahatlar",
+    "heading": "Tavsiya etilgan Maqolalar",
     "paragraph": "Biz barcha uchun arzon stomatologik xizmatlarni taklif etamiz, tish muammolarini hal qilish uchun birinchi navbatda bizga murojaat qilishingiz mumkin"
   },
   "footer": {
@@ -63,7 +64,7 @@
     "copyright": "Copyright © 2025 Umid-dentist ",
     "policy": "Barcha huquqlar himoyalangan."
   },
-  "price_page":{
+  "price_page": {
     "subHeading": "Narxlar",
     "home": "Bosh Sahifa",
     "prices": "Narxlar"

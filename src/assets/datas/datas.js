@@ -15,6 +15,12 @@ import teethImg6 from "../images/teethBraces.png";
 import serviceSectionImg1 from "../images/docsForServiceSection.jpg";
 import serviceSectionImg2 from "../images/roomImg.jpg";
 import serviceSectionImg3 from "../images/patient.jpg";
+import articleTooth1 from "../images/crooked_tooth.jpg";
+import articleTooth2 from "../images/implant_tooth.jpg";
+import articleTooth3 from "../images/tooth_sensitivity3.jpg";
+import articleTooth4 from "../images/wisdom_tooth.jpg";
+import articleTooth5 from "../images/brace2.jpg";
+import articleTooth6 from "../images/stomatit.jpg";
 
 export const cardData = [
   {
@@ -459,30 +465,13 @@ export const DoctorsSectionData = [
 
 export const ArticleSectionCardData = [
   {
-    id: 1,
-    title: "Сломался зуб, что делать?",
-    date: "08 мая 2024",
-    views: 3195,
-    category: "вопросики",
-    author: "Стоматолог",
-  },
-  {
-    id: 2,
-    title: "Болят зубы после установки брекетов",
-    date: "07 мая 2024",
-    views: 7480,
-    category: "проблемка",
-  },
-  {
-    id: 3,
-    title: "Эрозия зубов — также опасно, как звучит?",
-    date: "10 апр 2024",
-    views: 5257,
-    category: "вопросики",
-  },
-  {
     id: 4,
-    title: "Ортодонтия — что это и как она делает прикус правильным?",
+    title: {
+      uz: "Aql tishim og'riyapti - rostdan ham uni olib tashlash kerakmi?",
+      ru: "Болит зуб мудрости — неужели придется удалять?",
+      en: "My wisdom tooth hurts - will it really have to be removed?",
+    },
+    imgSrc: articleTooth4,
     date: "22 мар 2024",
     views: 1900,
     category: "вопросики",
@@ -490,15 +479,65 @@ export const ArticleSectionCardData = [
     role: "Отвечает ортодонт, гнатолог",
   },
   {
+    id: 1,
+    title: {
+      uz: "Qiyshiq tishlar - kimda bo'lmagan?",
+      ru: "Кривые зубы – с кем не бывает?",
+      en: "Crooked teeth – who hasn’t had them?",
+    },
+    imgSrc: articleTooth1,
+    date: "08 мая 2024",
+    views: 3195,
+    category: "вопросики",
+    author: "Стоматолог",
+  },
+  {
     id: 5,
-    title: "Выпала пломба — и чего теперь?",
+    title: {
+      uz: "Odamlar breket qo'yishdan qo'rqishining 7 sababi",
+      ru: "7 причин, по которым люди боятся ставить брекеты",
+      en: "7 Reasons Why People Fear Getting Braces",
+    },
+    imgSrc: articleTooth5,
     date: "18 мар 2024",
     views: 6870,
     category: "проблемка",
   },
+
+  {
+    id: 2,
+    title: {
+      uz: "Tish implantlari qancha muddat xizmat qiladi?",
+      ru: "Сколько служат зубные импланты?",
+      en: "How Long Do Dental Implants Last?",
+    },
+    imgSrc: articleTooth2,
+    date: "07 мая 2024",
+    views: 7480,
+    category: "проблемка",
+  },
+
+  {
+    id: 3,
+    title: {
+      uz: "Tish sezuvchanligi bezovta qilyaptimi?",
+      ru: " Чувствительность зубов",
+      en: "Tooth Sensitivity",
+    },
+    imgSrc: articleTooth3,
+    date: "10 апр 2024",
+    views: 5257,
+    category: "вопросики",
+  },
+
   {
     id: 6,
-    title: "Болит десна — что делать?",
+    title: {
+      uz: "Aftozli stomatit (Og'iz yaralari)",
+      ru: "Афтозный стоматит",
+      en: "Aphthous Stomatitis (Canker Sores)",
+    },
+    imgSrc: articleTooth6,
     date: "28 фев 2024",
     views: 2123,
     category: "вопросики",
