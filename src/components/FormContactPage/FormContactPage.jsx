@@ -8,14 +8,14 @@ import toast, { Toaster } from "react-hot-toast";
 function FormContactPage() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [userName, setUserName] = useState("");
-  const [userEmail, setUserEmail] = useState("");
+  const [userAge, setUserAge] = useState("");
   const [userMessage, setUserMessage] = useState("");
   const [isClicked, setIsClicked] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!userName || !userEmail || !phoneNumber) {
+    if (!userName || !userAge || !phoneNumber) {
       toast.error("Please fill all required fields!");
       return;
     }
@@ -23,7 +23,7 @@ function FormContactPage() {
     const message = `
 Qo'ng'iroq so'rayotgan bemorning:
 👤 Ismi: ${userName}
-📧 Email: ${userEmail}
+📧 Age: ${userAge}
 📞 Raqami: ${phoneNumber}
 💬 Xabari: ${userMessage}
     `;
@@ -39,7 +39,7 @@ Qo'ng'iroq so'rayotgan bemorning:
         toast.success("Form successfully sent!");
  
         setUserName("");
-        setUserEmail("");
+        setUserAge("");
         setPhoneNumber("");
         setUserMessage("");
         
@@ -84,10 +84,10 @@ Qo'ng'iroq so'rayotgan bemorning:
             <input
               required
               className="border outline-none bg-[#F6F7FA] placeholder:font-normal p-[10px_20px] rounded-[7px] text-[17px] font-semibold border-none md:w-full"
-              type="email"
-              value={userEmail}
-              placeholder="Your Email*"
-              onChange={(e) => setUserEmail(e.target.value)}
+              type="number"
+              value={userAge}
+              placeholder="Your Age*"
+              onChange={(e) => setUserAge(e.target.value)}
             />
           </div>
         </div>

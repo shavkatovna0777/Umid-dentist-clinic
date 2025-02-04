@@ -64,7 +64,7 @@ function ContactPage() {
                         call us 24/7
                       </h6>
                       <p className="m-[0_0_6px_0] text-[#3b4964] text-[16px]">
-                        +998 91 123 45 67
+                        +998 93 299 70 73
                       </p>
                     </div>
                   </div>
@@ -74,11 +74,14 @@ function ContactPage() {
                     </div>
                     <div className="content flex flex-col">
                       <h6 className="text-lightBlue break-words uppercase leading-[1.4] text-[14px] font-bold mt-[-2px] mb-[4px] mx-0">
-                        email address
+                        Telegram Group{" "}
                       </h6>
-                      <p className="m-[0_0_6px_0] text-[#3b4964] text-[16px]">
-                        medify.clinic@gmail.com
-                      </p>
+                      <Link
+                        to={"https://t.me/Umiddentistdentalclinic"}
+                        className="m-[0_0_6px_0] text-[#3b4964] text-[16px]"
+                      >
+                        @Umid-dentist 
+                      </Link>
                     </div>
                   </div>
                   <div className="card flex items-center gap-[20px] flex-none ">
