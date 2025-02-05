@@ -13,7 +13,7 @@ function WhyChooseUsSection({WhyChooseUsCardData}) {
   }, []);
  
   return (
-    <section className="bg-[url(./assets/images/inside_img2.jpg)] bg-left-top w-full bg-cover min-h-[800px] bg-no-repeat ">
+    <section className="bg-[url(./assets/images/inside_img4.jpg)] bg- w-full bg-cover min-h-[800px] bg-no-repeat ">
       <div className="container">
         <div className="parent flex items-center justify-between h-full">
           <div  className="left w-[570px] h-[700px] flex items-center slg:w-full slg:justify-center" data-aos="fade-right"

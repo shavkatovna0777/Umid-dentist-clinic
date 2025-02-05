@@ -6,6 +6,7 @@ import ElementorSection from "../../components/ElementorSection/ElementorSection
 import WhyChooseUsSection from "../../components/WhyChooseUsSection/WhyChooseUsSection";
 import DoctorsSection from "../../components/DoctorsSection/DoctorsSection";
 import CheckUpSection from "../../components/CheckUpSection/CheckUpSection";
+import ArticleSection from "../../components/ArticleSection/ArticleSection";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import {
   DoctorsSectionData,
@@ -15,7 +16,6 @@ import {
   SwiperBigCardDatas,
   WhyChooseUsCardData,
 } from "../../assets/datas/datas";
-import ArticleSection from "../../components/ArticleSection/ArticleSection";
 
 function Home() {
   return (
