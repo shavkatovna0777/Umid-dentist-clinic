@@ -1,4 +1,8 @@
 {
+  "header_top": {
+    "paragraph": "Professional Stomatologlar – Sog‘lom Tishlar, Chiroyli Tabassum",
+    "callBack": "Biz bilan bog‘lanish"
+  },
   "navbar": {
     "home": "Asosiy",
     "elements": "Narxlar",
@@ -28,6 +32,7 @@
   "doctors_section": {
     "description": "sifatli Ish",
     "heading": "Mutaxassislar Jamoasi",
+    "paragraph": "Malakali stomatologlar jamoamiz sizga zamonaviy va ishonchli stomatologik xizmatlarni taqdim etishga tayyor. Sog‘lom tabassum – biz bilan!",
     "btn": "Batafsil"
   },
   "whyChooseUs": {

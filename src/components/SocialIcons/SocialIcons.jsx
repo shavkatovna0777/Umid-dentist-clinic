@@ -1,9 +1,9 @@
-import { FaTwitter, FaFacebookF, FaPinterestP } from "react-icons/fa";
+import { FaInstagram, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
 
 const iconData = [
-  { id: 1, icon: <FaTwitter />, hoverColor: "bg-blue" },
-  { id: 2, icon: <FaFacebookF />, hoverColor: "bg-blue" },
-  { id: 3, icon: <FaPinterestP />, hoverColor: "bg-blue" },
+  { id: 1, icon: <FaTelegramPlane />, hoverColor: "bg-blue" },
+  { id: 2, icon: <FaInstagram />, hoverColor: "bg-blue" },
+  { id: 3, icon: <FaPhoneAlt />, hoverColor: "bg-blue" },
 ];
 
 const IconButton = ({ IconComponent, hoverColor }) => (

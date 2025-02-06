@@ -1,6 +1,6 @@
-import HeaderTop from "./HeaderTop";
+import HeaderTop from "./HeaderTop.jsx";
 import HeaderSticky from "../../components/HeaderSticky/HeaderSticky.jsx";
-import HeaderBottom from "./HeaderBottom";
+import HeaderBottom from "./HeaderBottom.jsx";
 import { useState } from "react";
 
 function Header() {
@@ -8,8 +8,14 @@ function Header() {
   return (
     <header>
       <HeaderTop />
-      <HeaderBottom selectedLang={selectedLang} setSelectedLang={setSelectedLang} />
-      <HeaderSticky selectedLang={selectedLang} setSelectedLang={setSelectedLang} />
+      <HeaderBottom
+        selectedLang={selectedLang}
+        setSelectedLang={setSelectedLang}
+      />
+      <HeaderSticky
+        selectedLang={selectedLang}
+        setSelectedLang={setSelectedLang}
+      />
     </header>
   );
 }

@@ -6,7 +6,7 @@ import "swiper/css/scrollbar";
 import { Outlet } from "react-router-dom";
 import Footer from "../Footer/Footer";
 
-function Main() {
+function DashboardLayout() {
   return (
     <>
       <Header />
@@ -18,4 +18,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default DashboardLayout;

@@ -1,4 +1,8 @@
 {
+  "header_top": {
+    "paragraph": "Professional Dentists – Healthy Teeth, Beautiful Smile",
+    "callBack": "Request a CallBack"
+  },
   "navbar": {
     "home": "Home",
     "elements": "Prices",
@@ -33,6 +37,7 @@
   "doctors_section": {
     "description": "quality stuff",
     "heading": "Team of Professionals",
+    "paragraph": "Our team of experienced dentists is dedicated to providing you with high-quality and reliable dental care. Let us help you achieve a healthy and beautiful smile!",
     "btn": "View More"
   },
   "doctors_cards": {
@@ -44,7 +49,7 @@
     "shortHeading": "See the Difference",
     "heading": "Why Choose Us?"
   },
- 
+
   "footer": {
     "subHeading1": "Our Contacts",
     "location": "25 Alisher Navoi Street, ",

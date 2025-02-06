@@ -1,11 +1,8 @@
-import React from "react";
 import { doctorData } from "../../assets/datas/datas";
 import { Link, useParams } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import DocotorSingleCard from "../../components/DocotorSingleCard/DocotorSingleCard";
 import Biography from "../../components/Biography/Biography";
-import SkillandEducation from "../../components/SkillandEducation/SkillandEducation";
-import CarrerGuidelines from "../../components/CarrerGuidelines/CarrerGuidelines";
 import ContactME from "../../components/ContactME/ContactME";
 
 function DoctorsSingle({ doctor }) {
@@ -61,8 +58,6 @@ function DoctorsSingle({ doctor }) {
         <div className="container">
           <DocotorSingleCard />
           <Biography />
-          <SkillandEducation />
-          <CarrerGuidelines />
           <ContactME />
         </div>
       </section>

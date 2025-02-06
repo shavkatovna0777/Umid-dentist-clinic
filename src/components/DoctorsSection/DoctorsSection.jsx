@@ -3,7 +3,6 @@ import DoctorsCard from "../DoctorsCard/DoctorsCard";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-
 function DoctorsSection({ DoctorsSectionData }) {
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -15,29 +14,23 @@ function DoctorsSection({ DoctorsSectionData }) {
       <div className="container">
         <div className="speacer h-[95px] sm:h-[80px]"></div>
         <div className="doc-main ">
-          <div className="heading">
-            <div className="top text-orange">
-              <span className=" gap-[5px] text-[15px] flex items-center uppercase font-semibold">
-                {t("doctors_section.description")}
-                <b>
-                  <TiMinus />
-                </b>
-              </span>
-            </div>
-            <div className="bottom flex justify-between items-center md:flex-wrap">
-              <h1 className="text-[42px] leading-60 font-bold inline text-darkBlue md:text-[30px]">
-                {t("doctors_section.heading")}
-              </h1>
-              <Link
-                onClick={handleClick}
-                to={"page"}
-                className="text-white bg-lightBlue font-semibold text-[16px] p-[12px_35px] rounded-[5px] hover:bg-blue transform ease-in-out duration-300"
-              >
-                {t("doctors_section.btn")}{" "}
-              </Link>
-            </div>
+          <div className="title flex flex-col items-center p-[10px] mx-[200px] md:mx-[100px]">
+            <span className="uppercase flex items-center gap-[5px] font-semibold text-[16px] md:font-medium md:whitespace-nowrap md:text-[13px]  text-orange">
+              <b>
+                <TiMinus />
+              </b>
+              {t("doctors_section.description")}{" "}
+              <b>
+                <TiMinus />
+              </b>
+            </span>
+            <h1 className="text-[42px] text-darkBlue font-bold slg:whitespace-nowrap md:text-[25px] ">
+              {t("doctors_section.heading")}{" "}
+            </h1>
+            <p className="items-center text-center text-[16px] text-[#3b4964] m-[0_0_20px_0] slg:text-[13px] md:hidden">
+              {t("doctors_section.paragraph")}{" "}
+            </p>
           </div>
-          <div className="speacer h-[30px]"></div>
           <div className="doc-cards grid grid-cols-3 items-center pt-[10px] slg:grid-cols-2 slg:place-items-center md:w-full md:grid-cols-1">
             {DoctorsSectionData.map((doctor) => (
               <DoctorsCard key={doctor.id} doctor={doctor} />

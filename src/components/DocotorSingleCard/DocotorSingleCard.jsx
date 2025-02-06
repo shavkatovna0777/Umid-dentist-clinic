@@ -1,4 +1,3 @@
-import React from 'react';
 import Img from "../LazyLoadImg/Img";
 import { useParams } from "react-router-dom";
 import { DoctorsSectionData } from "../../assets/datas/datas";
@@ -7,8 +6,7 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 function DoctorSingleCard() {
   const { id } = useParams();
   const selectedDoctor = DoctorsSectionData.find((doctor) => doctor.id == id);
-  const lang = 'uz'; // You can change this based on your language selection
-
+  const lang = "uz";
   if (!selectedDoctor) {
     return <div>Doctor not found</div>;
   }
@@ -30,28 +28,28 @@ function DoctorSingleCard() {
           <h2 className="relative z-[1] mb-[24px] text-[42px] leading-[1.055] md:text-[35px] font-bold text-darkBlue">
             {selectedDoctor.name[lang]}
           </h2>
-          
+
           <div className="info-item team-department items-center">
             <h5 className="font-medium text-darkBlue">Speciality:</h5>
             <span className="text-blue font-semibold ml-[5px]">
               {selectedDoctor.role[lang]}
             </span>
           </div>
-          
+
           <div className="info-item">
             <h5 className="font-medium text-darkBlue">Length of Work:</h5>
             <span className="text-[#3B4973] font-semibold ml-[5px]">
               {selectedDoctor.workingSince[lang]}
             </span>
           </div>
-          
+
           <div className="info-item">
             <h5 className="font-medium text-darkBlue">Phone:</h5>
             <span className="text-[#3B4973] font-semibold ml-[5px]">
               {selectedDoctor.socialLinks.phone}
             </span>
           </div>
-          
+
           <div className="info-item mt-4">
             <SocialIcons links={selectedDoctor.socialLinks} />
           </div>
