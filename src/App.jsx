@@ -118,7 +118,7 @@ function App() {
           },
         },
         {
-          path: "products/*",
+          path: "articles/*",
           element: (
             <LoadingWrapper>
               <ArticlesPage
@@ -134,7 +134,7 @@ function App() {
           },
         },
         {
-          path: "product/:id",
+          path: "articles/:id",
           element: (
             <LoadingWrapper>
               <ArticleSingle
