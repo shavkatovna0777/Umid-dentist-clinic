@@ -33,7 +33,9 @@ function ProductsPage() {
         </div>
       </div>
       <section>
-        <div className="container"></div>
+        <div className="container">
+          
+        </div>
       </section>
 
       <ScrollToTop />
