@@ -60,6 +60,11 @@
       "btn": "Xabar yuborish"
     }
   },
+  "price_page": {
+    "subHeading": "Narxlar",
+    "home": "Bosh Sahifa",
+    "prices": "Narxlar"
+  },
   "footer": {
     "subHeading1": "Biz bilan bog'lanish",
     "location": "25 Alisher Navoiy ko‘chasi,",
@@ -83,10 +88,5 @@
     "termsUse": "Foydalanish shartlari | Maxfiylik | Atrof-muhit siyosati",
     "copyright": " © 2025 Umid-dentist ",
     "policy": "Barcha huquqlar himoyalangan"
-  },
-  "price_page": {
-    "subHeading": "Narxlar",
-    "home": "Bosh Sahifa",
-    "prices": "Narxlar"
   }
 }

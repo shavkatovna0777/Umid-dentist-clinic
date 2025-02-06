@@ -12,6 +12,7 @@ import DashboardLayout from "./layouts/DashboardLayout/DashboardLayout";
 import NotFound from "./pages/NotFound/NotFound";
 import PricesPage from "./pages/PricesPage/PricesPage";
 import ArticlesPage from "./pages/ArticlesPage/ArticlesPage";
+import ArticleSingle from "./pages/ArticleSingle/ArticleSingle";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import {
   cardData,
@@ -19,8 +20,6 @@ import {
   servicesData,
   images,
 } from "./assets/datas/datas";
-import Cart from "./pages/Cart/Cart";
-import { Checkout, ProductSingle } from "./pages";
 import DoctorsSingle from "./pages/DoctorsSingle/DoctorsSingle";
 import { MedicalLoading } from "./components/Loading/MedicalLoading.jsx";
 
@@ -83,7 +82,7 @@ function App() {
       element: <DashboardLayout />,
       children: [
         {
-          index:true,
+          index: true,
           element: (
             <LoadingWrapper>
               <Home />
@@ -135,38 +134,10 @@ function App() {
           },
         },
         {
-          path: "cart",
-          element: (
-            <LoadingWrapper>
-              <Cart
-                cartItems={cartItems}
-                handleRemoveItem={handleRemoveItem}
-                updateItemQuantity={updateItemQuantity}
-              />
-            </LoadingWrapper>
-          ),
-          loader: async () => {
-            await new Promise((resolve) => setTimeout(resolve, 900));
-            return null;
-          },
-        },
-        {
-          path: "checkout",
-          element: (
-            <LoadingWrapper>
-              <Checkout cartItems={cartItems} />
-            </LoadingWrapper>
-          ),
-          loader: async () => {
-            await new Promise((resolve) => setTimeout(resolve, 900));
-            return null;
-          },
-        },
-        {
           path: "product/:id",
           element: (
             <LoadingWrapper>
-              <ProductSingle
+              <ArticleSingle
                 initialCardData={cardData}
                 images={images}
                 handleRemoveItem={handleRemoveItem}
