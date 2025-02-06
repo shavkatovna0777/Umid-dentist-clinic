@@ -6,7 +6,7 @@
   "navbar": {
     "home": "Asosiy",
     "elements": "Narxlar",
-    "shop": "Xarid",
+    "shop": "Maqolalar",
     "contacts": "Aloqa"
   },
   "service_section": {
@@ -64,6 +64,11 @@
     "subHeading": "Narxlar",
     "home": "Bosh Sahifa",
     "prices": "Narxlar"
+  },
+  "articles_page": {
+    "subHeading": "Maqolalar",
+    "home": "Bosh Sahifa",
+    "articles": "Maqolalar"
   },
   "footer": {
     "subHeading1": "Biz bilan bog'lanish",

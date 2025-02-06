@@ -6,7 +6,7 @@
   "navbar": {
     "home": "Главная",
     "elements": "Цены",
-    "shop": "Mагазин",
+    "shop": "Статьи",
     "contacts": "Контакты"
   },
   "service_section": {
@@ -60,6 +60,16 @@
       "btn": "Отправить сообщение"
     }
   },
+  "price_page": {
+    "subHeading": "Цены",
+    "home": "Главная",
+    "prices": "Цены"
+  },
+  "articles_page": {
+    "subHeading": "Статьи",
+    "home": "Главная",
+    "articles": "Статьи"
+  },
   "whyChooseUs": {
     "shortHeading": "Увидьте разницу",
     "heading": "Почему мы?"
@@ -87,10 +97,5 @@
     "termsUse": "Условия использования | Конфиденциальность | Экологическая политика",
     "copyright": " © 2025 Umid-dentist ",
     "policy": "Все права защищены"
-  },
-  "price_page": {
-    "subHeading": "Цены",
-    "home": "Главная",
-    "prices": "Цены"
   }
 }

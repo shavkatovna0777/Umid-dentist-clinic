@@ -6,7 +6,7 @@
   "navbar": {
     "home": "Home",
     "elements": "Prices",
-    "shop": "Shop",
+    "shop": "Articles",
     "contacts": "Contacts"
   },
   "service_section": {
@@ -64,7 +64,22 @@
     "shortHeading": "See the Difference",
     "heading": "Why Choose Us?"
   },
-
+  "price_page": {
+    "subHeading": "Prices",
+    "home": "Home",
+    "prices": "Prices"
+  },
+  "articles_page": {
+    "subHeading": "Articles",
+    "home": "Home",
+    "articles": "Articles"
+  },
+  "contact_page": {
+    "subHeading": "Contacts",
+    "heading": "Home",
+    "contacts": "Contacts",
+    "paragraph": "Contact us to use our dental services, where we provide safe and high-quality care."
+  },
   "footer": {
     "subHeading1": "Our Contacts",
     "location": "25 Alisher Navoi Street, ",
@@ -88,16 +103,5 @@
     "termsUse": "Terms of use | Privacy Environmental Policy",
     "copyright": " © 2025 Medify by ",
     "policy": "All Rights Reserved"
-  },
-  "price_page": {
-    "subHeading": "Prices",
-    "home": "Home",
-    "prices": "Prices"
-  },
-  "contact_page": {
-    "subHeading": "Contacts",
-    "heading": "Home",
-    "contacts": "Contacts",
-    "paragraph": "Contact us to use our dental services, where we provide safe and high-quality care."
   }
 }
