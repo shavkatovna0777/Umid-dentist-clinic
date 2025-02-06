@@ -45,6 +45,21 @@
     "heading": "Tavsiya etilgan Maqolalar",
     "paragraph": "Biz barcha uchun arzon stomatologik xizmatlarni taklif etamiz, tish muammolarini hal qilish uchun birinchi navbatda bizga murojaat qilishingiz mumkin"
   },
+  "doctor_single_page": {
+    "subHeading": "Doktor",
+    "home": "Bosh sahifa",
+    "speciality": "Mutaxassisligi:",
+    "work": "Ish tajribasi:",
+    "phone": "Telefon:",
+    "bio": "Biografiya",
+    "form": {
+      "form_heading": "Menga bog‘laning",
+      "name_placeholder": "Ismingiz*",
+      "age_placeholder": "Yoshingiz*",
+      "message": "Xabar...",
+      "btn": "Xabar yuborish"
+    }
+  },
   "footer": {
     "subHeading1": "Biz bilan bog'lanish",
     "location": "25 Alisher Navoiy ko‘chasi,",
@@ -66,8 +81,8 @@
       "weekendHours": "10:00 - 18:00"
     },
     "termsUse": "Foydalanish shartlari | Maxfiylik | Atrof-muhit siyosati",
-    "copyright": "Copyright © 2025 Umid-dentist ",
-    "policy": "Barcha huquqlar himoyalangan."
+    "copyright": " © 2025 Umid-dentist ",
+    "policy": "Barcha huquqlar himoyalangan"
   },
   "price_page": {
     "subHeading": "Narxlar",

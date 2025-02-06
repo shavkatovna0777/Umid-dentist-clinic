@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TiMinus } from "react-icons/ti";
-import { Link } from "react-router-dom";
 import { withMask } from "use-mask-input";
 import { sendMessageToTelegram } from "../../utils/telegramUtils";
 import toast, { Toaster } from "react-hot-toast";
@@ -37,12 +36,12 @@ Qo'ng'iroq so'rayotgan bemorning:
         );
         setIsClicked(true);
         toast.success("Form successfully sent!");
- 
+
         setUserName("");
         setUserAge("");
         setPhoneNumber("");
         setUserMessage("");
-        
+
         setTimeout(() => setIsClicked(false), 2000);
       } catch (error) {
         console.error("Error sending message:", error);

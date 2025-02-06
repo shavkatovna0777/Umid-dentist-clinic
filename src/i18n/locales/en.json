@@ -40,6 +40,21 @@
     "paragraph": "Our team of experienced dentists is dedicated to providing you with high-quality and reliable dental care. Let us help you achieve a healthy and beautiful smile!",
     "btn": "View More"
   },
+  "doctor_single_page": {
+    "subHeading": "Doctor",
+    "home": "Home",
+    "speciality": "Speciality:",
+    "work": "Length of Work:",
+    "phone": "Phone:",
+    "bio": "Biography",
+    "form": {
+      "form_heading": "Contact Me",
+      "name_placeholder": "Your Name*",
+      "age_placeholder": "Your Age*",
+      "message": "Message...",
+      "btn": "Send A Message"
+    }
+  },
   "doctors_cards": {
     "fullName": "quality stuff",
     "description": "Team of Professionals",
@@ -71,8 +86,8 @@
       "weekendHours": "10:00 AM - 6:00 PM"
     },
     "termsUse": "Terms of use | Privacy Environmental Policy",
-    "copyright": "Copyright © 2025 Medify by ",
-    "policy": "All Rights Reserved."
+    "copyright": " © 2025 Medify by ",
+    "policy": "All Rights Reserved"
   },
   "price_page": {
     "subHeading": "Prices",

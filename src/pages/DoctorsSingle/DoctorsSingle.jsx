@@ -1,20 +1,18 @@
-import { doctorData } from "../../assets/datas/datas";
+import { DoctorsSectionData } from "../../assets/datas/datas";
 import { Link, useParams } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import DocotorSingleCard from "../../components/DocotorSingleCard/DocotorSingleCard";
 import Biography from "../../components/Biography/Biography";
 import ContactME from "../../components/ContactME/ContactME";
+import { useTranslation } from "react-i18next";
 
-function DoctorsSingle({ doctor }) {
+function DoctorsSingle() {
   const { id } = useParams();
-
-  const handleClickTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-  console.log(doctorData.find((doctor) => doctor.id == id));
-  const selectedDoctor = doctorData.find((doctor) => doctor.id == id);
+  const { i18n } = useTranslation();
+  const { t } = useTranslation();
+  const lang = i18n.language;
+  const selectedDoctor = DoctorsSectionData.find((doctor) => doctor.id == id);
   if (!selectedDoctor) {
-    console.error("Doctor not found with id:", id);
     return <div>Doctor not found!</div>;
   }
   return (
@@ -23,28 +21,19 @@ function DoctorsSingle({ doctor }) {
         <div className="wrapper">
           <div className="container">
             <div className="content flex flex-col justify-center items-center h-[100%]">
-              <h1 className="text-darkBlue text-[42px] leading-[60px] font-bold">
-                Team
+              <h1 className="text-darkBlue text-[42px] leading-[60px] font-bold md:text-[30px]">
+                {t("doctor_single_page.subHeading")}
               </h1>
-              <div className="breadcrumps whitespace-nowrap capitalize font-bold flex items-center mt-[8px] leading-[24px] text-[16px]">
+              <div className="breadcrumps whitespace-nowrap capitalize font-bold flex items-center mt-[8px] leading-[24px] text-[16px] md:text-[14px]">
                 <Link to={"/"} className="opacity-70 text-darkBlue ">
-                  Home
-                </Link>
-                <span className="devider opacity-[1] mx-[4px] text-blue">
-                  <IoIosArrowForward />
-                </span>
-                <Link
-                  to={"/page"}
-                  className="current opacity-70 text-darkBlue "
-                >
-                  Doctors
+                  {t("doctor_single_page.home")}
                 </Link>
                 <span className="devider opacity-[1] mx-[4px] text-blue">
                   <IoIosArrowForward />
                 </span>
                 <span className="current opacity-[1] text-darkBlue ">
                   {" "}
-                  {selectedDoctor.name}
+                  {selectedDoctor.name[lang]}
                 </span>
               </div>
             </div>

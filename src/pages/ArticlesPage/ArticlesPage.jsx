@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
-import DropDown from "../../components/DropDown/DropDown";
-import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
-import PriceFilter from "../../components/PriceFilter/PriceFilter";
-import BestSellers from "../../components/BestSellers/BestSellers";
-import Tags from "../../components/Tags/Tags";
-import ShoppingCart from "../../components/ShoppingCart/ShoppingCart";
-import CardGrid from "../../components/CardGrid/CardGrid";
-import useAOS from "../../hooks/useAOS";
-import { BestSellersData } from "../../assets/datas/datas";
-import Categories from "../../components/Categories/Categories";
-import FormShop from "../../components/Form/FormShop";
+import DropDown from "../../components/DropDown/DropDown.jsx";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop.jsx";
+import PriceFilter from "../../components/PriceFilter/PriceFilter.jsx";
+import BestSellers from "../../components/BestSellers/BestSellers.jsx";
+import Tags from "../../components/Tags/Tags.jsx";
+import ShoppingCart from "../../components/ShoppingCart/ShoppingCart.jsx";
+import CardGrid from "../../components/CardGrid/CardGrid.jsx";
+import useAOS from "../../hooks/useAOS.jsx";
+import { BestSellersData } from "../../assets/datas/datas.js";
+import Categories from "../../components/Categories/Categories.jsx";
+import FormShop from "../../components/Form/FormShop.jsx";
 import {
   filterProductsByTag,
   filterProductsBySearch,

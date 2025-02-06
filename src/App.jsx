@@ -11,7 +11,7 @@ import Home from "./pages/Home/Home";
 import DashboardLayout from "./layouts/DashboardLayout/DashboardLayout";
 import NotFound from "./pages/NotFound/NotFound";
 import PricesPage from "./pages/PricesPage/PricesPage";
-import ProductsPage from "./pages/ProductsPage/ProductsPage";
+import ArticlesPage from "./pages/ArticlesPage/ArticlesPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import {
   cardData,
@@ -122,7 +122,7 @@ function App() {
           path: "products/*",
           element: (
             <LoadingWrapper>
-              <ProductsPage
+              <ArticlesPage
                 cardData={cardData}
                 categories={categories}
                 handleAddToCart={handleAddToCart}

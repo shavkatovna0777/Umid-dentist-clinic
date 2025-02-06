@@ -21,6 +21,7 @@ import articleTooth3 from "../images/tooth_sensitivity3.jpg";
 import articleTooth4 from "../images/wisdom_tooth.jpg";
 import articleTooth5 from "../images/brace2.jpg";
 import articleTooth6 from "../images/stomatit.jpg";
+import { FaInstagram, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
 
 export const cardData = [
   {
@@ -137,36 +138,6 @@ export const cardData = [
       "https://www.biorepair.it/flex/images/u/n/i/D.2bc42cdd1374a5f4dc94/Progetto_senza_titolo__10_.png",
     description:
       "Classic II Littmann quality – the very best for your little patients. 2-sided stainless steel chestpiece. 3/4″ traditional bell combined with traditional diaphragm. Single lumen tubing. 3 year warranty",
-  },
-];
-
-export const doctorData = [
-  {
-    id: 1,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_08-540x640.jpg",
-    name: "Pitter Moris",
-    role: "Endocginologist Surgeon",
-    workingSince: 1987,
-    email: "pitter.moris",
-  },
-  {
-    id: 2,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_07-540x640.jpg",
-    name: "Kristen Stude",
-    role: "Internist, Oncologist",
-    workingSince: 2010,
-    email: "kristen.stude",
-  },
-  {
-    id: 3,
-    imgSrc:
-      "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_06-540x640.jpg",
-    name: "Nicolas Sparks",
-    role: "Internist, Dantist",
-    workingSince: 2008,
-    email: "nicolas.sparks",
   },
 ];
 
@@ -410,6 +381,13 @@ export const DoctorsSectionData = [
         "https://www.instagram.com/umid_dentist?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       phone: "+998936549690",
     },
+//     biography: {
+//       uz `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentis" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
+//       ru: "",
+//       en: `Buribayev Umid Ummatvich was born in 1987. In 2006, he enrolled in the Faculty of Dentistry at Bukhara State Medical Institute and successfully graduated in 2011.
+// Throughout his professional career, he gained valuable experience working in Moscow and at the Jizzakh Regional Dentistry Center. Additionally, he worked effectively at Marjona Dentistry.
+// Currently, Umid Ummatvich continues his professional journey at Umid Dentis dental clinic, providing modern and high-quality dental services to his patients.`
+//     }
   },
   {
     id: 2,
@@ -857,4 +835,10 @@ export const images = [
   {
     img: "https://wgl-dsites.net/medify/wp-content/uploads/2019/08/shop_02_4-240x240.jpg",
   },
+];
+
+export const iconData = [
+  { id: 1, icon: FaTelegramPlane, hoverColor: "bg-blue" },
+  { id: 2, icon: FaInstagram, hoverColor: "bg-blue" },
+  { id: 3, icon: FaPhoneAlt, hoverColor: "bg-blue" },
 ];

@@ -117,7 +117,7 @@ function Footer() {
               </div>{" "}
               <div className="working-hour m-[0_0_6px_0] flex align-baseline items-center w-[270px] h-[30px] justify-between">
                 <div className="working-day mr-[13px] text-[#3b4964] font-normal whitespace-nowrap">
-                {t("footer.working_days.weekend")}{" "}
+                  {t("footer.working_days.weekend")}{" "}
                 </div>
                 <div className="relative flex-1 after:content-[''] after:block after:h-[1.5px] after:bg-[#ECECEC] after:absolute after:top-1/2 after:left-0 after:right-0"></div>
                 <div className="woring-hour ml-[13px] text-blue whitespace-nowrap">
@@ -144,19 +144,19 @@ function Footer() {
       <div className="container">
         <div className="main flex items-center justify-between slg:gap-[10px] slg:text-center">
           <div className="py-[15px]">
-            <p className="text-[#3b4964] slg:whitespace-nowrap md:justify-center md:flex md:items-center">
-            {t("footer.termsUse")}{" "}
+            <p className="text-[#3b4964]  md:justify-center md:flex md:items-center md:text-[15px] sm:text-[13px]">
+              {t("footer.termsUse")}{" "}
             </p>
           </div>
           <div className="py-[15px]">
             <p className="text-[#3b4964] slg:whitespace-nowrap md:whitespace-wrap md:hidden">
-            {t("footer.copyright")}{" "}
+              {t("footer.copyright")}{" "}
               <Link
                 to={"http://t.me/kamola_tech"}
                 target="_blank"
                 className="text-lightBlue cursor-pointer"
               >
-                Kamola_Tech
+                Kamola_Tech.
               </Link>{" "}
               {t("footer.policy")}{" "}
             </p>
