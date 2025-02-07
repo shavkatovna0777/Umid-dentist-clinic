@@ -76,9 +76,26 @@
   },
   "contact_page": {
     "subHeading": "Contacts",
-    "heading": "Home",
+    "home": "Home",
     "contacts": "Contacts",
-    "paragraph": "Contact us to use our dental services, where we provide safe and high-quality care."
+    "left": {
+      "subHeading": "quick support",
+      "home": "Contact Us",
+      "paragraph": "Contact us to use our dental services, where we provide safe and high-quality care.",
+      "call": "call us 24/7",
+      "telegram": "Telegram Group",
+      "location": "our location",
+      "loc_address": "25 Alisher Navoi Street,",
+      "loc_address2": "Jizzakh City, Uzbekistan"
+    },
+    "form": {
+      "form_heading": "Write us",
+      "heading": "Get in Touch",
+      "name_placeholder": "Your Name*",
+      "age_placeholder": "Your Age*",
+      "message": "Message...",
+      "btn": "Send A Message"
+    }
   },
   "footer": {
     "subHeading1": "Our Contacts",

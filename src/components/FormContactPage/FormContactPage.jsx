@@ -3,8 +3,10 @@ import { TiMinus } from "react-icons/ti";
 import { withMask } from "use-mask-input";
 import { sendMessageToTelegram } from "../../utils/telegramUtils";
 import toast, { Toaster } from "react-hot-toast";
+import { useTranslation } from "react-i18next";
 
 function FormContactPage() {
+  const { t } = useTranslation();
   const [phoneNumber, setPhoneNumber] = useState("");
   const [userName, setUserName] = useState("");
   const [userAge, setUserAge] = useState("");
@@ -57,13 +59,13 @@ Qo'ng'iroq so'rayotgan bemorning:
     <div className="right p-[32px_50px_30px] rounded-[15px] shadow-[8px_9px_35px_0_rgba(41,41,41,0.08)] slg:w-full slg:justify-center md:p-[22px_15px_30px] md:shadow-none">
       <div className="double-heading flex flex-col my-[20px]">
         <span className="gap-[5px] text-[15px] flex items-center uppercase font-semibold text-orange">
-          Write us
+          {t("contact_page.form.form_heading")}
           <b>
             <TiMinus />
           </b>
         </span>
         <h1 className="text-[42px] leading-60 font-bold inline text-darkBlue md:text-[30px] md:leading-10">
-          Get in Touch
+          {t("contact_page.form.form_heading")}
         </h1>
       </div>
       <form onSubmit={handleSubmit}>
@@ -74,7 +76,7 @@ Qo'ng'iroq so'rayotgan bemorning:
               required
               className="border outline-none bg-[#F6F7FA] placeholder:font-normal p-[10px_20px] rounded-[7px] text-[17px] font-semibold border-none md:w-full"
               type="text"
-              placeholder="Your Name*"
+              placeholder={t("contact_page.form.name_placeholder")}
               value={userName}
               onChange={(e) => setUserName(e.target.value)}
             />
@@ -85,7 +87,7 @@ Qo'ng'iroq so'rayotgan bemorning:
               className="border outline-none bg-[#F6F7FA] placeholder:font-normal p-[10px_20px] rounded-[7px] text-[17px] font-semibold border-none md:w-full"
               type="number"
               value={userAge}
-              placeholder="Your Age*"
+              placeholder={t("contact_page.form.age_placeholder")}
               onChange={(e) => setUserAge(e.target.value)}
             />
           </div>
@@ -115,7 +117,7 @@ Qo'ng'iroq so'rayotgan bemorning:
             value={userMessage}
             onChange={(e) => setUserMessage(e.target.value)}
             className="border resize-none outline-none w-full bg-[#F6F7FA] placeholder:font-normal pt-2 pl-[20px] pb-[90px] rounded-[7px] text-[17px] font-semibold border-none"
-            placeholder="Message..."
+            placeholder={t("contact_page.form.message")}
           />
         </div>
         <button
@@ -126,7 +128,7 @@ Qo'ng'iroq so'rayotgan bemorning:
               : "bg-blue text-white hover:bg-white hover:text-blue"
           }`}
         >
-          Send Message
+          {t("contact_page.form.btn")}
         </button>
       </form>
       <Toaster position="bottom-right" />

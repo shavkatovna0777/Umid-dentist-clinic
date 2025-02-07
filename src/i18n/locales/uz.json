@@ -70,6 +70,29 @@
     "home": "Bosh Sahifa",
     "articles": "Maqolalar"
   },
+  "contact_page": {
+    "subHeading": "Kontaktlar",
+    "home": "Bosh sahifa",
+    "contacts": "Kontaktlar",
+    "left": {
+      "subHeading": "Tezkor yordam",
+      "home": "Biz bilan bog'laning",
+      "paragraph": "Xavfsiz va sifatli xizmat ko'rsatadigan tish davolash xizmatlarimizdan foydalanish uchun biz bilan bog'laning.",
+      "call": "24/7 qo'ng'iroq qiling",
+      "telegram": "Telegram guruh",
+      "location": "Bizning manzil",
+      "loc_address": "25 Alisher Navoiy ko‘chasi,",
+      "loc_address2": " Jizzax shahar, O'zbekiston"
+    },
+    "form": {
+      "form_heading": "Bizga yozing",
+      "heading": "Bog'lanish",
+      "name_placeholder": "Ismingiz*",
+      "age_placeholder": "Yoshingiz*",
+      "message": "Xabar...",
+      "btn": "Xabar yuborish"
+    }
+  },
   "footer": {
     "subHeading1": "Biz bilan bog'lanish",
     "location": "25 Alisher Navoiy ko‘chasi,",
