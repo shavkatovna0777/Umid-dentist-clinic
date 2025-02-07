@@ -70,6 +70,11 @@
     "home": "Главная",
     "articles": "Статьи"
   },
+  "article_section": {
+    "subHeading": "полезные советы",
+    "heading": "Рекомендуемые статьи",
+    "btn": "Подробнее"
+  },
   "contact_page": {
     "subHeading": "Контакты",
     "home": "Главная",

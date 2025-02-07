@@ -41,13 +41,13 @@ const ArticleSection = () => {
                 to={"articles/"}
                 className="text-white bg-lightBlue font-semibold text-[16px] p-[12px_35px] rounded-[5px] hover:bg-blue transform ease-in-out duration-300"
               >
-                View More
+                 {t("article_section.btn")}
               </Link>
             </div>
           </div>
           <div className="speacer h-[30px]"></div>
           <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {ArticleSectionCardData.map((article) => (
+            {ArticleSectionCardData.slice(0, 3).map((article) => (
               <ArticleCards
                 key={article.id}
                 imgSrc={article.imgSrc}
@@ -57,7 +57,7 @@ const ArticleSection = () => {
                 link={article.link}
               />
             ))}
-          </div>{" "}
+          </div>
         </div>
       </div>
     </section>

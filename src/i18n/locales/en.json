@@ -74,6 +74,11 @@
     "home": "Home",
     "articles": "Articles"
   },
+  "article_section": {
+    "subHeading": "useful tips",
+    "heading": "Recommended Articles",
+    "btn": "View More"
+  },
   "contact_page": {
     "subHeading": "Contacts",
     "home": "Home",

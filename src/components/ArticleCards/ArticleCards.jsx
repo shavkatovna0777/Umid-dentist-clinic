@@ -5,20 +5,23 @@ import { useTranslation } from "react-i18next";
 const ArticleCards = ({ imgSrc, title, date, link }) => {
   const { i18n } = useTranslation();
   return (
-    <Link to={link} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-        <Img
-          src={imgSrc}
-          alt={title}
-          className="w-full h-48 object-cover rounded-t-lg"
-        />
-        <div className="p-4">
-          <h3 className="text-lg font-medium mb-2 hover:text-blue-600">
+    <Link
+      to={link}
+      className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+    >
+      <Img
+        src={imgSrc}
+        alt={title}
+        className="w-full h-48 object-cover rounded-t-lg"
+      />
+      <div className="p-4">
+        <h3 className="text-lg font-semibold mb-2 text-darkBlue">
           {title[i18n.language] || title.eng}
-          </h3>
-          <div className="flex justify-between text-sm text-gray-600">
-            <span>{date}</span>
-          </div>
+        </h3>
+        <div className="flex justify-between text-base text-gray ">
+          <span>{date}</span>
         </div>
+      </div>
     </Link>
   );
 };

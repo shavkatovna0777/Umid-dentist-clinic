@@ -381,13 +381,13 @@ export const DoctorsSectionData = [
         "https://www.instagram.com/umid_dentist?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       phone: "+998936549690",
     },
-//     biography: {
-//       uz `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentis" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
-//       ru: "",
-//       en: `Buribayev Umid Ummatvich was born in 1987. In 2006, he enrolled in the Faculty of Dentistry at Bukhara State Medical Institute and successfully graduated in 2011.
-// Throughout his professional career, he gained valuable experience working in Moscow and at the Jizzakh Regional Dentistry Center. Additionally, he worked effectively at Marjona Dentistry.
-// Currently, Umid Ummatvich continues his professional journey at Umid Dentis dental clinic, providing modern and high-quality dental services to his patients.`
-//     }
+    //     biography: {
+    //       uz `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentis" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
+    //       ru: "",
+    //       en: `Buribayev Umid Ummatvich was born in 1987. In 2006, he enrolled in the Faculty of Dentistry at Bukhara State Medical Institute and successfully graduated in 2011.
+    // Throughout his professional career, he gained valuable experience working in Moscow and at the Jizzakh Regional Dentistry Center. Additionally, he worked effectively at Marjona Dentistry.
+    // Currently, Umid Ummatvich continues his professional journey at Umid Dentis dental clinic, providing modern and high-quality dental services to his patients.`
+    //     }
   },
   {
     id: 2,
@@ -457,17 +457,16 @@ export const ArticleSectionCardData = [
     role: "Отвечает ортодонт, гнатолог",
   },
   {
-    id: 1,
+    id: 2,
     title: {
-      uz: "Qiyshiq tishlar - kimda bo'lmagan?",
-      ru: "Кривые зубы – с кем не бывает?",
-      en: "Crooked teeth – who hasn’t had them?",
+      uz: "Tish implantlari qancha muddat xizmat qiladi?",
+      ru: "Сколько служат зубные импланты?",
+      en: "How Long Do Dental Implants Last?",
     },
-    imgSrc: articleTooth1,
-    date: "08 мая 2024",
-    views: 3195,
-    category: "вопросики",
-    author: "Стоматолог",
+    imgSrc: articleTooth2,
+    date: "07 мая 2024",
+    views: 7480,
+    category: "проблемка",
   },
   {
     id: 5,
@@ -481,19 +480,20 @@ export const ArticleSectionCardData = [
     views: 6870,
     category: "проблемка",
   },
-
   {
-    id: 2,
+    id: 1,
     title: {
-      uz: "Tish implantlari qancha muddat xizmat qiladi?",
-      ru: "Сколько служат зубные импланты?",
-      en: "How Long Do Dental Implants Last?",
+      uz: "Qiyshiq tishlar - kimda bo'lmagan?",
+      ru: "Кривые зубы – с кем не бывает?",
+      en: "Crooked teeth – who hasn’t had them?",
     },
-    imgSrc: articleTooth2,
-    date: "07 мая 2024",
-    views: 7480,
-    category: "проблемка",
+    imgSrc: articleTooth1,
+    date: "08 мая 2024",
+    views: 3195,
+    category: "вопросики",
+    author: "Стоматолог",
   },
+
 
   {
     id: 3,

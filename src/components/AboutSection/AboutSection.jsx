@@ -1,5 +1,4 @@
-import { IoIosArrowForward, IoMdCheckmarkCircleOutline } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { TiMinus } from "react-icons/ti";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -70,12 +69,6 @@ function AboutSection() {
                     {t("about_section.services.service4")}
                   </li>
                 </ul>
-              </div>
-              <div className="link flex items-center text-[16px] font-semibold text-blue hover:text-lightBlue transition-all duration-300 ease-in-out">
-                <Link onClick={handleClick} to="page">
-                {t('about_section.btn')}
-                </Link>
-                <IoIosArrowForward className="font-bold text-[20px]" />
               </div>
             </div>
             <div className="right flex-1 slg:mt-[50px] overflow-hidden mt-[40px] w-full h-full">
