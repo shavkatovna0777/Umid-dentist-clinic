@@ -1,11 +1,8 @@
-import React from "react";
 import SwiperIcons from "../SwiperIcons/SwiperIcons";
 import { TiMinus } from "react-icons/ti";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Img from "../LazyLoadImg/Img";
-import { services } from "../../assets/datas/datas";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import { useTranslation } from "react-i18next";
 function ServiceSection() {
@@ -30,10 +27,10 @@ function ServiceSection() {
               </b>
             </span>
             <h1 className="text-[42px] text-darkBlue font-bold slg:whitespace-nowrap md:text-[25px] ">
-            {t("service_section.heading")}{" "}
+              {t("service_section.heading")}{" "}
             </h1>
-            <p className="items-center text-center text-[16px] text-[#3b4964] m-[0_0_20px_0] slg:text-[13px] md:hidden">
-            {t("service_section.paragraph")}{" "}
+            <p className="items-center text-center text-[16px] text-[#3b4964] m-[0_0_20px_0]">
+              {t("service_section.paragraph")}{" "}
             </p>
           </div>
           <ServiceCard />

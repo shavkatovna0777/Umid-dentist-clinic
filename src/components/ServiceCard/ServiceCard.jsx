@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { services } from "../../assets/datas/datas";
+import Img from "../LazyLoadImg/Img";
 
 const ServiceCard = () => {
   const { i18n } = useTranslation();
 
   return (
     <div className="w-full px-4">
-      <div className="flex items-center justify-center gap-0">
+      <div className="flex items-center justify-center gap-0 slg:flex-wrap">
         {services.map((service) => (
           <div
             key={service.id}
@@ -14,7 +15,7 @@ const ServiceCard = () => {
           >
             <div className="relative p-3">
               <div className="overflow-hidden rounded-xl">
-                <img
+                <Img
                   src={service.image}
                   alt={service.title}
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
