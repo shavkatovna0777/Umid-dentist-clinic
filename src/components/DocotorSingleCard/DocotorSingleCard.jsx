@@ -60,7 +60,8 @@ function DoctorSingleCard() {
           </div>
 
           <div className="info-item mt-4 md:justify-center">
-            <SocialIcons links={selectedDoctor.socialLinks} />
+          <SocialIcons links={selectedDoctor?.socialLinks} />
+
           </div>
         </div>
       </div>

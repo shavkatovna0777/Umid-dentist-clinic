@@ -2,6 +2,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop.jsx";
 import { useTranslation } from "react-i18next";
+import { ArticleSectionCardData } from "../../assets/datas/datas.js";
+import ArticleCards from "../../components/ArticleCards/ArticleCards.jsx";
 
 function ProductsPage() {
   const { t } = useTranslation();
@@ -33,7 +35,20 @@ function ProductsPage() {
         </div>
       </div>
       <section>
-        <div className="container"></div>
+        <div className="container">
+        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-6">
+            {ArticleSectionCardData.map((article) => (
+              <ArticleCards
+                key={article.id}
+                imgSrc={article.imgSrc}
+                title={article.title}
+                date={article.date}
+                views={article.views}
+                link={article.link}
+              />
+            ))}
+          </div>
+        </div>
       </section>
 
       <ScrollToTop />

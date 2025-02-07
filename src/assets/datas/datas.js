@@ -21,6 +21,9 @@ import articleTooth3 from "../images/tooth_sensitivity3.jpg";
 import articleTooth4 from "../images/wisdom_tooth.jpg";
 import articleTooth5 from "../images/brace2.jpg";
 import articleTooth6 from "../images/stomatit.jpg";
+import articleTooth7 from "../images/sad_woman.jpg";
+import articleTooth8 from "../images/install.jpg";
+import articleTooth9 from "../images/karies.jpg";
 import { FaInstagram, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
 
 export const cardData = [
@@ -493,8 +496,6 @@ export const ArticleSectionCardData = [
     category: "вопросики",
     author: "Стоматолог",
   },
-
-
   {
     id: 3,
     title: {
@@ -507,7 +508,46 @@ export const ArticleSectionCardData = [
     views: 5257,
     category: "вопросики",
   },
-
+  {
+    id: 6,
+    title: {
+      uz: "Kariyes – hamma qo‘rqadigan narsa",
+      ru: "Кариес – это то, чего все боялись",
+      en: "Caries is what everyone was scared of",
+    },
+    imgSrc: articleTooth9,
+    date: "28 фев 2024",
+    views: 2123,
+    category: "вопросики",
+    author: "Дрик Ирина Валерьевна",
+    role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
+  },
+ 
+  {
+    id: 1,
+    title: {
+      uz: "Homiladorlik vaqtida tish og'rig'i: nimaga ruxsat berilgan va nimaga yo'q",
+      ru: "Зубная боль при беременности: что можно и что нельзя",
+      en: "Toothache during pregnancy: what is allowed and what is not",
+    },
+    imgSrc: articleTooth7,
+    date: "08 мая 2024",
+    views: 3195,
+    category: "вопросики",
+    author: "Стоматолог",
+  },
+  {
+    id: 3,
+    title: {
+      uz: "Kronalar yoki implantlar – qaysi birini o'rnatish yaxshiroq?",
+      ru: "Коронки или импланты – что лучше установить?",
+      en: "Crowns or implants – which is better to install?",
+    },
+    imgSrc: articleTooth8,
+    date: "10 апр 2024",
+    views: 5257,
+    category: "вопросики",
+  },
   {
     id: 6,
     title: {
