@@ -6,7 +6,7 @@ const ArticleCards = ({ imgSrc, title, date, link }) => {
   const { i18n } = useTranslation();
   return (
     <Link
-      to={link}
+      to={"articleSingle/"}
       className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
     >
       <Img

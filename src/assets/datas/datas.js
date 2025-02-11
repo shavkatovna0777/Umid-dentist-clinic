@@ -384,13 +384,13 @@ export const DoctorsSectionData = [
         "https://www.instagram.com/umid_dentist?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       phone: "+998936549690",
     },
-    //     biography: {
-    //       uz `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentis" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
-    //       ru: "",
-    //       en: `Buribayev Umid Ummatvich was born in 1987. In 2006, he enrolled in the Faculty of Dentistry at Bukhara State Medical Institute and successfully graduated in 2011.
-    // Throughout his professional career, he gained valuable experience working in Moscow and at the Jizzakh Regional Dentistry Center. Additionally, he worked effectively at Marjona Dentistry.
-    // Currently, Umid Ummatvich continues his professional journey at Umid Dentis dental clinic, providing modern and high-quality dental services to his patients.`
-    //     }
+    biography: {
+      uz: `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentis" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
+      ru: "",
+      en: `Buribayev Umid Ummatvich was born in 1987. In 2006, he enrolled in the Faculty of Dentistry at Bukhara State Medical Institute and successfully graduated in 2011.
+    Throughout his professional career, he gained valuable experience working in Moscow and at the Jizzakh Regional Dentistry Center. Additionally, he worked effectively at Marjona Dentistry.
+    Currently, Umid Ummatvich continues his professional journey at Umid Dentis dental clinic, providing modern and high-quality dental services to his patients.`,
+    },
   },
   {
     id: 2,
@@ -446,7 +446,7 @@ export const DoctorsSectionData = [
 
 export const ArticleSectionCardData = [
   {
-    id: 4,
+    id: 1,
     title: {
       uz: "Aql tishim og'riyapti - rostdan ham uni olib tashlash kerakmi?",
       ru: "Болит зуб мудрости — неужели придется удалять?",
@@ -472,7 +472,7 @@ export const ArticleSectionCardData = [
     category: "проблемка",
   },
   {
-    id: 5,
+    id: 3,
     title: {
       uz: "Odamlar breket qo'yishdan qo'rqishining 7 sababi",
       ru: "7 причин, по которым люди боятся ставить брекеты",
@@ -484,7 +484,7 @@ export const ArticleSectionCardData = [
     category: "проблемка",
   },
   {
-    id: 1,
+    id: 4,
     title: {
       uz: "Qiyshiq tishlar - kimda bo'lmagan?",
       ru: "Кривые зубы – с кем не бывает?",
@@ -497,7 +497,7 @@ export const ArticleSectionCardData = [
     author: "Стоматолог",
   },
   {
-    id: 3,
+    id: 5,
     title: {
       uz: "Tish sezuvchanligi bezovta qilyaptimi?",
       ru: " Чувствительность зубов",
@@ -522,9 +522,9 @@ export const ArticleSectionCardData = [
     author: "Дрик Ирина Валерьевна",
     role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
   },
- 
+
   {
-    id: 1,
+    id: 7,
     title: {
       uz: "Homiladorlik vaqtida tish og'rig'i: nimaga ruxsat berilgan va nimaga yo'q",
       ru: "Зубная боль при беременности: что можно и что нельзя",
@@ -537,7 +537,7 @@ export const ArticleSectionCardData = [
     author: "Стоматолог",
   },
   {
-    id: 3,
+    id: 8,
     title: {
       uz: "Kronalar yoki implantlar – qaysi birini o'rnatish yaxshiroq?",
       ru: "Коронки или импланты – что лучше установить?",
@@ -549,7 +549,7 @@ export const ArticleSectionCardData = [
     category: "вопросики",
   },
   {
-    id: 6,
+    id: 9,
     title: {
       uz: "Aftozli stomatit (Og'iz yaralari)",
       ru: "Афтозный стоматит",

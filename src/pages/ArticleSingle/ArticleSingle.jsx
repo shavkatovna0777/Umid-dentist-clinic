@@ -1,4 +1,3 @@
-import React from "react";
 
 function ArticleSingle() {
   return <div>ArticleSingle</div>;
