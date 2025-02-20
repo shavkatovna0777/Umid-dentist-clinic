@@ -1,16 +1,13 @@
-// HeaderMobile.jsx
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   IoCloseOutline,
   IoMenuOutline,
   IoSearch,
   IoSearchOutline,
 } from "react-icons/io5";
-import Img from "../../components/LazyLoadImg/Img";
-import { Link } from "react-router-dom";
-// import Navbar from "../Navbar/Navbar";
 import ResponsiveNavbar from "../../components/ResponsiveNavbar/ResponsiveNavbar";
 import Logo from "../../components/Logo/Logo";
+import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 
 function HeaderMobile() {
   const [isSearchActive, setIsSearchActive] = useState(false);
@@ -34,35 +31,8 @@ function HeaderMobile() {
           <IoMenuOutline />
         </div>
         <Logo />
-        <div
-          className="search_btn text-[25px] text-white"
-          onClick={toggleSearch}
-        >
-          {isSearchActive ? (
-            <IoCloseOutline className="transition-all duration-300 ease-in-out transform translate-x-[-0.5px] slg:transform slg:translate-x-0" />
-          ) : (
-            <IoSearchOutline className="transition-all duration-300 ease-in-out transform translate-x-[-0.5px]" />
-          )}
-        </div>
-        <div
-          className={`${
-            isSearchActive ? "opacity-[1] visible" : "opacity-0 invisible"
-          } block z-[2] p-[10px] rounded-[15px] bg-white shadow-blue right-[15px] absolute duration-200 top-full`}
-        >
-          <form className="flex items-center pl-2 bg-[#f6f6f6] rounded-[5px] overflow-hidden relative z-[1]">
-            <input
-              type="text"
-              ref={inputRef}
-              placeholder="Search ..."
-              className="outline-none w-full h-full bg-transparent"
-            />
-            <button className="w-12 h-12 flex items-center justify-center bg-blue text-white border-none">
-              <IoSearch className="text-[25px]" />
-            </button>
-          </form>
-        </div>
+        <ChangeLanguage />
       </div>
-
       <ResponsiveNavbar isOpen={isOpen} setIsOpen={setIsOpen} />
     </>
   );

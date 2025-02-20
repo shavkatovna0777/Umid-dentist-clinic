@@ -9,7 +9,7 @@ function Logo() {
   return (
     <div className="logo flex items-center">
       <Link
-        className="flex items-center max-w-[800px] gap-2 md:max-w-[300px]"
+        className="flex items-center max-w-[800px] gap-2 md:max-w-[300px] sm:max-w-[220px]"
         to={"/"}
       >
         <div className="img-wrapper w-full object-contain h-auto max-w-[75px] md:max-w-[70px]">
@@ -21,7 +21,7 @@ function Logo() {
           />
         </div>
         <div className="text flex flex-col">
-          <h3 className="text-[30px] tracking-normal whitespace-nowrap font-semibold text-darkBlue md:text-[25px] md:text-white">
+          <h3 className="text-[30px] tracking-normal whitespace-nowrap font-semibold text-darkBlue md:text-[25px] md:text-white sm:text-[25px]">
             Umid-dentist
           </h3>
           <span className="text-gray md:text-[12px]">

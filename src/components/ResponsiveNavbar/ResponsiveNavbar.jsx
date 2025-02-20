@@ -2,11 +2,10 @@ import {
   ChevronRight,
   X,
   Home,
-  ShoppingBag,
   Contact,
-  ClipboardPlus,
+  Wallet,
+  Newspaper,
 } from "lucide-react";
-import Img from "../LazyLoadImg/Img";
 import { useNavigate, useLocation } from "react-router-dom";
 import Logo from "../Logo/Logo";
 
@@ -16,8 +15,8 @@ const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
 
   const menuItems = [
     { title: "Home", icon: <Home size={20} />, path: "/" },
-    { title: "Doctors", icon: <ClipboardPlus size={20} />, path: "/page" },
-    { title: "Shop", icon: <ShoppingBag size={20} />, path: "/products" },
+    { title: "Prices", icon: <Wallet  size={20} />, path: "/page" },
+    { title: "Articles", icon: <Newspaper size={20} />, path: "/articles" },
     { title: "Contacts", icon: <Contact size={20} />, path: "/contact" },
   ];
 

@@ -36,7 +36,7 @@ function HeaderTop() {
           <div className="w-[25px]"></div>
           <div className="bg-orange text-[#fff] text-[16px] p-[13px_35px] font-bold hover:bg-lightBlue transition-all duration-300">
             <Link target="_blank" to={"contact"}>
-            {t("header_top.callBack")}
+              {t("header_top.callBack")}
             </Link>
           </div>
         </div>

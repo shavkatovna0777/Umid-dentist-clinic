@@ -19,13 +19,13 @@ const ArticleSection = () => {
   }
 
   return (
-    <section className="article-section ">
+    <section className="article-section">
       <div className="container mx-auto px-4 py-8">
         <div className="speacer h-[90px]"></div>
         <div className="flex flex-col">
           <div className="heading ">
             <div className="top text-orange ">
-              <span className="gap-[5px] text-[15px] flex items-center uppercase font-semibold">
+              <span className="gap-[5px] text-[15px] flex items-center uppercase font-semibold md:text-[13px]">
                 {t("article_section.subHeading")}
                 <b>
                   <TiMinus />
@@ -33,7 +33,7 @@ const ArticleSection = () => {
               </span>
             </div>
             <div className="bottom flex justify-between items-center md:flex-wrap">
-              <h1 className="text-[42px] leading-60 font-bold inline text-darkBlue md:text-[30px]">
+              <h1 className="text-[42px] leading-60 font-bold inline text-darkBlue md:text-[30px] sm:text-[20px]">
                 {t("article_section.heading")}
               </h1>
               <Link
@@ -41,12 +41,12 @@ const ArticleSection = () => {
                 to={"articles/"}
                 className="text-white bg-lightBlue font-semibold text-[16px] p-[12px_35px] rounded-[5px] hover:bg-blue transform ease-in-out duration-300"
               >
-                 {t("article_section.btn")}
+                {t("article_section.btn")}
               </Link>
             </div>
           </div>
           <div className="speacer h-[30px]"></div>
-          <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:grid-cols-1">
             {ArticleSectionCardData.slice(0, 3).map((article) => (
               <ArticleCards
                 key={article.id}

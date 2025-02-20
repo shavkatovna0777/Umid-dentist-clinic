@@ -11,13 +11,13 @@
   },
   "service_section": {
     "description": "bizning xizmatlar",
-    "heading": "Biz Sizga Nima Taklif Qila Olamiz",
+    "heading": "Taklif va Xizmatlarimiz bilan tanishing",
     "paragraph": "Klinikamizda ko‘pchilik tibbiy xizmatlar shifokorlarimiz tomonidan amalga oshiriladi, murakkab holatlar esa alohida yondashuvni talab qiladi."
   },
   "about_section": {
     "heading": "Biz haqimizda",
     "subtitle": "Zamonaviy uskunalar va malakali tish shifokorlari",
-    "description": "Biz uchun tish parvarishida mukammal natijaga erishish uchun aniqlik, tajriba va bemorlarimizga bo'lgan e'tibor zarur deb bilamiz:",
+    "description": "Biz uchun tish parvarishida mukammal natijaga erishish uchun aniqlik, tajriba va bemorlarimizga  e'tibor zarur deb bilamiz:",
     "services": {
       "service1": "Zamonaviy 3D tish skanerlash",
       "service2": "Raqamli rentgen diagnostikasi",

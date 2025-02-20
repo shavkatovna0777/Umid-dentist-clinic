@@ -566,193 +566,304 @@ export const ArticleSectionCardData = [
 
 export const servicesData = [
   {
-    category: "Diagnostika va Konsultatsiya",
+    category: {
+      uz: "Diagnostika va Konsultatsiya",
+      ru: "Диагностика и консультация",
+      en: "Diagnostics and Consultation",
+    },
     items: [
       {
-        name: "Stamatolog ko'rigi",
-        times: "1 marta",
+        name: {
+          uz: "Stamatolog ko'rigi",
+          ru: "Стоматологический осмотр",
+          en: "Dental check-up",
+        },
+        times: {
+          uz: "1 marta",
+          ru: "1 раз",
+          en: "1 time",
+        },
         prices: 50000,
       },
       {
-        name: "Tish nervini olish",
-        times: "",
-        prices: "",
+        name: {
+          uz: "Tish nervini olish",
+          ru: "Удаление нерва зуба",
+          en: "Tooth nerve removal",
+        },
+        times: {
+          uz: "1 marta",
+          ru: "1 раз",
+          en: "1 time",
+        },
+        prices: 20000,
       },
     ],
   },
+
   {
-    category: "Ildiz Kanali Davolash va Qayta Davolash ",
+    category: {
+      uz: "Tish Plombalash va Restavratsiya",
+      ru: "Пломбирование и реставрация зубов",
+      en: "Tooth Filling and Restoration",
+    },
     items: [
       {
-        name: "3 ildizli kanal uchun",
-        times: "1 ta tish",
+        name: {
+          uz: "Rubi plomba",
+          ru: "Руби пломба",
+          en: "Ruby filling",
+        },
+        times: {
+          uz: "1 marta",
+          ru: "1 раз",
+          en: "1 time",
+        },
+        prices: "150000",
+      },
+      {
+        name: {
+          uz: "DenFil plomba",
+          ru: "Пломба DenFil",
+          en: "DenFil filling",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
         prices: 250000,
       },
       {
-        name: "1 va 2 ildizli kanal uchun ",
-        times: " 1 ta tish",
-        prices: 200000,
-      },
-      {
-        name: "Kanalni qayta plomba qilish (Rendo)",
-        times: " 1 ta tish",
-        prices: 300000,
-      },
-    ],
-  },
-  {
-    category: "Endodontiya (Ildiz Kanali Davolash)",
-    items: [
-      {
-        name: "Davolovchi taglik qo‘yish",
-        times: "1 ta tish",
-        prices: 50000,
-      },
-      {
-        name: "Devitalizatsiyalovchi pasta qo‘yish, vaqtinchalik plomba",
-        times: "1 ta tish",
-        prices: 30000,
-      },
-      {
-        name: "Tish osti yiringni davolash (abstsessni davolash)",
-        times: "1 ta tish",
-        prices: 250000,
-      },
-      {
-        name: "Ottok (tish ildizidagi yallig‘lanishni davolash)",
-        times: "1 ta tish",
-        prices: 100000,
-      },
-    ],
-  },
-  {
-    category: "Professional Gigiyena va Profilaktika ",
-    items: [
-      {
-        name: "Tish toshlarini tozalash",
-        times: "umumiy",
-        prices: 300000,
-      },
-      {
-        name: "Professional chistka (tishlarni chuqur tozalash)",
-        times: "umumiy",
-        prices: 500000,
-      },
-      {
-        name: "Milkni davolash (gingivit, parodontit va boshqalar)",
-        times: "1 kunlik",
-        prices: 40000,
-      },
-      {
-        name: "Milkni korreksiya qilish",
-        times: "",
-        prices: 100000,
-      },
-      {
-        name: "Plazma terapiya (milk va yumshoq to‘qimalarni tiklash uchun)",
-        times: "2 marta",
-        prices: 500000,
-      },
-    ],
-  },
-  {
-    category: "Tish Plombalash va Restavratsiya",
-    items: [
-      {
-        name: "Plomba qo‘yish",
-        times: "",
-        prices: "",
-      },
-      {
-        name: "Stiklionomer sement (ionomer asosidagi plomba materiali)",
-        times: "1 ta tish",
-        prices: 80000,
-      },
-      {
-        name: "Kompozit plombalar",
-        times: "1 ta tish",
-        prices: 95000,
-      },
-      {
-        name: "Estilite asteria-japan",
-        times: "1 ta tish",
-        prices: 500000,
-      },
-      {
-        name: "Estilite palfique-japan",
-        times: "1 ta tish",
+        name: {
+          uz: "Estelite Sigma plomba",
+          ru: "Пломба Estelite Sigma",
+          en: "Estelite Sigma filling",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
         prices: 400000,
       },
+    ],
+  },
+
+  {
+    category: {
+      uz: "Endodontiya (Ildiz Kanali Davolash)",
+      ru: "Эндодонтия (Лечение корневых каналов)",
+      en: "Endodontics (Root Canal Treatment)",
+    },
+    items: [
       {
-        name: "Capo",
-        times: "1 ta tish",
-        prices: 160000,
-      },
-      {
-        name: "Charizma",
-        times: "1 ta tish",
+        name: {
+          uz: "1 va 2 ildizli kanal uchun",
+          ru: "Для 1 и 2 корневых каналов",
+          en: "For 1 and 2 root canals",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
         prices: 200000,
       },
       {
-        name: "Escom 100 ",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
-      },
-      {
-        name: "Derifill ",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
-      },
-      {
-        name: "Tish formasini qayta tiklash ",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
+        name: {
+          uz: "3 ildizli kanal uchun",
+          ru: "Для 3 корневых каналов",
+          en: "For 3 root canals",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 250000,
       },
     ],
   },
+
   {
-    category:
-      "Jarrohlik Stomatologiya (Tishlarni Olish va Implantatsiya Tayyorligi)",
+    category: {
+      uz: "Tishni davolash",
+      ru: "Лечение зубов",
+      en: "Tooth Treatment",
+    },
     items: [
       {
-        name: "Oddiy tishni olish",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
+        name: {
+          uz: "Qayta davolash",
+          ru: "Повторное лечение",
+          en: "Retreatment",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 300000,
       },
+
       {
-        name: "Aql tishini olish",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
-      },
-      {
-        name: "Shisha tolali shtift (tish ildiziga qo‘yiladigan mustahkamlovchi element)",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
-      },
-      {
-        name: "Individual shtift (tish ildiziga moslashtirilgan tayyor mahsulot)",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
-      },
-      {
-        name: "Metal qoplamani kesib olish",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
+        name: {
+          uz: "Periodontitni davolash",
+          ru: "Лечение периодонтита",
+          en: "Periodontitis treatment",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 150000,
       },
     ],
   },
+
   {
-    category: "Ortopedik Stomatologiya (Protez va Qoplamalar)",
+    category: {
+      uz: "Professional Gigiyena va Profilaktika",
+      ru: "Профессиональная гигиена и профилактика",
+      en: "Professional Hygiene and Prevention",
+    },
     items: [
       {
-        name: "Metokeramika (metal asosli keramik qoplama)",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
+        name: {
+          uz: "Tish toshlarini tozalash",
+          ru: "Удаление зубного камня",
+          en: "Tartar removal",
+        },
+        times: {
+          uz: "umumiy",
+          ru: "общий",
+          en: "general",
+        },
+        prices: 300000,
       },
       {
-        name: "Bez metal keramika (sirkoniy qoplama)",
-        times: "9 800 ₽",
-        prices: "12 000 ₽",
+        name: {
+          uz: "Professional chistka (tishlarni chuqur tozalash)",
+          ru: "Профессиональная чистка (глубокая очистка зубов)",
+          en: "Professional cleaning (deep teeth cleaning)",
+        },
+        times: {
+          uz: "umumiy",
+          ru: "общий",
+          en: "general",
+        },
+        prices: 500000,
+      },
+    ],
+  },
+
+  {
+    category: {
+      uz: "Jarrohlik Stomatologiya (Tishlarni Olish)",
+      ru: "Хирургическая стоматология (Удаление зубов)",
+      en: "Surgical Dentistry (Tooth Extraction)",
+    },
+    items: [
+      {
+        name: {
+          uz: "Bir ildizli tishni olish",
+          ru: "Удаление однокорневого зуба",
+          en: "Single-root tooth extraction",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 200000,
+      },
+      {
+        name: {
+          uz: "Aql tishini olish",
+          ru: "Удаление зуба мудрости",
+          en: "Wisdom tooth extraction",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 300000,
+      },
+      {
+        name: {
+          uz: "Shisha tolali shtift",
+          ru: "Стекловолоконный штифт",
+          en: "Fiberglass post",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 150000,
+      },
+      {
+        name: {
+          uz: "Metal qoplamani kesib olish",
+          ru: "Срезание металлической коронки",
+          en: "Metal crown cutting",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 100000,
+      },
+    ],
+  },
+
+  {
+    category: {
+      uz: "Tish qo'yish",
+      ru: "Протезирование зубов",
+      en: "Dental prosthetics",
+    },
+    items: [
+      {
+        name: {
+          uz: "Metal qoplama (karonka) qo'yish",
+          ru: "Установка металлической коронки",
+          en: "Metal crown placement",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 250000,
+      },
+
+      {
+        name: {
+          uz: "Metokeramika (metal asosli keramik qoplama)",
+          ru: "Металлокерамика (керамическая коронка на металлической основе)",
+          en: "Metal-ceramic (ceramic crown on a metal base)",
+        },
+        times: {
+          uz: "1 ta tish",
+          ru: "1 зуб",
+          en: "1 tooth",
+        },
+        prices: 600000,
+      },
+
+      {
+        name: {
+          uz: "Dioksid Zirkon",
+          ru: "Диоксид циркония",
+          en: "Zirconium dioxide",
+        },
+        times: "",
+        prices: "100 $",
       },
       {
         name: "Qoplamani sementga qo‘yish",

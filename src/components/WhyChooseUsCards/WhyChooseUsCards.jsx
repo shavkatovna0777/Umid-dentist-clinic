@@ -4,7 +4,7 @@ import Img from "../LazyLoadImg/Img";
 const WhyChooseUsCard = ({ card }) => {
   const { i18n } = useTranslation();
     return (
-      <div className="card flex gap-[15px] cursor-pointer  md:flex-wrap">
+      <div className="card flex gap-[15px] cursor-pointer md:flex-wrap ">
         <div className="img-wrapper inline-block w-[85px] md:w-[15%] text-left">
           <Img
             className="w-full h-auto object-cover"
