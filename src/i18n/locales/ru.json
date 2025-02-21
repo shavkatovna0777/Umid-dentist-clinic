@@ -63,7 +63,8 @@
   "price_page": {
     "subHeading": "Цены",
     "home": "Главная",
-    "prices": "Цены"
+    "prices": "Цены",
+    "service_types": "Наши услуги"
   },
   "articles_page": {
     "subHeading": "Статьи",

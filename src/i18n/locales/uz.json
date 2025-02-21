@@ -11,7 +11,7 @@
   },
   "service_section": {
     "description": "bizning xizmatlar",
-    "heading": "Taklif va Xizmatlarimiz bilan tanishing",
+    "heading": "Eng yaxshi xizmatlar sizga",
     "paragraph": "Klinikamizda ko‘pchilik tibbiy xizmatlar shifokorlarimiz tomonidan amalga oshiriladi, murakkab holatlar esa alohida yondashuvni talab qiladi."
   },
   "about_section": {
@@ -63,7 +63,8 @@
   "price_page": {
     "subHeading": "Narxlar",
     "home": "Bosh Sahifa",
-    "prices": "Narxlar"
+    "prices": "Narxlar",
+    "service_types": "Bizning xizmatlar"
   },
   "articles_page": {
     "subHeading": "Maqolalar",

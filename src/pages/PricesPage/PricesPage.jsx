@@ -6,12 +6,23 @@ import "aos/dist/aos.css";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import { useTranslation } from "react-i18next";
 
-function PricesPage({ servicesData }) {
-  const { t } = useTranslation();
+function PricesPage({ servicesData = [] }) {
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language;
 
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200, once: true });
   }, []);
+
+  const formatPrice = (price) => {
+    if (price === undefined || price === null) return t("");
+    return `${price.toLocaleString()} UZS`;
+  };
+
+  const getLocalizedText = (textObject) => {
+    if (!textObject) return "";
+    return textObject[currentLang] || textObject.uz || "";
+  };
 
   return (
     <>
@@ -23,13 +34,13 @@ function PricesPage({ servicesData }) {
                 {t("price_page.subHeading")}
               </h1>
               <div className="breadcrumps whitespace-nowrap capitalize font-bold flex items-center mt-[8px] leading-[24px] text-[16px]">
-                <Link to={"/"} className="opacity-70 text-darkBlue ">
-                  {t("price_page.home")}{" "}
+                <Link to={"/"} className="opacity-70 text-darkBlue">
+                  {t("price_page.home")}
                 </Link>
                 <span className="devider opacity-[1] mx-[4px] text-blue">
                   <IoIosArrowForward />
                 </span>
-                <span className="current opacity-[1] text-darkBlue ">
+                <span className="current opacity-[1] text-darkBlue">
                   {t("price_page.prices")}
                 </span>
               </div>
@@ -43,33 +54,45 @@ function PricesPage({ servicesData }) {
           <thead>
             <tr className="bg-blue-50">
               <th className="p-4 text-left font-bold text-blue">
-                Stamatologik xizmat turlari
+                {t("price_page.service_types")}
               </th>
-              <th className="p-4 text-right font-bold text-blue">Soni</th>
-              <th className="p-4 text-right font-bold text-blue">Narxlar</th>
+              <th className="p-4 text-right font-bold text-blue">
+                {t("price_page.prices")}
+              </th>
             </tr>
           </thead>
           <tbody>
-            {servicesData.map((category, categoryIndex) => (
+            {servicesData?.map((category, categoryIndex) => (
               <React.Fragment key={categoryIndex}>
                 <tr className="bg-blue-100">
-                  <td colSpan={3} className="p-4 font-bold text-darkBlue">
-                    {category.category}
+                  <td colSpan={2} className="p-4 font-bold text-darkBlue">
+                    {getLocalizedText(category?.category)}
                   </td>
                 </tr>
-                {category.items.map((item, itemIndex) => (
-                  <tr
-                    key={`${categoryIndex}-${itemIndex}`}
-                    className="border-b border-gray "
-                  >
-                    <td className="p-4 text-darkBlue">{item.name}</td>
-                    <td className="p-4 text-right text-black font-medium">
-                      {item.times}
-                    </td>
-                    <td className="p-4 text-right text-black font-medium">
-                      {item.prices.toLocaleString()} UZS
-                    </td>
-                  </tr>
+                {category?.items?.map((item, itemIndex) => (
+                  <React.Fragment key={`${categoryIndex}-${itemIndex}`}>
+                    <tr className="border-b border-gray">
+                      <td className="p-4 text-darkBlue">
+                        {getLocalizedText(item?.name)}
+                      </td>
+                      <td className="p-4 text-right text-black font-medium sm:whitespace-nowrap">
+                        {formatPrice(item?.price)}
+                      </td>
+                    </tr>
+                    {item?.subItems?.map((subItem, subIndex) => (
+                      <tr
+                        key={`${categoryIndex}-${itemIndex}-${subIndex}`}
+                        className="border-b border-gray"
+                      >
+                        <td className="p-4 pl-8 text-darkBlue">
+                          {getLocalizedText(subItem?.name)}
+                        </td>
+                        <td className="p-4 text-right text-black font-medium">
+                          {formatPrice(subItem?.price)}
+                        </td>
+                      </tr>
+                    ))}
+                  </React.Fragment>
                 ))}
               </React.Fragment>
             ))}

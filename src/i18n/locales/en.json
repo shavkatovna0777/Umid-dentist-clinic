@@ -67,7 +67,9 @@
   "price_page": {
     "subHeading": "Prices",
     "home": "Home",
-    "prices": "Prices"
+    "prices": "Prices",
+    "service_types": "Our services"
+
   },
   "articles_page": {
     "subHeading": "Articles",
