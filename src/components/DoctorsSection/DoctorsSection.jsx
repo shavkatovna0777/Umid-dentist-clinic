@@ -31,13 +31,13 @@ function DoctorsSection({ DoctorsSectionData }) {
               {t("doctors_section.paragraph")}{" "}
             </p>
           </div>
-          <div className="doc-cards grid grid-cols-3 gap-6 pt-[10px] slg:grid-cols-2 md:grid-cols-1">
+          <div className="doc-cards grid grid-cols-3 pt-[10px] slg:grid-cols-2 md:grid-cols-1">
             {DoctorsSectionData.map((doctor, index) => (
               <div
                 key={doctor.id}
                 className={
                   index === 2
-                    ? "slg:col-span-2 slg:w-[calc(50%-12px)] slg:justify-self-center"
+                    ? "slg:col-span-2 slg:w-[calc(50%-12px)] slg:justify-self-center md:col-span-1 md:w-full"
                     : ""
                 }
               >

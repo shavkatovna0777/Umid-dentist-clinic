@@ -3,6 +3,7 @@ import { ArticleSectionCardData } from "../../assets/datas/datas.js";
 import ArticleCards from "../ArticleCards/ArticleCards.jsx";
 import { TiMinus } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import ArticleGrid from "../ArticleCards/ArticleCards.jsx";
 
 const ArticleSection = () => {
   const { t } = useTranslation();
@@ -46,18 +47,7 @@ const ArticleSection = () => {
             </div>
           </div>
           <div className="speacer h-[30px]"></div>
-          <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:grid-cols-1">
-            {ArticleSectionCardData.slice(0, 3).map((article) => (
-              <ArticleCards
-                key={article.id}
-                imgSrc={article.imgSrc}
-                title={article.title}
-                date={article.date}
-                views={article.views}
-                link={article.link}
-              />
-            ))}
-          </div>
+          <ArticleGrid />
         </div>
       </div>
     </section>

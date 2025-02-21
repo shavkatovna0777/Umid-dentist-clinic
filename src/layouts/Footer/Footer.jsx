@@ -142,14 +142,14 @@ function Footer() {
       </div>
       <hr className="text-[#b1b4ba]" />
       <div className="container">
-        <div className="main flex items-center justify-between slg:gap-[10px] slg:text-center">
+        <div className="main flex  items-center justify-between slg:gap-[10px] slg:text-center">
           <div className="py-[15px]">
-            <p className="text-[#3b4964]  md:justify-center md:flex md:items-center md:text-[15px] sm:text-[13px]">
+            <p className="text-[#3b4964] slg:hidden ">
               {t("footer.termsUse")}{" "}
             </p>
           </div>
-          <div className="py-[15px]">
-            <p className="text-[#3b4964] slg:whitespace-nowrap md:whitespace-wrap md:hidden">
+          <div className="py-[15px]  slg:text-center slg:flex slg:justify-center slg:mx-auto">
+            <p className="text-[#3b4964] slg:whitespace-nowrap slg:text-center md:whitespace-wrap md:justify-center md:flex md:items-center md:text-[15px] sm:text-[10px] ">
               {t("footer.copyright")}{" "}
               <Link
                 to={"http://t.me/kamola_tech"}
