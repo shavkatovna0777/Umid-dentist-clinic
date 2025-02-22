@@ -50,7 +50,6 @@ function ProductsPage() {
           </div>
         </div>
       </section>
-
       <ScrollToTop />
     </>
   );

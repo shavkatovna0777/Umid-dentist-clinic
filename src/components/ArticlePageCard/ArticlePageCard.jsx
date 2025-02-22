@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Img from "../LazyLoadImg/Img";
 import { useTranslation } from "react-i18next";
 
-const ArticlePageCard = ({ imgSrc, title, date, link }) => {
+const ArticlePageCard = ({ imgSrc, title, date }) => {
   const { i18n } = useTranslation();
   return (
     <Link
