@@ -4,6 +4,7 @@ import ScrollToTop from "../../components/ScrollToTop/ScrollToTop.jsx";
 import { useTranslation } from "react-i18next";
 import { ArticleSectionCardData } from "../../assets/datas/datas.js";
 import ArticleCards from "../../components/ArticleCards/ArticleCards.jsx";
+import ArticlePageCard from "../../components/ArticlePageCard/ArticlePageCard.jsx";
 
 function ProductsPage() {
   const { t } = useTranslation();
@@ -38,7 +39,7 @@ function ProductsPage() {
         <div className="container">
         <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-6">
             {ArticleSectionCardData.map((article) => (
-              <ArticleCards
+              <ArticlePageCard
                 key={article.id}
                 imgSrc={article.imgSrc}
                 title={article.title}

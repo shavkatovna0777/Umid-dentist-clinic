@@ -46,7 +46,7 @@ function DoctorsSingle() {
       <section>
         <div className="container">
           <DocotorSingleCard />
-          <Biography />
+          <Biography id={id} lang={lang}/>
           <ContactME />
         </div>
       </section>

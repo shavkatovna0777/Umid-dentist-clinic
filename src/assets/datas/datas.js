@@ -385,11 +385,14 @@ export const DoctorsSectionData = [
       phone: "+998936549690",
     },
     biography: {
-      uz: `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentis" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
-      ru: "",
+      uz: `Buribayev Umid Ummatovich 1987-yilda tug'ilgan. 2006-yilda Buxoro Davlat Tibbiyot Institutining stomatologiya fakultetiga o'qishga kirib, 2011-yilda muvaffaqiyatli tamomlagan. Mehnat faoliyati davomida Moskva shahrida hamda Jizzax viloyati stomatologiya markazida tajriba orttirgan. Shuningdek, "Marjona" stomatologiyasida ham samarali faoliyat yuritgan. Hozirgi kunda Umid Ummatovich o'z faoliyatini "Umid Dentist" stomatologiya klinikasida davom ettirib, bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda.`,
+      ru: `Бурибаев Умид Умматович родился в 1987 году. В 2006 году поступил на стоматологический факультет Бухарского государственного медицинского института и успешно окончил его в 2011 году.  
+В ходе своей профессиональной деятельности получил ценный опыт работы в Москве, а также в стоматологическом центре Джизакской области. Кроме того, успешно работал в стоматологической клинике 'Маржона'.  
+В настоящее время Умид Умматович продолжает свою профессиональную деятельность в стоматологической клинике 'Umid Dentist', предоставляя своим пациентам современные и качественные стоматологические услуги.`,
+
       en: `Buribayev Umid Ummatvich was born in 1987. In 2006, he enrolled in the Faculty of Dentistry at Bukhara State Medical Institute and successfully graduated in 2011.
     Throughout his professional career, he gained valuable experience working in Moscow and at the Jizzakh Regional Dentistry Center. Additionally, he worked effectively at Marjona Dentistry.
-    Currently, Umid Ummatvich continues his professional journey at Umid Dentis dental clinic, providing modern and high-quality dental services to his patients.`,
+    Currently, Umid Ummatvich continues his professional journey at Umid Dentist dental clinic, providing modern and high-quality dental services to his patients.`,
     },
   },
   {
@@ -416,6 +419,11 @@ export const DoctorsSectionData = [
         "https://www.instagram.com/dr.murodov_f/?utm_source=ig_web_button_share_sheet",
       phone: "+998955306066",
     },
+    biography: {
+      uz: `Murodov Faxriddin Ismatulla o‘g‘li 2018-yilda Sankt-Peterburg Davlat Pediatriya Universitetining stomatologiya fakultetiga o‘qishga kirib, 2023-yilda uni muvaffaqiyatli tamomlagan. O‘z kasbiy faoliyati davomida ilg‘or stomatologik usullarni o‘rganib, amaliy tajriba orttirgan. Hozirgi kunda Faxriddin Ismatulla o‘g‘li bemorlarga zamonaviy va sifatli stomatologik xizmat ko‘rsatib kelmoqda.`,
+      ru: `Муродов Фахриддин Исматулла оглы в 2018 году поступил на стоматологический факультет Санкт-Петербургского государственного педиатрического университета и успешно окончил его в 2023 году. В ходе своей профессиональной деятельности изучал передовые стоматологические методы и приобрел практический опыт. В настоящее время Фахриддин Исматулла оглы активно оказывает пациентам современные и качественные стоматологические услуги, помогая им улучшить здоровье полости рта.`,
+      en: `Murodov Fakhriddin Ismatulla ogli enrolled in the Faculty of Dentistry at Saint Petersburg State Pediatric University in 2018 and successfully graduated in 2023. Throughout his professional career, he has studied advanced dental techniques and gained practical experience. Currently, Fakhriddin Ismatulla ogli provides modern and high-quality dental services to his patients, helping them improve their oral health.`,
+    },
   },
   {
     id: 3,
@@ -440,6 +448,11 @@ export const DoctorsSectionData = [
       instagram:
         "https://www.instagram.com/muhammad__orziqulov?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       phone: "+998932997073",
+    },
+    biography: {
+      uz: `Orziqulov Muhammad 1996-yilda tug‘ilgan. 2019-yilda Rossiyaning Checheniston Respublikasi Grozniy shahridagi Chechen Davlat Universitetining stomatologiya fakultetiga o‘qishga kirgan. 2021-yilda tahsilini Toshkent Davlat Stomatologiya Institutiga ko‘chirib, 2024-yilda uni muvaffaqiyatli tamomlagan. Hozirgi kunda Muhammad bemorlarga zamonaviy va sifatli stomatologik xizmat ko‘rsatib, ularning og‘iz sog‘lig‘ini yaxshilash yo‘lida samarali faoliyat yuritmoqda.`,
+      ru: `Орзикулов Мухаммад родился в 1996 году. В 2019 году поступил на стоматологический факультет Чеченского государственного университета в городе Грозный, Чеченская Республика, Россия. В 2021 году перевелся в Ташкентский государственный стоматологический институт и успешно окончил обучение в 2024 году. В настоящее время Мухаммад активно оказывает пациентам современные и качественные стоматологические услуги, помогая им улучшить здоровье полости рта.`,
+      en: `Orziqulov Muhammad was born in 1996. In 2019, he enrolled in the Faculty of Dentistry at Chechen State University in Grozny, Chechen Republic, Russia. In 2021, he transferred to the Tashkent State Dental Institute and successfully graduated in 2024. Currently, Muhammad provides modern and high-quality dental services to his patients, helping them improve their oral health.`,
     },
   },
 ];
@@ -780,7 +793,6 @@ export const servicesData = [
     ],
   },
 ];
-
 
 export const SwiperBigCardDatas = [
   {

@@ -21,7 +21,7 @@ import {
   images,
 } from "./assets/datas/datas";
 import DoctorsSingle from "./pages/DoctorsSingle/DoctorsSingle";
-import { MedicalLoading } from "./components/Loading/MedicalLoading.jsx";
+import  MedicalLoading  from "./components/Loading/MedicalLoading";
 
 const LoadingWrapper = ({ children }) => {
   const navigation = useNavigation();
