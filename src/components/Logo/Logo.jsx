@@ -7,9 +7,9 @@ function Logo() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <div className="logo flex items-center">
+    <div className="logo flex items-center ">
       <Link
-        className="flex items-center max-w-[800px] gap-2 md:max-w-[300px] sm:max-w-[220px]"
+        className="flex items-center max-w-[800px] gap-2 md:max-w-[300px] sm:max-w-[220px] sm:gap-0"
         to={"/"}
       >
         <div className="img-wrapper w-full object-contain h-auto max-w-[75px] md:max-w-[70px]">
@@ -21,10 +21,10 @@ function Logo() {
           />
         </div>
         <div className="text flex flex-col">
-          <h3 className="text-[30px] tracking-normal whitespace-nowrap font-semibold text-darkBlue md:text-[25px] md:text-white sm:text-[25px]">
+          <h3 className="text-[30px] tracking-normal whitespace-nowrap font-semibold text-darkBlue md:text-[25px] md:text-white sm:text-[22px]">
             Umid-dentist
           </h3>
-          <span className="text-gray md:text-[12px]">
+          <span className="text-gray md:text-[12px] sm:text-[10px]">
             Dental Clinic of the Future
           </span>
         </div>

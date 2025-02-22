@@ -1,16 +1,10 @@
 import { useEffect, useState, useRef } from "react";
-import {
-  IoCloseOutline,
-  IoMenuOutline,
-  IoSearch,
-  IoSearchOutline,
-} from "react-icons/io5";
+import { IoMenuOutline } from "react-icons/io5";
 import ResponsiveNavbar from "../../components/ResponsiveNavbar/ResponsiveNavbar";
 import Logo from "../../components/Logo/Logo";
 import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 
 function HeaderMobile() {
-  const [isSearchActive, setIsSearchActive] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const inputRef = useRef(null);
 
@@ -19,10 +13,6 @@ function HeaderMobile() {
       inputRef.current.focus();
     }
   }, []);
-
-  const toggleSearch = () => {
-    setIsSearchActive(!isSearchActive);
-  };
 
   return (
     <>
