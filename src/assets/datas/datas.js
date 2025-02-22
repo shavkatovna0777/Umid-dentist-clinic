@@ -166,7 +166,7 @@ export const SmallCardData = [
     },
     imageUrl: teethImg2,
     description: {
-      uz: "Tish qo‘yish – bu tish yo‘qotilganda uning o‘rniga sun'iy implant qo‘yish jarayoni.",
+      uz: "Tish qo‘yish – bu tish yo‘qotilganda uning o‘rniga sun'iy tish qo‘yish jarayoni.",
       eng: "Tooth implant is the process of replacing a missing tooth with an artificial implant.",
       ru: "Установка импланта – это процесс замены отсутствующего зуба искусственным.",
     },
@@ -186,15 +186,15 @@ export const SmallCardData = [
   },
   {
     title: {
-      uz: "Og'riqsz tish olish",
+      uz: "Og'riqsiz tish olish",
       eng: "Painless Tooth Extraction",
-      ru: "Удаление зуба",
+      ru: "Безболезненное удаление зуба",
     },
     imageUrl: teethImg4,
     description: {
-      uz: "Protez qo‘yish – bu yo‘qolgan tishlarni sun'iy tishlar bilan tiklash usuli.",
-      eng: "Tooth prosthetics is the method of restoring missing teeth with artificial ones.",
-      ru: "Установка протеза – это способ восстановления отсутствующих зубов с помощью искусственных.",
+      uz: "Og'riqsiz tish olish – bu tishni mutlaqo og‘riqsiz va xavfsiz tarzda olib tashlash jarayoni.",
+      eng: "Painless tooth extraction is a procedure that ensures the removal of a tooth with modern anesthesia methods, making it completely pain-free and safe.",
+      ru: "Безболезненное удаление зуба – это процедура, при которой удаление зуба проводится с использованием современных методов анестезии, обеспечивая полное отсутствие боли и безопасность.",
     },
   },
   {
@@ -205,7 +205,7 @@ export const SmallCardData = [
     },
     imageUrl: teethImg5,
     description: {
-      uz: "Protez qo‘yish – bu yo‘qolgan tishlarni sun'iy tishlar bilan tiklash usuli.",
+      uz: "Protez qo‘yish – bu tabiiy tishlarning yo‘qotilgan qismini qayta tiklash jarayoni.",
       eng: "Tooth prosthetics is the method of restoring missing teeth with artificial ones.",
       ru: "Установка протеза – это способ восстановления отсутствующих зубов с помощью искусственных.",
     },

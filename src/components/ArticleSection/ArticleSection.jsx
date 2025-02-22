@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { ArticleSectionCardData } from "../../assets/datas/datas.js";
-import ArticleCards from "../ArticleCards/ArticleCards.jsx";
 import { TiMinus } from "react-icons/ti";
 import { Link } from "react-router-dom";
 import ArticleGrid from "../ArticleCards/ArticleCards.jsx";

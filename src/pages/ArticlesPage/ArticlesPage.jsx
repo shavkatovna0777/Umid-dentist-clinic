@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop.jsx";
 import { useTranslation } from "react-i18next";
 import { ArticleSectionCardData } from "../../assets/datas/datas.js";
-import ArticleCards from "../../components/ArticleCards/ArticleCards.jsx";
 import ArticlePageCard from "../../components/ArticlePageCard/ArticlePageCard.jsx";
 
 function ProductsPage() {

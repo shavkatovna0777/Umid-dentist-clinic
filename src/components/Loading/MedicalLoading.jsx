@@ -3,7 +3,6 @@ import React from "react";
 const MedicalLoading = () => {
   return (
     <div className="fixed inset-0 bg-white flex flex-col items-center justify-center min-h-screen z-50">
-      {/* Circular Loader */}
       <svg
         className="w-20 h-20 mt-6 animate-spin"
         viewBox="0 0 100 100"
@@ -23,12 +22,10 @@ const MedicalLoading = () => {
         />
       </svg>
 
-      {/* Loading Text with Fade Animation */}
       <div className="text-lightBlue text-xl font-medium mt-4 animate-fadeIn">
         Loading...
       </div>
 
-      {/* Tailwind Animations */}
       <style>
         {`
           @keyframes fadeIn {

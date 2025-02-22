@@ -17,7 +17,7 @@ function DoctorsSingle() {
   }
   return (
     <>
-      <div className="doctor-single bg-[url('https://wgl-dsites.net/medify/wp-content/uploads/2019/08/team_page-title.jpg')] bg-cover bg-no-repeat bg-center h-[300px] mb-[40px] py-[80px] relative z-[1] p-[10px_0] pb-[88px] bg-[#f2f2f4] w-full md:h-full">
+      <div className="doctor-single bg-[url('https://wgl-dsites.net/medify/wp-content/uploads/2019/08/page-title-2.jpg')] bg-cover bg-no-repeat bg-center h-[300px] mb-[40px] py-[80px] relative z-[1] p-[10px_0] pb-[88px] bg-[#f2f2f4] w-full md:h-full">
         <div className="wrapper">
           <div className="container">
             <div className="content flex flex-col justify-center items-center h-[100%]">

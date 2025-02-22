@@ -7,7 +7,7 @@ const ArticleCards = ({ imgSrc, title, date, className }) => {
   const { i18n } = useTranslation();
   return (
     <Link
-      to="articleSingle/"
+      to={"/articleSingle"}
       className={`bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ${className}`}
     >
       <Img
@@ -28,7 +28,6 @@ const ArticleCards = ({ imgSrc, title, date, className }) => {
 };
 
 const ArticleGrid = () => {
-
   return (
     <div className="container mx-auto p-4">
       <div className="grid grid-cols-3 gap-6 slg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
