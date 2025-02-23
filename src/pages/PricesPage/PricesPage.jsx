@@ -5,6 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import { useTranslation } from "react-i18next";
+import { BsDot } from "react-icons/bs";
+
+
 
 function PricesPage({ servicesData = [] }) {
   const { t, i18n } = useTranslation();
@@ -53,7 +56,7 @@ function PricesPage({ servicesData = [] }) {
         <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
           <thead>
             <tr className="bg-blue-50">
-              <th className="p-4 text-left font-bold text-blue">
+              <th className="p-4 text-left font-bold text-blue ">
                 {t("price_page.service_types")}
               </th>
               <th className="p-4 text-right font-bold text-blue">
@@ -64,27 +67,29 @@ function PricesPage({ servicesData = [] }) {
           <tbody>
             {servicesData?.map((category, categoryIndex) => (
               <React.Fragment key={categoryIndex}>
-                <tr className="bg-blue-100">
-                  <td colSpan={2} className="p-4 font-bold text-darkBlue">
+                <tr className="bg-lightBlue">
+                  <td colSpan={2} className="p-4 font-bold text-white">
                     {getLocalizedText(category?.category)}
                   </td>
                 </tr>
                 {category?.items?.map((item, itemIndex) => (
                   <React.Fragment key={`${categoryIndex}-${itemIndex}`}>
-                    <tr className="border-b border-gray">
-                      <td className="p-4 text-darkBlue">
+                    <tr className="border-b border-gray ">
+                      <td className="p-4 text-darkBlue ">
                         {getLocalizedText(item?.name)}
                       </td>
-                      <td className="p-4 text-right text-black font-medium sm:whitespace-nowrap">
+                      <td className="p-4 text-right text-black font-medium sm:whitespace-nowrap ">
                         {formatPrice(item?.price)}
                       </td>
                     </tr>
                     {item?.subItems?.map((subItem, subIndex) => (
                       <tr
                         key={`${categoryIndex}-${itemIndex}-${subIndex}`}
-                        className="border-b border-gray"
+                        className="border-b border-gray "
                       >
-                        <td className="p-4 pl-8 text-darkBlue">
+                       
+                        <td className="p-4 pl-8 text-darkBlue flex items-center gap-1">
+                        <BsDot />
                           {getLocalizedText(subItem?.name)}
                         </td>
                         <td className="p-4 text-right text-black font-medium">
