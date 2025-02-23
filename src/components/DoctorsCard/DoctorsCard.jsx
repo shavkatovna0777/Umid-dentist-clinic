@@ -26,7 +26,7 @@ const DoctorsCard = ({ doctor = {} }) => {
         <CardSocialIcons socialLinks={doctor.socialLinks} />
       </div>
       <div className="card-content text-center">
-        <Link to={`/page/${doctor.id}`} onClick={handleClickTop}>
+        <Link to={`/${doctor.id}`} onClick={handleClickTop}>
           <h3 className="text-[25px] font-semibold text-darkBlue transform duration-300 ease-in-out cursor-pointer hover:text-lightBlue">
             {doctor.name[i18n.language]}
           </h3>
