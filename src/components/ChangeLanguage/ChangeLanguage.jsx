@@ -1,6 +1,4 @@
 import { useState, useEffect, useRef, useMemo } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setLanguage } from "../../slices/LanguageSlice.js";
 import { useTranslation } from "react-i18next";
 import uzbekFlag from "../../assets/images/uzbekistan-flag.png";
 import russianFlag from "../../assets/images/russian-flag.png";
@@ -8,8 +6,7 @@ import USFlag from "../../assets/images/united-states-flag.png";
 import Img from "../LazyLoadImg/Img";
 
 const ChangeLanguage = () => {
-  const dispatch = useDispatch();
-  const selectedLang = useSelector((state) => state.language.selectedLang);
+  const [selectedLang, setSelectedLang] = useState("Uz"); // Default language
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const { i18n } = useTranslation();
@@ -26,7 +23,7 @@ const ChangeLanguage = () => {
   useEffect(() => {
     const savedLanguage = localStorage.getItem('selectedLanguage');
     if (savedLanguage) {
-      dispatch(setLanguage(savedLanguage));
+      setSelectedLang(savedLanguage);
       i18n.changeLanguage(savedLanguage.toLowerCase());
     }
   }, []);
@@ -50,7 +47,7 @@ const ChangeLanguage = () => {
   const toggleDropdown = () => setIsOpen((prev) => !prev);
 
   const selectLanguage = (langCode) => {
-    dispatch(setLanguage(langCode));
+    setSelectedLang(langCode);
     i18n.changeLanguage(langCode.toLowerCase());
     localStorage.setItem('selectedLanguage', langCode);
     setIsOpen(false);
@@ -65,7 +62,7 @@ const ChangeLanguage = () => {
     <div className="relative inline-block z-10 text-left" ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
-        className="flex items-center space-x-2 bg-lightBlue text-white px-3 py-2 rounded-[5px] transition-colors  focus:outline-none "
+        className="flex items-center space-x-2 bg-lightBlue text-white px-3 py-2 rounded-[5px] transition-colors focus:outline-none"
         aria-label="Select language"
         aria-expanded={isOpen}
       >
