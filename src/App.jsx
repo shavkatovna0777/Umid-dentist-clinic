@@ -29,7 +29,6 @@ const LoadingWrapper = ({ children }) => {
 };
 
 function App() {
-  const [selectedTag, setSelectedTag] = useState("All");
   const [isLoading, setIsLoading] = useState(true);
   const [cartItems, setCartItems] = useState(() => {
     const savedCartItems = localStorage.getItem("cartItems");
