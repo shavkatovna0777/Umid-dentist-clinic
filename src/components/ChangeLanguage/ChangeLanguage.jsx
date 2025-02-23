@@ -23,7 +23,6 @@ const ChangeLanguage = () => {
     []
   );
 
-  // Sahifa yuklanganda localStorage'dan tilni olish
   useEffect(() => {
     const savedLanguage = localStorage.getItem('selectedLanguage');
     if (savedLanguage) {
