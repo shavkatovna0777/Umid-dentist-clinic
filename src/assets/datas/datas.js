@@ -711,11 +711,11 @@ export const servicesData = [
       },
       {
         name: {
-          uz: "Nakladka",
-          ru: "Накладка",
-          en: "Overlay",
+          uz: "Vkladka",
+          ru: "Вкладка",
+          en: "Inlay",
         },
-        price: 300000,
+        price: 500000,
       },
       {
         name: {
@@ -746,7 +746,7 @@ export const servicesData = [
               ru: "Частично съемный протез",
               en: "Partially removable denture",
             },
-            price: 2500000,
+            price: 1500000,
           },
           {
             name: {
@@ -796,22 +796,27 @@ export const servicesData = [
 
 export const SwiperBigCardDatas = [
   {
+    id: 1,
     img: clinicImg5,
     url: "",
   },
   {
+    id: 2,
     img: clinicImg1,
     url: "",
   },
   {
+    id: 3,
     img: clinicImg2,
     url: "",
   },
   {
+    id: 4,
     img: clinicImg3,
     url: "",
   },
   {
+    id: 5,
     img: clinicImg4,
     url: "",
   },
