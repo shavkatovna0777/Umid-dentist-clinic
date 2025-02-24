@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { TiMinus } from "react-icons/ti";
 import { withMask } from "use-mask-input";
 import { sendMessageToTelegram } from "../../utils/telegramUtils";
@@ -12,6 +12,10 @@ function FormContactPage() {
   const [userAge, setUserAge] = useState("");
   const [userMessage, setUserMessage] = useState("");
   const [isClicked, setIsClicked] = useState(false);
+
+  useEffect(() => {
+    setIsClicked(false);
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -122,9 +126,10 @@ Qo'ng'iroq so'rayotgan bemorning:
         </div>
         <button
           type="submit"
+          disabled={isClicked}
           className={`font-semibold text-[16px] p-[15px_35px] rounded-[5px] transform ease-in-out duration-300 border border-blue ${
             isClicked
-              ? "bg-white text-blue"
+              ? "bg-white text-blue cursor-not-allowed"
               : "bg-blue text-white hover:bg-white hover:text-blue"
           }`}
         >
