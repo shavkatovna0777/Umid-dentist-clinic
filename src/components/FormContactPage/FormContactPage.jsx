@@ -28,7 +28,7 @@ function FormContactPage() {
     const message = `
 Qo'ng'iroq so'rayotgan bemorning:
 👤 Ismi: ${userName}
-📧 Age: ${userAge}
+📧 Yosh: ${userAge}
 📞 Raqami: ${phoneNumber}
 💬 Xabari: ${userMessage}
     `;
