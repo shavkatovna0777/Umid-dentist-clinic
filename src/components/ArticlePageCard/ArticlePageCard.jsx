@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 const ArticlePageCard = ({ article }) => {
   const { i18n } = useTranslation();
+  
   return (
     <Link
       to={`/articles/${article.id}`}
@@ -19,7 +20,7 @@ const ArticlePageCard = ({ article }) => {
           {article.title[i18n.language] || article.title.eng}
         </h3>
         <div className="flex justify-between text-base text-gray ">
-          <span>{article.date}</span>
+          <span>{article.articledate}</span>
         </div>
       </div>
     </Link>

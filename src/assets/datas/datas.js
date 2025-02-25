@@ -24,6 +24,7 @@ import articleTooth6 from "../images/stomatit.jpg";
 import articleTooth7 from "../images/sad_woman.jpg";
 import articleTooth8 from "../images/install.jpg";
 import articleTooth9 from "../images/karies.jpg";
+// import articleSingle1 from "../images/artSingle1.png";
 import { FaInstagram, FaPhoneAlt, FaTelegramPlane } from "react-icons/fa";
 
 export const SmallCardData = [
@@ -339,126 +340,6 @@ export const DoctorsSectionData = [
   },
 ];
 
-export const ArticleSectionCardData = [
-  {
-    id: 1,
-    title: {
-      uz: "Aql tishim og'riyapti - rostdan ham uni olib tashlash kerakmi?",
-      ru: "Болит зуб мудрости — неужели придется удалять?",
-      en: "My wisdom tooth hurts - will it really have to be removed?",
-    },
-    imgSrc: articleTooth4,
-    date: "22 мар 2024",
-    views: 1900,
-    category: "вопросики",
-    author: "Шапулина Татьяна Николаевна",
-    role: "Отвечает ортодонт, гнатолог",
-  },
-  {
-    id: 2,
-    title: {
-      uz: "Tish implantlari qancha muddat xizmat qiladi?",
-      ru: "Сколько служат зубные импланты?",
-      en: "How Long Do Dental Implants Last?",
-    },
-    imgSrc: articleTooth2,
-    date: "07 мая 2024",
-    views: 7480,
-    category: "проблемка",
-  },
-  {
-    id: 3,
-    title: {
-      uz: "Odamlar breket qo'yishdan qo'rqishining 7 sababi",
-      ru: "7 причин, по которым люди боятся ставить брекеты",
-      en: "7 Reasons Why People Fear Getting Braces",
-    },
-    imgSrc: articleTooth5,
-    date: "18 мар 2024",
-    views: 6870,
-    category: "проблемка",
-  },
-  {
-    id: 4,
-    title: {
-      uz: "Qiyshiq tishlar - kimda bo'lmagan?",
-      ru: "Кривые зубы – с кем не бывает?",
-      en: "Crooked teeth – who hasn’t had them?",
-    },
-    imgSrc: articleTooth1,
-    date: "08 мая 2024",
-    views: 3195,
-    category: "вопросики",
-    author: "Стоматолог",
-  },
-  {
-    id: 5,
-    title: {
-      uz: "Tish sezuvchanligi bezovta qilyaptimi?",
-      ru: " Чувствительность зубов",
-      en: "Tooth Sensitivity",
-    },
-    imgSrc: articleTooth3,
-    date: "10 апр 2024",
-    views: 5257,
-    category: "вопросики",
-  },
-  {
-    id: 6,
-    title: {
-      uz: "Kariyes – hamma qo‘rqadigan narsa",
-      ru: "Кариес – это то, чего все боялись",
-      en: "Caries is what everyone was scared of",
-    },
-    imgSrc: articleTooth9,
-    date: "28 фев 2024",
-    views: 2123,
-    category: "вопросики",
-    author: "Дрик Ирина Валерьевна",
-    role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
-  },
-
-  {
-    id: 7,
-    title: {
-      uz: "Homiladorlik vaqtida tish og'rig'i: nimaga ruxsat berilgan va nimaga yo'q",
-      ru: "Зубная боль при беременности: что можно и что нельзя",
-      en: "Toothache during pregnancy: what is allowed and what is not",
-    },
-    imgSrc: articleTooth7,
-    date: "08 мая 2024",
-    views: 3195,
-    category: "вопросики",
-    author: "Стоматолог",
-  },
-  {
-    id: 8,
-    title: {
-      uz: "Kronalar yoki implantlar – qaysi birini o'rnatish yaxshiroq?",
-      ru: "Коронки или импланты – что лучше установить?",
-      en: "Crowns or implants – which is better to install?",
-    },
-    imgSrc: articleTooth8,
-    date: "10 апр 2024",
-    views: 5257,
-    category: "вопросики",
-  },
-  {
-    id: 9,
-    title: {
-      uz: "Aftozli stomatit (Og'iz yaralari)",
-      ru: "Афтозный стоматит",
-      en: "Aphthous Stomatitis (Canker Sores)",
-    },
-    imgSrc: articleTooth6,
-    date: "28 фев 2024",
-    views: 2123,
-    category: "вопросики",
-    author: "Дрик Ирина Валерьевна",
-    role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
-  },
-];
-
 export const servicesData = [
   {
     category: {
@@ -710,888 +591,1125 @@ export const iconData = [
   { id: 3, icon: FaPhoneAlt, hoverColor: "bg-blue" },
 ];
 
+export const ArticleSectionCardData = [
+  {
+    id: 1,
+    title: {
+      uz: "Aql tishim og'riyapti - rostdan ham uni olib tashlash kerakmi?",
+      ru: "Болит зуб мудрости — неужели придется удалять?",
+      en: "My wisdom tooth hurts - will it really have to be removed?",
+    },
+    imgSrc: articleTooth4,
+    date: "22 мар 2024",
+    views: 1900,
+    category: "вопросики",
+    author: "Шапулина Татьяна Николаевна",
+    role: "Отвечает ортодонт, гнатолог",
+  },
+  {
+    id: 2,
+    title: {
+      uz: "Tish implantlari qancha muddat xizmat qiladi?",
+      ru: "Сколько служат зубные импланты?",
+      en: "How Long Do Dental Implants Last?",
+    },
+    imgSrc: articleTooth2,
+    date: "07 мая 2024",
+    views: 7480,
+    category: "проблемка",
+  },
+  {
+    id: 3,
+    title: {
+      uz: "Odamlar breket qo'yishdan qo'rqishining 7 sababi",
+      ru: "7 причин, по которым люди боятся ставить брекеты",
+      en: "7 Reasons Why People Fear Getting Braces",
+    },
+    imgSrc: articleTooth5,
+    date: "18 мар 2024",
+    views: 6870,
+    category: "проблемка",
+  },
+  {
+    id: 4,
+    title: {
+      uz: "Qiyshiq tishlar - kimda bo'lmagan?",
+      ru: "Кривые зубы – с кем не бывает?",
+      en: "Crooked teeth – who hasn’t had them?",
+    },
+    imgSrc: articleTooth1,
+    date: "08 мая 2024",
+    views: 3195,
+    category: "вопросики",
+    author: "Стоматолог",
+  },
+  {
+    id: 5,
+    title: {
+      uz: "Tish sezuvchanligi bezovta qilyaptimi?",
+      ru: " Чувствительность зубов",
+      en: "Tooth Sensitivity",
+    },
+    imgSrc: articleTooth3,
+    date: "10 апр 2024",
+    views: 5257,
+    category: "вопросики",
+  },
+  {
+    id: 6,
+    title: {
+      uz: "Kariyes – hamma qo‘rqadigan narsa",
+      ru: "Кариес – это то, чего все боялись",
+      en: "Caries is what everyone was scared of",
+    },
+    imgSrc: articleTooth9,
+    date: "28 фев 2024",
+    views: 2123,
+    category: "вопросики",
+    author: "Дрик Ирина Валерьевна",
+    role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
+  },
+
+  {
+    id: 7,
+    title: {
+      uz: "Homiladorlik vaqtida tish og'rig'i: nimaga ruxsat berilgan va nimaga yo'q",
+      ru: "Зубная боль при беременности: что можно и что нельзя",
+      en: "Toothache during pregnancy: what is allowed and what is not",
+    },
+    imgSrc: articleTooth7,
+    date: "08 мая 2024",
+    views: 3195,
+    category: "вопросики",
+    author: "Стоматолог",
+  },
+  {
+    id: 8,
+    title: {
+      uz: "Kronalar yoki implantlar – qaysi birini o'rnatish yaxshiroq?",
+      ru: "Коронки или импланты – что лучше установить?",
+      en: "Crowns or implants – which is better to install?",
+    },
+    imgSrc: articleTooth8,
+    date: "10 апр 2024",
+    views: 5257,
+    category: "вопросики",
+  },
+  {
+    id: 9,
+    title: {
+      uz: "Aftozli stomatit (Og'iz yaralari)",
+      ru: "Афтозный стоматит",
+      en: "Aphthous Stomatitis (Canker Sores)",
+    },
+    imgSrc: articleTooth6,
+    date: "28 фев 2024",
+    views: 2123,
+    category: "вопросики",
+    author: "Дрик Ирина Валерьевна",
+    role: "Отвечает стоматолог хирург-имплантолог, пародонтолог",
+  },
+];
+
 export const articleSingle = [
   {
-    id: "aql-tishim-ogriyapti",
-    title: "Aql tishim og'riyapti - rostdan ham uni olib tashlash kerakmi?",
+    id: 1,
+    title: {
+      uz: "Aql tishim og'riyapti - rostdan ham uni olib tashlash kerakmi?",
+      ru: "У меня болит зуб мудрости – действительно ли его нужно удалять?",
+      en: "My wisdom tooth hurts – do I really need to remove it?",
+    },
     date: "22 mar 2024",
     thumbnailImage:
-      "https://umid-dentist.uz/images/articles/wisdom-tooth-pain-thumb.jpg",
+      "https://avatars.mds.yandex.net/get-altay/11400795/2a0000018d836894ed9fdf007cbf534b24e5/XXL_height",
     featuredImage:
-      "https://umid-dentist.uz/images/articles/wisdom-tooth-pain.jpg",
-    intro:
-      "Aql tishi og'rig'i odatda juda noqulay bo'lishi mumkin. Ko'pchilik aql tishlarini olib tashlash kerak deb o'ylaydi, lekin bu har doim ham to'g'ri emas. Bu maqolada biz aql tishlari va ularni qachon olib tashlash kerak yoki kerak emasligini muhokama qilamiz.",
+      "https://avatars.mds.yandex.net/get-altay/11400795/2a0000018d836894ed9fdf007cbf534b24e5/XXL_height",
+    intro: {
+      uz: "Aql tishi og'rig'i odatda juda noqulay bo'lishi mumkin. Ko'pchilik aql tishlarini olib tashlash kerak deb o'ylaydi, lekin bu har doim ham to'g'ri emas. Bu maqolada biz aql tishlari va ularni qachon olib tashlash kerak yoki kerak emasligini muhokama qilamiz.",
+      ru: "Боль в зубе мудрости может быть весьма неприятной. Многие считают, что зубы мудрости нужно удалять, но это не всегда так. В этой статье мы обсудим зубы мудрости и когда их действительно стоит удалять, а когда — нет.",
+      en: "Wisdom tooth pain can be quite uncomfortable. Many people believe that wisdom teeth should always be removed, but that is not always the case. In this article, we will discuss wisdom teeth and when they should or should not be removed.",
+    },
     content: [
       {
-        heading: "Aql tishlari nima?",
+        heading: {
+          uz: "Aql tishlari nima?",
+          ru: "Что такое зубы мудрости?",
+          en: "What are wisdom teeth?",
+        },
         paragraphs: [
-          "Aql tishlari (uchinchi molyarlar) odamning og'zidagi eng oxirgi tishlardir. Ular odatda 17-25 yoshlar orasida chiqadi. Ko'pchilik odamlarda to'rtta aql tishi bor - har bir jag' tomonida bittadan.",
-          "Aql tishlari nomini ularning kech chiqishidan olgan, bu vaqtga kelib inson \"aqlli\" bo'lib qoladi degan tushunchadan kelib chiqqan. Ammo hozirgi kunda ko'pchilik stomatologlar aql tishlarini muammoli deb hisoblashadi, chunki ularning chiqish jarayoni ko'pincha og'riqli bo'ladi va boshqa tishlar uchun muammolar keltirib chiqarishi mumkin.",
+          {
+            uz: "Aql tishlari (uchinchi molyarlar) odamning og'zidagi eng oxirgi tishlardir. Ular odatda 17-25 yoshlar orasida chiqadi. Ko'pchilik odamlarda to'rtta aql tishi bor - har bir jag' tomonida bittadan.",
+            ru: "Зубы мудрости (третьи моляры) – это самые последние зубы в ротовой полости человека. Они обычно появляются в возрасте от 17 до 25 лет. У большинства людей четыре зуба мудрости – по одному с каждой стороны челюсти.",
+            en: "Wisdom teeth (third molars) are the last teeth in a person's mouth. They usually emerge between the ages of 17 and 25. Most people have four wisdom teeth – one on each side of the jaw.",
+          },
+          {
+            uz: "Aql tishlari nomini ularning kech chiqishidan olgan, bu vaqtga kelib inson \"aqlli\" bo'lib qoladi degan tushunchadan kelib chiqqan. Ammo hozirgi kunda ko'pchilik stomatologlar aql tishlarini muammoli deb hisoblashadi, chunki ularning chiqish jarayoni ko'pincha og'riqli bo'ladi va boshqa tishlar uchun muammolar keltirib chiqarishi mumkin.",
+            ru: "Зубы мудрости получили своё название из-за позднего прорезывания, так как считается, что к этому возрасту человек становится «мудрым». Однако в настоящее время многие стоматологи считают зубы мудрости проблемными, так как их рост часто сопровождается болью и может вызывать проблемы с другими зубами.",
+            en: "Wisdom teeth got their name due to their late emergence, as it is believed that by this age a person becomes 'wise.' However, nowadays, many dentists consider wisdom teeth problematic because their eruption is often painful and can cause issues for other teeth.",
+          },
         ],
       },
       {
-        heading: "Aql tishlari og'rig'ining sabablari",
+        heading: {
+          uz: "Aql tishlari og'rig'ining sabablari",
+          ru: "Причины боли зубов мудрости",
+          en: "Causes of wisdom tooth pain",
+        },
         paragraphs: [
-          "Aql tishlarining og'rig'i turli sabablar tufayli yuzaga kelishi mumkin:",
-          "Agar aql tishi to'liq chiqa olmasa yoki qiyshiq chiqsa, u qisman milkda qolishi mumkin. Bu perikoronit (milkning yallig'lanishi) deb ataladigan holatga olib kelishi mumkin.",
-          "Aql tishlari ko'pincha og'izning eng orqa qismida joylashgani sababli, ularni to'g'ri tozalash qiyin bo'lishi mumkin, bu esa kariyes va milk kasalliklariga olib kelishi mumkin.",
-          "Ba'zi hollarda, aql tishi yaqinidagi to'qimalar yoki nerv tolalarini bosishi mumkin, bu esa og'riqqa olib keladi.",
+          {
+            uz: "Aql tishlarining og'rig'i turli sabablar tufayli yuzaga kelishi mumkin:",
+            ru: "Боль зубов мудрости может возникать по разным причинам:",
+            en: "Wisdom tooth pain can occur due to various reasons:",
+          },
+          {
+            uz: "Agar aql tishi to'liq chiqa olmasa yoki qiyshiq chiqsa, u qisman milkda qolishi mumkin. Bu perikoronit (milkning yallig'lanishi) deb ataladigan holatga olib kelishi mumkin.",
+            ru: "Если зуб мудрости не может полностью прорезаться или растёт криво, он может частично остаться в десне. Это может привести к перикорониту (воспалению десны).",
+            en: "If a wisdom tooth cannot fully emerge or grows at an angle, it may remain partially trapped in the gum. This can lead to pericoronitis (gum inflammation).",
+          },
+          {
+            uz: "Aql tishlari ko'pincha og'izning eng orqa qismida joylashgani sababli, ularni to'g'ri tozalash qiyin bo'lishi mumkin, bu esa kariyes va milk kasalliklariga olib kelishi mumkin.",
+            ru: "Так как зубы мудрости находятся в самом конце рта, их трудно правильно чистить, что может привести к кариесу и заболеваниям дёсен.",
+            en: "Since wisdom teeth are located at the very back of the mouth, they can be difficult to clean properly, which may lead to cavities and gum diseases.",
+          },
+          {
+            uz: "Ba'zi hollarda, aql tishi yaqinidagi to'qimalar yoki nerv tolalarini bosishi mumkin, bu esa og'riqqa olib keladi.",
+            ru: "В некоторых случаях зуб мудрости может давить на окружающие ткани или нервные волокна, вызывая боль.",
+            en: "In some cases, a wisdom tooth may press against surrounding tissues or nerve fibers, causing pain.",
+          },
         ],
         image:
           "https://umid-dentist.uz/images/articles/wisdom-tooth-pain-causes.jpg",
-        imageAlt: "Aql tishi og'rig'i sabablari",
-        imageCaption: "Aql tishi og'rig'ining asosiy sabablari",
+        imageAlt: {
+          uz: "Aql tishi og'rig'i sabablari",
+          ru: "Причины боли зубов мудрости",
+          en: "Causes of wisdom tooth pain",
+        },
+        imageCaption: {
+          uz: "Aql tishi og'rig'ining asosiy sabablari",
+          ru: "Основные причины боли зубов мудрости",
+          en: "Main causes of wisdom tooth pain",
+        },
       },
       {
-        heading: "Aql tishlarini olib tashlash kerakmi?",
+        heading: {
+          uz: "Aql tishlarini olib tashlash kerakmi?",
+          ru: "Нужно ли удалять зубы мудрости?",
+          en: "Should wisdom teeth be removed?",
+        },
         paragraphs: [
-          "Har bir holatda aql tishlarini olib tashlash kerak yoki yo'qligi alohida qaror qilinadi. Quyidagi hollarda aql tishlarini olib tashlash tavsiya etiladi:",
+          {
+            uz: "Har bir holatda aql tishlarini olib tashlash kerak yoki yo'qligi alohida qaror qilinadi. Quyidagi hollarda aql tishlarini olib tashlash tavsiya etiladi:",
+            ru: "В каждом случае решение об удалении зубов мудрости принимается индивидуально. В следующих случаях рекомендуется их удаление:",
+            en: "In each case, the decision to remove wisdom teeth is made individually. In the following situations, their removal is recommended:",
+          },
         ],
         bulletPoints: [
-          "Tish to'liq chiqa olmasa va milkda qolsa (impacted wisdom tooth)",
-          "Aql tishi boshqa tishlarni siqib qo'ysa yoki tishlarning joylashishiga ta'sir qilsa",
-          "Tish atrofida tez-tez infeksiya bo'lsa",
-          "Aql tishi atrofida kistalar yoki o'smalar paydo bo'lsa",
-          "Aql tishi kariyes bilan zararlangan bo'lsa va uni davolash imkoni bo'lmasa",
+          {
+            uz: "Tish to'liq chiqa olmasa va milkda qolsa (impacted wisdom tooth)",
+            ru: "Если зуб не может полностью прорезаться и остаётся в десне (ретинированный зуб мудрости)",
+            en: "If the tooth cannot fully emerge and remains in the gum (impacted wisdom tooth)",
+          },
+          {
+            uz: "Aql tishi boshqa tishlarni siqib qo'ysa yoki tishlarning joylashishiga ta'sir qilsa",
+            ru: "Если зуб мудрости давит на другие зубы или влияет на их расположение",
+            en: "If the wisdom tooth puts pressure on other teeth or affects their alignment",
+          },
+          {
+            uz: "Tish atrofida tez-tez infeksiya bo'lsa",
+            ru: "Если вокруг зуба часто возникают инфекции",
+            en: "If frequent infections occur around the tooth",
+          },
+          {
+            uz: "Aql tishi atrofida kistalar yoki o'smalar paydo bo'lsa",
+            ru: "Если вокруг зуба мудрости образуются кисты или опухоли",
+            en: "If cysts or tumors develop around the wisdom tooth",
+          },
+          {
+            uz: "Aql tishi kariyes bilan zararlangan bo'lsa va uni davolash imkoni bo'lmasa",
+            ru: "Если зуб мудрости поражён кариесом и не подлежит лечению",
+            en: "If the wisdom tooth is affected by decay and cannot be treated",
+          },
         ],
         paragraphs: [
-          "Agar aql tishlari to'g'ri chiqsa, yaxshi holatda bo'lsa va og'riq yoki muammolar tug'dirmasa, ularni olib tashlash shart emas. Ko'pgina stomatologlar profilaktika maqsadida aql tishlarini olib tashlashni tavsiya qilishsa-da, bu haqida aniq ilmiy dalillar yo'q.",
+          {
+            uz: "Agar aql tishlari to'g'ri chiqsa, yaxshi holatda bo'lsa va og'riq yoki muammolar tug'dirmasa, ularni olib tashlash shart emas. Ko'pgina stomatologlar profilaktika maqsadida aql tishlarini olib tashlashni tavsiya qilishsa-da, bu haqida aniq ilmiy dalillar yo'q.",
+            ru: "Если зубы мудрости прорезались правильно, находятся в хорошем состоянии и не вызывают боли или проблем, их удалять не обязательно. Хотя многие стоматологи рекомендуют удаление в профилактических целях, научных доказательств этому нет.",
+            en: "If wisdom teeth emerge correctly, are in good condition, and do not cause pain or problems, removal is not necessary. While many dentists recommend removing them for preventive reasons, there is no solid scientific evidence for this.",
+          },
         ],
       },
       {
-        heading: "Aql tishini olib tashlash jarayoni",
+        heading: {
+          uz: "Aql tishini olib tashlash jarayoni",
+          ru: "Процесс удаления зуба мудрости",
+          en: "Wisdom tooth extraction process",
+        },
         paragraphs: [
-          "Aql tishini olib tashlash odatda quyidagi bosqichlarni o'z ichiga oladi:",
-          "1. Mahalliy yoki umumiy og'riqsizlantirish qo'llaniladi.",
-          "2. Tish atrofidagi milkda kesma qilinadi (agar kerak bo'lsa).",
-          "3. Agar tish suyakda bo'lsa, unga yetish uchun suyak olib tashlanadi.",
-          "4. Tish bir necha bo'laklarga bo'linishi mumkin, bu uni olib tashlashni osonlashtiradi.",
-          "5. Tish olib tashlanadi va yarani tozalanadi.",
-          "6. Kerak bo'lsa, yara tikib qo'yiladi.",
+          {
+            uz: "Aql tishini olib tashlash odatda quyidagi bosqichlarni o'z ichiga oladi:",
+            ru: "Процесс удаления зуба мудрости обычно включает следующие этапы:",
+            en: "The wisdom tooth extraction process typically involves the following steps:",
+          },
+          {
+            uz: "1. Mahalliy yoki umumiy og'riqsizlantirish qo'llaniladi.",
+            ru: "1. Применяется местная или общая анестезия.",
+            en: "1. Local or general anesthesia is applied.",
+          },
+          {
+            uz: "2. Tish atrofidagi milkda kesma qilinadi (agar kerak bo'lsa).",
+            ru: "2. Делается разрез в области десны вокруг зуба (если необходимо).",
+            en: "2. An incision is made in the gum tissue around the tooth (if necessary).",
+          },
+          {
+            uz: "3. Agar tish suyakda bo'lsa, unga yetish uchun suyak olib tashlanadi.",
+            ru: "3. Если зуб находится в кости, часть кости удаляется, чтобы к нему добраться.",
+            en: "3. If the tooth is embedded in the bone, some bone is removed to access it.",
+          },
+          {
+            uz: "4. Tish bir necha bo'laklarga bo'linishi mumkin, bu uni olib tashlashni osonlashtiradi.",
+            ru: "4. Зуб может быть разделен на несколько частей для облегчения удаления.",
+            en: "4. The tooth may be divided into sections to facilitate removal.",
+          },
+          {
+            uz: "5. Tish olib tashlanadi va yarani tozalanadi.",
+            ru: "5. Зуб удаляется, а рана очищается.",
+            en: "5. The tooth is removed, and the wound is cleaned.",
+          },
+          {
+            uz: "6. Kerak bo'lsa, yara tikib qo'yiladi.",
+            ru: "6. При необходимости накладываются швы.",
+            en: "6. If necessary, the wound is stitched.",
+          },
         ],
         image:
           "https://umid-dentist.uz/images/articles/wisdom-tooth-extraction.jpg",
-        imageAlt: "Aql tishini olib tashlash jarayoni",
-        imageCaption: "Aql tishini olib tashlash jarayoni tasvirlangan",
+        imageAlt: {
+          uz: "Aql tishini olib tashlash jarayoni",
+          ru: "Процесс удаления зуба мудрости",
+          en: "Wisdom tooth extraction process",
+        },
+        imageCaption: {
+          uz: "Aql tishini olib tashlash jarayoni tasvirlangan",
+          ru: "Изображен процесс удаления зуба мудрости",
+          en: "Illustration of the wisdom tooth extraction process",
+        },
       },
       {
-        heading: "Aql tishini olib tashlashdan keyin parvarish",
+        heading: {
+          uz: "Aql tishini olib tashlashdan keyin parvarish",
+          ru: "Уход после удаления зуба мудрости",
+          en: "Post-extraction care for wisdom teeth",
+        },
         paragraphs: [
-          "Aql tishini olib tashlashdan so'ng tuzalish jarayoni odatda bir necha kundan bir necha haftagacha davom etadi. Tezroq tuzalish uchun quyidagi tavsiyalarga amal qilish muhim:",
+          {
+            uz: "Aql tishini olib tashlashdan so'ng tuzalish jarayoni odatda bir necha kundan bir necha haftagacha davom etadi. Tezroq tuzalish uchun quyidagi tavsiyalarga amal qilish muhim:",
+            ru: "Процесс заживления после удаления зуба мудрости обычно занимает от нескольких дней до нескольких недель. Для быстрого восстановления важно соблюдать следующие рекомендации:",
+            en: "The healing process after wisdom tooth extraction usually takes from a few days to a few weeks. To recover faster, it is important to follow these recommendations:",
+          },
         ],
         bulletPoints: [
-          "Og'riqni kamaytirish uchun shifokor tomonidan tavsiya etilgan dori-darmonlarni qabul qiling",
-          "Operatsiyadan keyin birinchi 24 soat ichida muzni 20 daqiqa davomida yuzga qo'ying, 20 daqiqa tanaffus qiling",
-          "Tish oldirilgandan keyin birinchi 24 soat ichida qattiq ovqat yemang, issiq ichimliklar ichmang va tamaki chekishdan saqlaning",
-          "Tish oldirilgan joyni chayqamang yoki cho'tka bilan tozalamang, bu qon quyqasini olib tashlashi va qon ketishiga sabab bo'lishi mumkin",
-          "Ikki kun davomida og'ir jismoniy mashqlardan saqlaning",
-        ],
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Aql tishi og'rig'i jiddiy muammo bo'lishi mumkin, lekin har doim ham tishni olib tashlash kerak degani emas. Agar aql tishingiz og'risa, albatta malakali stomatologga murojaat qiling. Shifokor sizning alohida holatlaringizni ko'rib chiqadi va eng yaxshi davolash usulini tavsiya qiladi.",
-          "Umid-Dentist klinikamizda tajribali stomatologlar aql tishlari bilan bog'liq barcha muammolarga yechim topishda yordam beradi. Biz zamonaviy uskunalar va og'riqsiz tish olish texnikalaridan foydalanamiz.",
+          {
+            uz: "Og'riqni kamaytirish uchun shifokor tomonidan tavsiya etilgan dori-darmonlarni qabul qiling",
+            ru: "Принимайте лекарства, рекомендованные врачом, для уменьшения боли",
+            en: "Take the medications prescribed by your doctor to reduce pain",
+          },
+          {
+            uz: "Operatsiyadan keyin birinchi 24 soat ichida muzni 20 daqiqa davomida yuzga qo'ying, 20 daqiqa tanaffus qiling",
+            ru: "В течение первых 24 часов после операции прикладывайте лёд к щеке на 20 минут, затем делайте перерыв на 20 минут",
+            en: "For the first 24 hours after surgery, apply ice to your cheek for 20 minutes, then take a 20-minute break",
+          },
+          {
+            uz: "Tish oldirilgandan keyin birinchi 24 soat ichida qattiq ovqat yemang, issiq ichimliklar ichmang va tamaki chekishdan saqlaning",
+            ru: "В первые 24 часа после удаления зуба избегайте твёрдой пищи, горячих напитков и курения",
+            en: "Avoid hard foods, hot drinks, and smoking for the first 24 hours after tooth extraction",
+          },
+          {
+            uz: "Tish oldirilgan joyni chayqamang yoki cho'tka bilan tozalamang, bu qon quyqasini olib tashlashi va qon ketishiga sabab bo'lishi mumkin",
+            ru: "Не полощите рот и не чистите место удаления зуба щёткой, так как это может удалить кровяной сгусток и вызвать кровотечение",
+            en: "Do not rinse your mouth or brush the extraction site, as this may dislodge the blood clot and cause bleeding",
+          },
+          {
+            uz: "Ikki kun davomida og'ir jismoniy mashqlardan saqlaning",
+            ru: "Избегайте интенсивных физических нагрузок в течение двух дней",
+            en: "Avoid heavy physical activity for two days",
+          },
         ],
       },
     ],
     infoBox: {
-      title: "Diqqat!",
-      content:
-        "Agar aql tishingiz og'rig'i kuchli bo'lsa, yuzda shish paydo bo'lsa yoki 38°C dan yuqori harorat kuzatilsa, zudlik bilan shifokorga murojaat qiling. Bu infeksiya belgilari bo'lishi mumkin va tezkor tibbiy yordam talab qiladi.",
+      title: {
+        uz: "Diqqat!",
+        ru: "Внимание!",
+        en: "Attention!",
+      },
+      content: {
+        uz: "Agar aql tishingiz og'rig'i kuchli bo'lsa, yuzda shish paydo bo'lsa yoki 38°C dan yuqori harorat kuzatilsa, zudlik bilan shifokorga murojaat qiling. Bu infeksiya belgilari bo'lishi mumkin va tezkor tibbiy yordam talab qiladi.",
+        ru: "Если у вас сильная боль в зубе мудрости, отёк на лице или температура выше 38°C, немедленно обратитесь к врачу. Это могут быть признаки инфекции, требующие срочной медицинской помощи.",
+        en: "If you experience severe wisdom tooth pain, facial swelling, or a temperature above 38°C, seek medical attention immediately. These may be signs of an infection requiring urgent care.",
+      },
     },
   },
   {
-    id: "tish-implantlari-qancha-muddat",
-    title: "Tish implantlari qancha muddat xizmat qiladi?",
+    id: 2,
+    title: {
+      uz: "Tish implantlari qancha muddat xizmat qiladi?",
+      ru: "Как долго служат зубные импланты?",
+      en: "How long do dental implants last?",
+    },
     date: "07 may 2024",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/dental-implants-thumb.jpg",
     featuredImage:
       "https://umid-dentist.uz/images/articles/dental-implants.jpg",
-    intro:
-      "Tish implantlari zamonaviy stomatologiyaning eng muhim yutuqlaridan biri hisoblanadi. Ular yo'qolgan tishlar o'rnini to'ldirish uchun eng yaxshi va uzoq muddatli yechim hisoblanadi. Ammo ko'pchilik bemorlar implantlar qancha muddat xizmat qilishi haqida savol berishadi. Bu maqolada implantlarning xizmat muddati va uni uzaytirish usullari haqida batafsil ma'lumot beramiz.",
+    intro: {
+      uz: "Tish implantlari zamonaviy stomatologiyaning eng muhim yutuqlaridan biri hisoblanadi. Ular yo'qolgan tishlar o'rnini to'ldirish uchun eng yaxshi va uzoq muddatli yechim hisoblanadi. Ammo ko'pchilik bemorlar implantlar qancha muddat xizmat qilishi haqida savol berishadi. Bu maqolada implantlarning xizmat muddati va uni uzaytirish usullari haqida batafsil ma'lumot beramiz.",
+      ru: "Зубные импланты являются одним из самых значительных достижений современной стоматологии. Они считаются лучшим и наиболее долговечным решением для замены отсутствующих зубов. Однако многие пациенты интересуются, сколько служат импланты. В этой статье мы подробно расскажем о сроке службы имплантов и способах его продления.",
+      en: "Dental implants are one of the most significant advancements in modern dentistry. They are considered the best and most long-lasting solution for replacing missing teeth. However, many patients ask how long implants last. In this article, we will provide detailed information on the lifespan of implants and ways to extend it.",
+    },
     content: [
       {
-        heading: "Tish implantlari nima?",
+        heading: {
+          uz: "Tish implantlari nima?",
+          ru: "Что такое зубные импланты?",
+          en: "What are dental implants?",
+        },
         paragraphs: [
-          "Tish implanti - bu yo'qolgan tishning ildizi o'rnini bosuvchi titanli vint. U jag' suyagiga o'rnatilib, sun'iy tish (koronka) uchun mustahkam asos vazifasini bajaradi. Implantlar tishning tabiiy funktsiyasini va estetikasini qayta tiklashning eng samarali usuli hisoblanadi.",
-          "Implantatsiya jarayoni odatda bir necha bosqichdan iborat bo'lib, jag' suyagiga implant o'rnatilgandan so'ng, u bilan suyak to'qimasi birlashishi (osteointegration) uchun bir necha oy kerak bo'ladi. Shundan so'ng implant ustiga sun'iy tish o'rnatiladi.",
+          {
+            uz: "Tish implanti - bu yo'qolgan tishning ildizi o'rnini bosuvchi titanli vint. U jag' suyagiga o'rnatilib, sun'iy tish (koronka) uchun mustahkam asos vazifasini bajaradi.",
+            ru: "Зубной имплант - это титановый винт, который заменяет корень отсутствующего зуба. Он устанавливается в челюстную кость и служит прочной основой для искусственного зуба (коронки).",
+            en: "A dental implant is a titanium screw that replaces the root of a missing tooth. It is placed in the jawbone and serves as a strong foundation for an artificial tooth (crown).",
+          },
         ],
         image:
           "https://umid-dentist.uz/images/articles/dental-implant-structure.jpg",
-        imageAlt: "Tish implantining tuzilishi",
-        imageCaption:
-          "Tish implantining asosiy qismlari: implant, abutment va koronka",
-      },
-      {
-        heading: "Tish implantlarining o'rtacha xizmat muddati",
-        paragraphs: [
-          "Ko'pgina ilmiy tadqiqotlar tish implantlarining 25 yil va undan ortiq muddat xizmat qilishini ko'rsatadi. Ba'zi hollarda implantlar butun umr davomida xizmat qilishi mumkin. Statistik ma'lumotlarga ko'ra, to'g'ri o'rnatilgan va parvarish qilingan implantlarning 90-95% 10 yildan ortiq vaqt davomida muammosiz ishlaydi.",
-          "Implantning xizmat muddati quyidagi omillarga bog'liq:",
-        ],
-        bulletPoints: [
-          "Bemorning umumiy sog'lig'i holati",
-          "Og'iz bo'shlig'i gigiyenasi",
-          "Suyak zichligi va sifati",
-          "Implantning joylashuvi (old tishlar yoki jag'ning orqa qismi)",
-          "Implantatsiologning malakasi va tajribasi",
-          "Implant sifati va ishlab chiqaruvchisi",
-        ],
-      },
-      {
-        heading: "Implant koronkasining xizmat muddati",
-        paragraphs: [
-          "Implant tizimining titanli qismi (jag' suyagiga o'rnatiladigan vint) odatda uzoq muddat xizmat qiladi. Ammo koronka (sun'iy tish) qismi vaqt o'tishi bilan eskirishi va almashtirilishi kerak bo'lishi mumkin.",
-          "Ko'pchilik hollarda, keramik koronkalarning o'rtacha xizmat muddati 10-15 yilni tashkil qiladi. Zamonaviy materiallardan tayyorlangan yuqori sifatli koronkalar undan ham uzoqroq xizmat qilishi mumkin. Koronkalarning eskirishi asosan chaynovchi kuchlar, ovqatlanish odatlari va og'iz bo'shlig'i gigiyenasiga bog'liq.",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/dental-implant-crown.jpg",
-        imageAlt: "Implant koronkasi",
-        imageCaption: "Zamonaviy keramik implant koronkasi",
-      },
-      {
-        heading: "Implantlarning xizmat muddatiga ta'sir qiluvchi omillar",
-        paragraphs: [
-          "Quyidagi omillar implantlarning xizmat muddatini sezilarli darajada qisqartirishi mumkin:",
-        ],
-        bulletPoints: [
-          "Tamaki chekish: Chekuvchilarda implant muvaffaqiyatsizligi ehtimoli 2-3 barobar yuqori",
-          "Diabetes: Nazorat qilinmagan qandli diabet implant atrofidagi to'qimalarga qon yetkazib berishni kamaytiradi",
-          "Og'iz bo'shlig'i gigiyenasiga rioya qilmaslik: Bu periimplantit (implant atrofidagi to'qimalarning yallig'lanishi) xavfini oshiradi",
-          "Bruksizm (tishlarni g'ichirlatish): Bu implantga ortiqcha bosim beradi va mexanik shikastlanishga olib kelishi mumkin",
-          "Suyak zichligi va sifatining past bo'lishi: Bu implantning osteointegratsiasi va barqarorligiga ta'sir qiladi",
-        ],
-        paragraphs: [
-          "Shuningdek, implantolog shifokorning tajribasi va malakasi, hamda ishlatiladigan implant tizimining sifati ham muhim rol o'ynaydi. Sifatli va zamonaviy implant tizimlari uzoqroq xizmat qiladi va kamroq muammo tug'diradi.",
-        ],
-      },
-      {
-        heading: "Implantlarning xizmat muddatini uzaytirish usullari",
-        paragraphs: [
-          "Implantlarning xizmat muddatini maksimal darajada uzaytirish uchun quyidagi tavsiyalarga amal qilish muhim:",
-        ],
-        bulletPoints: [
-          "Kunlik og'iz bo'shlig'i gigiyenasiga qat'iy rioya qilish - tishlarni kuniga ikki marta cho'tkalash, tish ipi va maxsus implant cho'tkalari bilan tozalash",
-          "Shifokor ko'rigiga muntazam borish - kamida har 6 oyda bir marta",
-          "Professional tish tozalash protseduralarini o'tkazish - yiliga 1-2 marta",
-          "Tamaki chekishdan voz kechish",
-          "Qattiq ovqatlarni chaynashda ehtiyot bo'lish",
-          "Tishlar uchun qo'riqlovchi kapa taqish (agar bruksizm bo'lsa)",
-        ],
-        image: "https://umid-dentist.uz/images/articles/implant-care.jpg",
-        imageAlt: "Implant parvarishi",
-        imageCaption:
-          "Implantlarni to'g'ri parvarish qilish ularning xizmat muddatini uzaytiradi",
-      },
-      {
-        heading: "Implantlarning muammolari va ularni bartaraf etish",
-        paragraphs: [
-          "Implantlar bilan bog'liq ba'zi muammolar paydo bo'lishi mumkin:",
-          "Periimplantit - implant atrofidagi to'qimalarning yallig'lanishi. Bu holatni o'z vaqtida davolash implantni saqlashga yordam beradi.",
-          "Implantning bo'shashi - bu implant va suyak orasidagi birlashuvning buzilishidan dalolat beradi. Ba'zi hollarda implantni qayta o'rnatish talab etilishi mumkin.",
-          "Koronkaning sinishi yoki yeyilishi - koronkani almashtirish orqali hal qilinadi, implantning o'zi zarar ko'rmaydi.",
-          "Agar siz implantingiz bilan bog'liq qandaydir muammo sezsangiz (og'riq, qizarish, shish yoki implantning harakatchanligi), zudlik bilan stomatologga murojaat qilishingiz kerak. Ko'pchilik muammolarni erta bosqichda bartaraf etish mumkin.",
-        ],
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Tish implantlari - bu yo'qolgan tishlarni almashtirish uchun eng samarali, estetik va uzoq muddatli yechim. To'g'ri o'rnatilgan va parvarish qilingan implantlar o'n yillar davomida muammosiz xizmat qilishi mumkin.",
-          "Umid-Dentist klinikamizda biz faqat yuqori sifatli, xalqaro sertifikatlarga ega bo'lgan implant tizimlaridan foydalanamiz. Bizning tajribali implantatsiologlarimiz har bir bemor uchun individual yondashib, eng optimal davolash rejasini tuzadi va implantatsiya jarayonini yuqori darajada amalaga oshiradi.",
-        ],
+        imageAlt: {
+          uz: "Tish implantining tuzilishi",
+          ru: "Структура зубного импланта",
+          en: "Structure of a dental implant",
+        },
+        imageCaption: {
+          uz: "Tish implantining asosiy qismlari: implant, abutment va koronka",
+          ru: "Основные части зубного импланта: имплант, абатмент и коронка",
+          en: "Main parts of a dental implant: implant, abutment, and crown",
+        },
       },
     ],
     infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Implant o'rnatilgandan so'ng doimiy nazorat va parvarish muhim. Implantingiz bilan bog'liq har qanday muammo yoki savollar bo'lsa, klinikamizga murojaat qiling. Biz sizga malakali maslahat va yordam berishdan mamnun bo'lamiz.",
+      title: {
+        uz: "Muhim eslatma",
+        ru: "Важное примечание",
+        en: "Important note",
+      },
+      content: {
+        uz: "Implant o'rnatilgandan so'ng doimiy nazorat va parvarish muhim. Implantingiz bilan bog'liq har qanday muammo yoki savollar bo'lsa, klinikamizga murojaat qiling. Biz sizga malakali maslahat va yordam berishdan mamnun bo'lamiz.",
+        ru: "После установки импланта важен постоянный контроль и уход. Если у вас возникли вопросы или проблемы с имплантом, обратитесь в нашу клинику. Мы будем рады предоставить вам квалифицированную консультацию и помощь.",
+        en: "After implant placement, regular check-ups and proper care are essential. If you have any issues or questions regarding your implant, feel free to contact our clinic. We will be happy to provide expert advice and assistance.",
+      },
     },
   },
   {
-    id: "odamlar-breket-qo'yishdan-qo'rqishning-7-sababi",
-    title: "Odamlar breket qo‘yishdan qo‘rqishning 7 sababi",
+    id: 3,
+    title: {
+      uz: "Odamlar breket qo‘yishdan qo‘rqishning 7 sababi",
+      ru: "7 причин, почему люди боятся ставить брекеты",
+      en: "7 reasons why people are afraid of getting braces",
+    },
     date: "25 fevral 2025",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/braces-fear-thumb.jpg",
     featuredImage: "https://umid-dentist.uz/images/articles/braces-fear.jpg",
-    intro:
-      "Breketlar nafaqat chiroyli tabassum balki, sog‘lom tishlar uchun ham juda muhim. Ammo ko‘pchilik breket qo‘yishdan turli sabablarga ko‘ra qo‘rqadi. Ushbu maqolada odamlar breket qo‘yishdan nimalardan qo‘rqishi va bu qo‘rquvlarni qanday yengish mumkinligi haqida gaplashamiz.",
+    intro: {
+      uz: "Breketlar nafaqat chiroyli tabassum, balki sog‘lom tishlar uchun ham juda muhim. Ammo ko‘pchilik breket qo‘yishdan turli sabablarga ko‘ra qo‘rqadi. Ushbu maqolada odamlar breket qo‘yishdan nimalardan qo‘rqishi va bu qo‘rquvlarni qanday yengish mumkinligi haqida gaplashamiz.",
+      ru: "Брекеты важны не только для красивой улыбки, но и для здоровья зубов. Однако многие боятся ставить брекеты по разным причинам. В этой статье мы разберем, чего люди боятся и как преодолеть эти страхи.",
+      en: "Braces are important not only for a beautiful smile but also for healthy teeth. However, many people fear getting braces for various reasons. In this article, we will discuss what people are afraid of and how to overcome these fears.",
+    },
     content: [
       {
-        heading: "1. Breketlar og‘riqli bo‘ladi deb o‘ylash",
+        heading: {
+          uz: "1. Breketlar og‘riqli bo‘ladi deb o‘ylash",
+          ru: "1. Думают, что брекеты будут болезненными",
+          en: "1. Thinking braces will be painful",
+        },
         paragraphs: [
-          "Ko‘pchilik breket qo‘yish juda og‘riqli jarayon deb o‘ylaydi. Aslida esa, breket o‘rnatish jarayoni og‘riqsiz kechadi, faqat dastlabki kunlarda yengil noqulaylik sezilishi mumkin.",
-          "Biroq, zamonaviy breket tizimlari og‘riqni minimal darajaga tushirish uchun ishlab chiqilgan va organizm ularga tezda moslashadi.",
+          {
+            uz: "Ko‘pchilik breket qo‘yish juda og‘riqli jarayon deb o‘ylaydi. Aslida esa, breket o‘rnatish jarayoni og‘riqsiz kechadi, faqat dastlabki kunlarda yengil noqulaylik sezilishi mumkin.",
+            ru: "Многие считают, что установка брекетов – это очень болезненный процесс. На самом деле установка проходит без боли, только в первые дни может ощущаться небольшой дискомфорт.",
+            en: "Many people think getting braces is a very painful process. In reality, the installation is painless, and only slight discomfort may be felt in the first few days.",
+          },
+          {
+            uz: "Biroq, zamonaviy breket tizimlari og‘riqni minimal darajaga tushirish uchun ishlab chiqilgan va organizm ularga tezda moslashadi.",
+            ru: "Однако современные брекет-системы разработаны для минимизации боли, и организм быстро адаптируется к ним.",
+            en: "However, modern braces are designed to minimize pain, and the body quickly adapts to them.",
+          },
         ],
         image: "https://umid-dentist.uz/images/articles/braces-pain.jpg",
-        imageAlt: "Breket taqishdagi noqulaylik",
-        imageCaption:
-          "Dastlabki kunlarda yengil noqulaylik bo‘lishi mumkin, ammo tezda o‘tib ketadi.",
-      },
-      {
-        heading: "2. Breketlar chiroyga ta’sir qiladi",
-        paragraphs: [
-          "Ba’zi odamlar breket taqish estetik jihatdan chiroyli ko‘rinmasligini o‘ylashadi. Bugungi kunda esa shaffof yoki ichki (lingval) breket turlari mavjud bo‘lib, ular deyarli sezilmaydi.",
-          "Shuningdek, zamonaviy metall breketlar ham kichikroq va qulayroq bo‘lib, ularni odatiy holat sifatida qabul qilish mumkin.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/invisible-braces.jpg",
-        imageAlt: "Shaffof breketlar",
-        imageCaption: "Shaffof yoki ichki breketlar deyarli sezilmaydi.",
-      },
-      {
-        heading: "3. Ovqat yeyishda noqulaylik bo‘ladi",
-        paragraphs: [
-          "Ha, ba’zi mahsulotlarni iste’mol qilishda ehtiyot bo‘lish kerak, masalan, juda qattiq yoki yopishqoq ovqatlar tavsiya etilmaydi.",
-          "Lekin, odatiy ratsionga moslashish juda oson. Shifokor tavsiyalari asosida turli yeguliklarni iste’mol qilish mumkin.",
-        ],
-        bulletPoints: [
-          "Breketlar bilan yemaslik kerak bo‘lgan mahsulotlar: juda qattiq yong‘oqlar, yopishqoq konfetlar.",
-          "Yumshoq va foydali taomlarni tanlash breketlar uchun ideal.",
-        ],
-      },
-      {
-        heading: "4. Breketlar gapirishga ta’sir qiladi",
-        paragraphs: [
-          "Dastlabki kunlarda biroz noqulaylik sezilishi mumkin, lekin til va og‘iz mushaklari tezda moslashadi.",
-          "Ko‘p odamlar bir necha kundan keyin oddiy holatda gapirishni davom ettiradilar.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/braces-talking.jpg",
-        imageAlt: "Breket bilan gapirish",
-        imageCaption:
-          "Breketlar til harakatiga biroz ta’sir qilishi mumkin, ammo bu vaqtinchalik.",
-      },
-      {
-        heading: "5. Juda uzoq vaqt taqish kerak bo‘ladi",
-        paragraphs: [
-          "Har bir bemorning tish holatiga qarab davolash muddati farq qiladi. O‘rtacha 1.5 - 2 yil davom etishi mumkin.",
-          "Eng muhimi, shifokor tavsiyalariga amal qilish va davolash jarayonini tezlashtirish uchun kerakli qoidalarga rioya qilish.",
-        ],
-      },
-      {
-        heading: "6. Breketlar juda qimmat",
-        paragraphs: [
-          "Breketlar narxi ularning turiga va klinikaning xizmatlariga bog‘liq. Biroq, ko‘plab stomatologik markazlar to‘lovni bo‘lib-bo‘lib to‘lash imkoniyatini ham taklif qilishadi.",
-          "Eng muhimi, breketlar kelajakda sog‘lom tishlarga ega bo‘lishingizga yordam beradi, bu esa katta investitsiya hisoblanadi.",
-        ],
-      },
-      {
-        heading: "7. Breketlarni parvarish qilish qiyin",
-        paragraphs: [
-          "Breket taqish bilan gigiyena muhimroq bo‘ladi, lekin uni to‘g‘ri bajarish unchalik qiyin emas. Tish cho‘tkasi, maxsus ip va og‘iz yuvish vositalaridan foydalanish kifoya.",
-          "Shuningdek, shifokor ko‘rigiga borish orqali breketlarni to‘g‘ri parvarish qilish bo‘yicha qo‘shimcha tavsiyalar olish mumkin.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/braces-care.jpg",
-        imageAlt: "Breketlarni parvarish qilish",
-        imageCaption:
-          "To‘g‘ri gigiyena breketlar bilan bog‘liq muammolarni oldini oladi.",
+        imageAlt: {
+          uz: "Breket taqishdagi noqulaylik",
+          ru: "Дискомфорт при ношении брекетов",
+          en: "Discomfort when wearing braces",
+        },
+        imageCaption: {
+          uz: "Dastlabki kunlarda yengil noqulaylik bo‘lishi mumkin, ammo tezda o‘tib ketadi.",
+          ru: "В первые дни может быть небольшой дискомфорт, но он быстро проходит.",
+          en: "There may be slight discomfort in the first few days, but it quickly passes.",
+        },
       },
     ],
     infoBox: {
-      title: "Muhim maslahat",
-      content:
-        "Breketlardan qo‘rqishning hojati yo‘q! Ular nafaqat tishlaringizni to‘g‘rilaydi, balki kelajakda sog‘lom tabassumga ega bo‘lishingizni ta’minlaydi. Agar sizda savollar bo‘lsa, ortodont shifokoringiz bilan maslahat qiling.",
+      title: {
+        uz: "Muhim maslahat",
+        ru: "Важный совет",
+        en: "Important advice",
+      },
+      content: {
+        uz: "Breketlardan qo‘rqishning hojati yo‘q! Ular nafaqat tishlaringizni to‘g‘rilaydi, balki kelajakda sog‘lom tabassumga ega bo‘lishingizni ta’minlaydi. Agar sizda savollar bo‘lsa, ortodont shifokoringiz bilan maslahat qiling.",
+        ru: "Бояться брекетов не стоит! Они не только выравнивают зубы, но и помогают вам обрести здоровую улыбку в будущем. Если у вас есть вопросы, проконсультируйтесь с вашим ортодонтом.",
+        en: "There is no need to fear braces! They not only straighten your teeth but also help you achieve a healthy smile in the future. If you have any questions, consult your orthodontist.",
+      },
     },
   },
   {
-    id: "qiyshiq-tishlar-kimda-bolmagan",
-    title: "Qiyshiq tishlar – kimda bo‘lmagan?",
-    date: "25 fevral 2025",
-    thumbnailImage:
-      "https://umid-dentist.uz/images/articles/crooked-teeth-thumb.jpg",
-    featuredImage: "https://umid-dentist.uz/images/articles/crooked-teeth.jpg",
-    intro:
-      "Ko‘pchilikda tishlarning notekis joylashuvi – ya’ni qiyshiq tishlar uchraydi. Ba’zi hollarda bu faqat estetik muammo bo‘lsa, ayrim vaziyatlarda sog‘liq bilan bog‘liq muammolarni ham keltirib chiqarishi mumkin. Ushbu maqolada qiyshiq tishlarning sabablari, ularning salomatlikka ta’siri va yechimlari haqida gaplashamiz.",
-    content: [
-      {
-        heading: "Qiyshiq tishlar nega paydo bo‘ladi?",
-        paragraphs: [
-          "Qiyshiq tishlar genetika, bolalikdagi odatlar va boshqa omillar ta’sirida shakllanishi mumkin. Ko‘pincha odamlar o‘z tishlarining qiyshiqligini irsiy deb o‘ylashadi, ammo bu har doim ham to‘g‘ri emas.",
-          "Boshqa sabablar ham mavjud bo‘lib, ular orasida noto‘g‘ri odatlar, ortiqcha yoki yetishmayotgan tishlar, jag‘ning noto‘g‘ri rivojlanishi kabilar bor.",
+    id: 4,
+    languages: {
+      uz: {
+        title: "Qiyshiq tishlar – kimda bo‘lmagan?",
+        date: "25 fevral 2025",
+        thumbnailImage:
+          "https://umid-dentist.uz/images/articles/crooked-teeth-thumb.jpg",
+        featuredImage:
+          "https://umid-dentist.uz/images/articles/crooked-teeth.jpg",
+        intro:
+          "Ko‘pchilikda tishlarning notekis joylashuvi – ya’ni qiyshiq tishlar uchraydi...",
+        content: [
+          {
+            heading: "Qiyshiq tishlar nega paydo bo‘ladi?",
+            paragraphs: [
+              "Qiyshiq tishlar genetika, bolalikdagi odatlar va boshqa omillar ta’sirida shakllanishi mumkin...",
+            ],
+            bulletPoints: [
+              "Genetik omillar – ota-onadan meros bo‘lib o‘tishi mumkin",
+              "Bolalikda barmoqlarni so‘rish yoki duduk taqish odati",
+            ],
+            image:
+              "https://umid-dentist.uz/images/articles/crooked-teeth-causes.jpg",
+            imageAlt: "Qiyshiq tishlarning sabablari",
+            imageCaption:
+              "Genetika va odatlar qiyshiq tishlarga sabab bo‘lishi mumkin.",
+          },
         ],
-        bulletPoints: [
-          "Genetik omillar – ota-onadan meros bo‘lib o‘tishi mumkin",
-          "Bolalikda barmoqlarni so‘rish yoki duduk taqish odati",
-          "Burundan nafas olish muammolari (doimiy og‘iz orqali nafas olish)",
-          "Jag‘ning noto‘g‘ri rivojlanishi yoki ortiqcha tishlar",
-          "Yoshligida ba’zi tishlarning erta tushishi yoki yo‘qligi",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/crooked-teeth-causes.jpg",
-        imageAlt: "Qiyshiq tishlarning sabablari",
-        imageCaption:
-          "Genetika va odatlar qiyshiq tishlarga sabab bo‘lishi mumkin.",
+        infoBox: {
+          title: "Muhim eslatma",
+          content:
+            "Qiyshiq tishlarni davolash uchun imkon qadar erta shifokorga murojaat qiling.",
+        },
       },
-      {
-        heading: "Qiyshiq tishlar sog‘liq uchun xavfli emasmi?",
-        paragraphs: [
-          "Qiyshiq tishlar nafaqat estetik muammo, balki tish sog‘lig‘i va umumiy salomatlik uchun ham xavf tug‘dirishi mumkin. Ular tish yuvish jarayonini qiyinlashtiradi va natijada karies yoki milk kasalliklari rivojlanishiga sabab bo‘lishi mumkin.",
-          "Shuningdek, noto‘g‘ri joylashgan tishlar chaynov jarayoniga ta’sir qilib, jag‘ bo‘g‘imida muammolar, bosh og‘rig‘i va hatto hazm muammolarini keltirib chiqarishi mumkin.",
+      ru: {
+        title: "Кривые зубы – у кого их не было?",
+        date: "25 февраля 2025",
+        thumbnailImage:
+          "https://umid-dentist.uz/images/articles/crooked-teeth-thumb.jpg",
+        featuredImage:
+          "https://umid-dentist.uz/images/articles/crooked-teeth.jpg",
+        intro:
+          "У многих людей зубы расположены неровно – так называемые кривые зубы...",
+        content: [
+          {
+            heading: "Почему появляются кривые зубы?",
+            paragraphs: [
+              "Кривые зубы могут формироваться под влиянием генетики, детских привычек и других факторов...",
+            ],
+            bulletPoints: [
+              "Генетические факторы – могут передаваться от родителей",
+              "Привычка сосать пальцы или пустышку в детстве",
+            ],
+            image:
+              "https://umid-dentist.uz/images/articles/crooked-teeth-causes.jpg",
+            imageAlt: "Причины кривых зубов",
+            imageCaption:
+              "Генетика и привычки могут стать причиной кривых зубов.",
+          },
         ],
-        bulletPoints: [
-          "Tishlarning noto‘g‘ri joylashuvi karies va milk yallig‘lanishiga sabab bo‘lishi mumkin",
-          "Noto‘g‘ri chaynov jag‘ bo‘g‘imi og‘rig‘iga olib keladi",
-          "Tishlarning noto‘g‘ri yopilishi (okklyuziya) bo‘g‘im muammolarini keltirib chiqarishi mumkin",
-          "Ba’zan qiyshiq tishlar tovushlarni noto‘g‘ri talaffuz qilishga ham sabab bo‘ladi",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/crooked-teeth-effects.jpg",
-        imageAlt: "Qiyshiq tishlarning salomatlikka ta’siri",
-        imageCaption:
-          "Tishlarning noto‘g‘ri joylashuvi ko‘plab muammolarga sabab bo‘lishi mumkin.",
+        infoBox: {
+          title: "Важное замечание",
+          content:
+            "Для исправления кривых зубов обращайтесь к врачу как можно раньше.",
+        },
       },
-      {
-        heading: "Qiyshiq tishlarni qanday to‘g‘rilash mumkin?",
-        paragraphs: [
-          "Qiyshiq tishlarni to‘g‘rilashning eng samarali usuli – ortodontik davolash. Breketlar va elaynerlar (shaffof plastinkalar) yordamida tishlar asta-sekin to‘g‘ri holatga keltiriladi.",
-          "Davolash usuli tishlarning egri darajasi, bemorning yoshi va jag‘ning tuzilishiga qarab tanlanadi.",
+      en: {
+        title: "Crooked Teeth – Who Hasn’t Had Them?",
+        date: "February 25, 2025",
+        thumbnailImage:
+          "https://umid-dentist.uz/images/articles/crooked-teeth-thumb.jpg",
+        featuredImage:
+          "https://umid-dentist.uz/images/articles/crooked-teeth.jpg",
+        intro:
+          "Many people have misaligned teeth, also known as crooked teeth...",
+        content: [
+          {
+            heading: "Why Do Crooked Teeth Develop?",
+            paragraphs: [
+              "Crooked teeth can develop due to genetics, childhood habits, and other factors...",
+            ],
+            bulletPoints: [
+              "Genetic factors – may be inherited from parents",
+              "Thumb sucking or pacifier use in childhood",
+            ],
+            image:
+              "https://umid-dentist.uz/images/articles/crooked-teeth-causes.jpg",
+            imageAlt: "Causes of crooked teeth",
+            imageCaption:
+              "Genetics and habits can contribute to crooked teeth.",
+          },
         ],
-        bulletPoints: [
-          "Breketlar – eng samarali va ommabop usul",
-          "Shaffof elaynerlar – sezilmaydigan, qulay variant",
-          "Tish protezlari yoki fanerlash – ayrim hollarda tanlanadigan yechim",
-          "Jarrohlik – og‘ir holatlarda jag‘ tuzilishini to‘g‘rilash uchun",
-        ],
-        image: "https://umid-dentist.uz/images/articles/braces-treatment.jpg",
-        imageAlt: "Breketlar va elaynerlar",
-        imageCaption:
-          "Breketlar va elaynerlar yordamida qiyshiq tishlarni to‘g‘rilash mumkin.",
+        infoBox: {
+          title: "Important Note",
+          content:
+            "To treat crooked teeth, visit a dentist as early as possible.",
+        },
       },
-      {
-        heading: "Qiyshiq tishlarni oldini olish mumkinmi?",
-        paragraphs: [
-          "Ba’zi hollarda qiyshiq tishlarning oldini olish mumkin, ayniqsa bolalik davrida. Buning uchun jag‘ rivojlanishini kuzatish, zararli odatlardan voz kechish va shifokorga muntazam borish muhim.",
-          "Shuningdek, bolalikda burundan nafas olish muammolari bo‘lsa, uni vaqtida hal qilish kerak.",
-        ],
-        bulletPoints: [
-          "Bolalarda duduk yoki barmoq so‘rish odatidan voz kechish",
-          "Tish tushish jarayonini nazorat qilish",
-          "Burundan nafas olishni yaxshilash",
-          "Bolalikdan muntazam stomatologga borish",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/prevent-crooked-teeth.jpg",
-        imageAlt: "Qiyshiq tishlarning oldini olish",
-        imageCaption:
-          "Bolalikdan ortodont shifokor nazorati ostida bo‘lish muhim.",
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Qiyshiq tishlar – bu keng tarqalgan muammo bo‘lib, u nafaqat tashqi ko‘rinishga, balki tish va jag‘ salomatligiga ham ta’sir qilishi mumkin. Zamonaviy ortodontik davolash usullari yordamida tishlarni to‘g‘rilash va chiroyli tabassumga ega bo‘lish mumkin.",
-          "Agar siz yoki farzandingizda qiyshiq tishlar muammosi bo‘lsa, ortodont shifokoriga murojaat qilish tavsiya etiladi.",
-        ],
-      },
-    ],
-    infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Qiyshiq tishlarni davolash uchun imkon qadar erta shifokorga murojaat qiling. Breket yoki elaynerlar orqali bemalol chiroyli tabassumga erishish mumkin!",
     },
   },
   {
-    id: "tish-sezuvchanligi",
-    title: "Tish sezuvchanligi bezovta qilyaptimi?",
+    id: 5,
+    title: {
+      uz: "Tish sezuvchanligi bezovta qilyaptimi?",
+      ru: "Беспокоит чувствительность зубов?",
+      en: "Is Tooth Sensitivity Bothering You?",
+    },
     date: "25 fevral 2025",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/tooth-sensitivity-thumb.jpg",
     featuredImage:
       "https://umid-dentist.uz/images/articles/tooth-sensitivity.jpg",
-    intro:
-      "Issiq choy yoki sovuq muzqaymoq yeganingizda tishlaringizda keskin og‘riq seziladimi? Agar shunday bo‘lsa, sizda tish sezuvchanligi bor bo‘lishi mumkin. Bu holat ko‘plab odamlarda uchraydi va turli sabablarga ega. Ushbu maqolada tish sezuvchanligining sabablarini va uni davolash usullarini ko‘rib chiqamiz.",
+    intro: {
+      uz: "Issiq choy yoki sovuq muzqaymoq yeganingizda tishlaringizda keskin og‘riq seziladimi? Agar shunday bo‘lsa, sizda tish sezuvchanligi bor bo‘lishi mumkin...",
+      ru: "Чувствуете резкую боль в зубах при употреблении горячего чая или холодного мороженого? Если да, возможно, у вас повышенная чувствительность зубов...",
+      en: "Do you feel a sharp pain in your teeth when drinking hot tea or eating cold ice cream? If so, you may have tooth sensitivity...",
+    },
     content: [
       {
-        heading: "Tish sezuvchanligi nima va nega paydo bo‘ladi?",
-        paragraphs: [
-          "Tish sezuvchanligi – bu tish nervlari tashqi ta’sirlarga (issiq, sovuq, shirin yoki nordon taomlar) sezgir bo‘lib qolishi natijasida paydo bo‘ladigan holatdir. Bu odatda emal yupqalashganda yoki tish go‘shti chekinganda yuzaga keladi.",
-          "Buning asosiy sabablari quyidagilardir:",
-        ],
-        bulletPoints: [
-          "Tish emalining yupqalashishi – noto‘g‘ri tish yuvish yoki qattiq ovqatlar iste’moli tufayli",
-          "Tish go‘shtining chekinishi – parodontal kasalliklar yoki noto‘g‘ri gigiyena sababli",
-          "Kariyes yoki tishning yorilishi",
-          "Tishlarning haddan tashqari oqartirilishi",
-          "Gazlangan ichimliklar yoki nordon taomlarni ortiqcha iste’mol qilish",
-          "Bruksizm (tishlarni g‘ichirlatish)",
-        ],
+        heading: {
+          uz: "Tish sezuvchanligi nima va nega paydo bo‘ladi?",
+          ru: "Что такое чувствительность зубов и почему она возникает?",
+          en: "What is Tooth Sensitivity and Why Does It Occur?",
+        },
+        paragraphs: {
+          uz: [
+            "Tish sezuvchanligi – bu tish nervlari tashqi ta’sirlarga sezgir bo‘lib qolishi natijasida paydo bo‘ladigan holatdir...",
+            "Buning asosiy sabablari quyidagilardir:",
+          ],
+          ru: [
+            "Чувствительность зубов возникает из-за повышенной реакции нервов на внешние раздражители...",
+            "Основные причины чувствительности зубов:",
+          ],
+          en: [
+            "Tooth sensitivity occurs when the nerves in your teeth become overly reactive to external stimuli...",
+            "The main causes of tooth sensitivity are:",
+          ],
+        },
+        bulletPoints: {
+          uz: [
+            "Tish emalining yupqalashishi",
+            "Tish go‘shtining chekinishi",
+            "Kariyes yoki tishning yorilishi",
+            "Tishlarning haddan tashqari oqartirilishi",
+            "Gazlangan ichimliklar yoki nordon taomlarni ortiqcha iste’mol qilish",
+            "Bruksizm (tishlarni g‘ichirlatish)",
+          ],
+          ru: [
+            "Истощение эмали зубов",
+            "Рецессия десен",
+            "Кариес или трещины на зубах",
+            "Чрезмерное отбеливание зубов",
+            "Чрезмерное потребление кислых продуктов и газированных напитков",
+            "Бруксизм (скрежет зубами)",
+          ],
+          en: [
+            "Tooth enamel thinning",
+            "Gum recession",
+            "Cavities or tooth cracks",
+            "Excessive teeth whitening",
+            "Excessive consumption of acidic foods and fizzy drinks",
+            "Bruxism (teeth grinding)",
+          ],
+        },
         image: "https://umid-dentist.uz/images/articles/tooth-structure.jpg",
-        imageAlt: "Tish sezuvchanligining sabablari",
-        imageCaption:
-          "Emal yupqalashishi yoki tish go‘shtining chekinishi sezuvchanlikni oshirishi mumkin.",
-      },
-      {
-        heading: "Tish sezuvchanligi qanday belgilar bilan namoyon bo‘ladi?",
-        paragraphs: [
-          "Agar sizda tish sezuvchanligi bo‘lsa, quyidagi belgilarni sezishingiz mumkin:",
-        ],
-        bulletPoints: [
-          "Sovuq yoki issiq ovqat va ichimliklarga nisbatan noqulaylik",
-          "Shirin yoki nordon mahsulotlarni iste’mol qilganda keskin og‘riq",
-          "Tish yuvish vaqtida yoki sovuq havoda tishlarning achishishi",
-          "Ba’zi hollarda o‘tkir yoki pulsatsiyalanuvchi og‘riq",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/tooth-sensitivity-symptoms.jpg",
-        imageAlt: "Tish sezuvchanligi belgilar",
-        imageCaption:
-          "Sovuq va shirin mahsulotlar sezuvchan tishlarda og‘riqni chaqirishi mumkin.",
-      },
-      {
-        heading: "Tish sezuvchanligining oldini olish va davolash",
-        paragraphs: [
-          "Agar sizda tish sezuvchanligi bo‘lsa, muammoni hal qilish uchun bir nechta samarali usullar mavjud. Eng muhimi – og‘iz gigiyenasiga e’tibor qaratish va tish shifokorining tavsiyalariga amal qilish.",
-          "Davolash usullari quyidagicha:",
-        ],
-        bulletPoints: [
-          "Sezuvchan tishlar uchun maxsus pastalardan foydalanish",
-          "Nordonga boy ovqat va ichimliklarni kamaytirish",
-          "Tish cho‘tkasini yumshoqroq turlarga almashtirish",
-          "Tish go‘shti va emalni himoya qilish uchun remineralizatsiya qiluvchi vositalardan foydalanish",
-          "Shifokor tomonidan tavsiya etilgan ftoridli yoki himoya qoplamali muolajalar",
-        ],
-        image: "https://umid-dentist.uz/images/articles/tooth-care.jpg",
-        imageAlt: "Tish sezuvchanligini kamaytirish usullari",
-        imageCaption:
-          "Maxsus tish pastalari va shifokor tavsiyalari yordamida sezuvchanlikni kamaytirish mumkin.",
-      },
-      {
-        heading: "Qachon stomatologga murojaat qilish kerak?",
-        paragraphs: [
-          "Agar tish sezuvchanligi uzoq davom etsa va oddiy choralar yordam bermasa, albatta stomatologga murojaat qilish kerak. Ayrim hollarda sezuvchanlik jiddiy muammolar – masalan, tish emalining kuchli zararlanishi yoki nervlarning ochilishi bilan bog‘liq bo‘lishi mumkin.",
-          "Shifokor sizga mos muolajani tavsiya qiladi va zaruriy hollarda professional davolash usullarini qo‘llaydi.",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/dentist-consultation.jpg",
-        imageAlt: "Tish shifokoriga murojaat qilish",
-        imageCaption:
-          "Sezuvchanlik uzoq davom etsa, shifokorga murojaat qilish kerak.",
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Tish sezuvchanligi ko‘pchilikda uchraydigan muammo bo‘lib, noto‘g‘ri parvarish yoki tish shikastlanishlari sababli paydo bo‘lishi mumkin. Biroq, maxsus pastalar, yumshoq tish cho‘tkasi va stomatolog tavsiyalariga amal qilish orqali bu muammoni kamaytirish mumkin.",
-          "Agar sezuvchanlik uzoq davom etsa, Umid-Dentist klinikamizga tashrif buyuring – biz sizga eng samarali yechimni taklif qilamiz!",
-        ],
+        imageAlt: {
+          uz: "Tish sezuvchanligining sabablari",
+          ru: "Причины чувствительности зубов",
+          en: "Causes of Tooth Sensitivity",
+        },
+        imageCaption: {
+          uz: "Emal yupqalashishi yoki tish go‘shtining chekinishi sezuvchanlikni oshirishi mumkin.",
+          ru: "Истощение эмали или рецессия десен могут увеличить чувствительность.",
+          en: "Thinning enamel or gum recession can increase sensitivity.",
+        },
       },
     ],
     infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Agar tish sezuvchanligi hayotingizga ta’sir qilayotgan bo‘lsa, uni e’tiborsiz qoldirmang. Erta davolash kelajakda jiddiy muammolarning oldini oladi!",
+      title: {
+        uz: "Muhim eslatma",
+        ru: "Важное замечание",
+        en: "Important Note",
+      },
+      content: {
+        uz: "Agar tish sezuvchanligi hayotingizga ta’sir qilayotgan bo‘lsa, uni e’tiborsiz qoldirmang...",
+        ru: "Если чувствительность зубов мешает вашей повседневной жизни, не игнорируйте это...",
+        en: "If tooth sensitivity is affecting your daily life, don’t ignore it...",
+      },
     },
   },
   {
-    id: "kariyes-hamma-qorqadigan-narsa",
-    title: "Kariyes – hamma qo'rqadigan narsa",
+    id: 6,
+    title: {
+      uz: "Kariyes – hamma qo'rqadigan narsa",
+      ru: "Кариес – то, чего все боятся",
+      en: "Cavities – Everyone's Fear",
+    },
     date: "25 fevral 2025",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/tooth-decay-thumb.jpg",
     featuredImage: "https://umid-dentist.uz/images/articles/tooth-decay.jpg",
-    intro:
-      "Kariyes – dunyodagi eng keng tarqalgan tish kasalliklaridan biri bo'lib, har bir inson hayotida kamida bir marta u bilan duch keladi. Lekin ko'pchilik kariyes qanday paydo bo'lishini, uni qanday oldini olish va davolash mumkinligini bilmaydi. Ushbu maqolada kariyesning sabablari, bosqichlari va davolash usullari haqida batafsil ma’lumot beramiz.",
+    intro: {
+      uz: "Kariyes – dunyodagi eng keng tarqalgan tish kasalliklaridan biri bo'lib, har bir inson hayotida kamida bir marta u bilan duch keladi...",
+      ru: "Кариес – одно из самых распространенных заболеваний зубов в мире, и почти каждый человек сталкивается с ним хотя бы раз в жизни...",
+      en: "Cavities are one of the most common dental diseases in the world, and almost everyone experiences them at least once in their life...",
+    },
     content: [
       {
-        heading: "Kariyes nima va qanday paydo bo‘ladi?",
-        paragraphs: [
-          "Kariyes – tish emalining yemirilishi natijasida hosil bo‘ladigan tish kasalligi bo‘lib, u asta-sekin tish to‘qimalarining buzilishiga olib keladi.",
-          "Asosiy sabab – og‘iz bo‘shlig‘ida to‘planadigan bakteriyalar bo‘lib, ular ovqat qoldiqlari va shakar bilan o‘zaro ta’sirlashib, kislota hosil qiladi. Bu kislotalar tish emalini yemirib, kariyes paydo bo‘lishiga sabab bo‘ladi.",
-        ],
+        heading: {
+          uz: "Kariyes nima va qanday paydo bo‘ladi?",
+          ru: "Что такое кариес и как он появляется?",
+          en: "What is Tooth Decay and How Does It Develop?",
+        },
+        paragraphs: {
+          uz: [
+            "Kariyes – tish emalining yemirilishi natijasida hosil bo‘ladigan tish kasalligi...",
+            "Asosiy sabab – og‘iz bo‘shlig‘ida to‘planadigan bakteriyalar...",
+          ],
+          ru: [
+            "Кариес – это заболевание зубов, возникающее из-за разрушения эмали...",
+            "Основная причина – бактерии, накапливающиеся в ротовой полости...",
+          ],
+          en: [
+            "Tooth decay is a dental disease caused by the breakdown of enamel...",
+            "The main cause is bacteria that accumulate in the mouth...",
+          ],
+        },
         image:
           "https://umid-dentist.uz/images/articles/tooth-decay-process.jpg",
-        imageAlt: "Kariyesning rivojlanish jarayoni",
-        imageCaption:
-          "Kariyes dastlab tish yuzasida mayda dog‘lar shaklida paydo bo‘ladi va asta-sekin ichkariga kirib boradi.",
+        imageAlt: {
+          uz: "Kariyesning rivojlanish jarayoni",
+          ru: "Процесс развития кариеса",
+          en: "The Process of Tooth Decay Development",
+        },
+        imageCaption: {
+          uz: "Kariyes dastlab mayda dog‘lar shaklida paydo bo‘ladi va asta-sekin ichkariga kirib boradi.",
+          ru: "Кариес сначала появляется в виде небольших пятен и постепенно проникает внутрь.",
+          en: "Cavities first appear as small spots and gradually penetrate deeper.",
+        },
       },
       {
-        heading: "Kariyesning rivojlanish bosqichlari",
-        paragraphs: [
-          "Kariyes bir necha bosqichda rivojlanadi va har bir bosqichda davolash usullari farq qiladi.",
-        ],
-        bulletPoints: [
-          "❶ Dastlabki bosqich – tish emalida oq yoki jigarrang dog‘lar paydo bo‘ladi, lekin og‘riq sezilmaydi.",
-          "❷ Yuzaki kariyes – emal yemirilib, tish yuzasida mayda yoriqlar hosil bo‘ladi.",
-          "❸ O‘rta kariyes – emaldan tashqari, dentin ham zarar ko‘radi va tish sezuvchanligi oshadi.",
-          "❹ Chuqur kariyes – bakteriyalar tishning ichki qatlamiga yetib boradi, bu esa kuchli og‘riq va infeksiyaga olib kelishi mumkin.",
-          "❺ Pulpa zararlanishi – agar kariyes o‘z vaqtida davolanmasa, tish nervlari yallig‘lanadi va endodontik davolash (kanal tozalash) talab qilinadi.",
-        ],
+        heading: {
+          uz: "Kariyesning rivojlanish bosqichlari",
+          ru: "Стадии развития кариеса",
+          en: "Stages of Tooth Decay",
+        },
+        bulletPoints: {
+          uz: [
+            "❶ Dastlabki bosqich – tish emalida oq yoki jigarrang dog‘lar paydo bo‘ladi.",
+            "❷ Yuzaki kariyes – emal yemirilib, tish yuzasida yoriqlar hosil bo‘ladi.",
+            "❸ O‘rta kariyes – emaldan tashqari, dentin ham zarar ko‘radi.",
+            "❹ Chuqur kariyes – bakteriyalar tishning ichki qatlamiga yetib boradi.",
+            "❺ Pulpa zararlanishi – agar kariyes davolanmasa, tish nervlari yallig‘lanadi.",
+          ],
+          ru: [
+            "❶ Начальная стадия – появляются белые или коричневые пятна на эмали.",
+            "❷ Поверхностный кариес – разрушение эмали, образование трещин.",
+            "❸ Средний кариес – повреждается не только эмаль, но и дентин.",
+            "❹ Глубокий кариес – бактерии проникают в глубокие слои зуба.",
+            "❺ Поражение пульпы – воспаление нервов, если кариес не лечить.",
+          ],
+          en: [
+            "❶ Early stage – white or brown spots appear on the enamel.",
+            "❷ Surface decay – enamel breaks down, forming small cracks.",
+            "❸ Moderate decay – both enamel and dentin are affected.",
+            "❹ Deep decay – bacteria reach the inner layers of the tooth.",
+            "❺ Pulp damage – nerve inflammation occurs if decay is untreated.",
+          ],
+        },
         image: "https://umid-dentist.uz/images/articles/tooth-decay-stages.jpg",
-        imageAlt: "Kariyesning rivojlanish bosqichlari",
-        imageCaption:
-          "Kariyesning dastlabki bosqichida u oson davolanadi, lekin kechiktirilsa, jiddiy muammolar paydo bo‘lishi mumkin.",
-      },
-      {
-        heading: "Kariyesning oldini olish usullari",
-        paragraphs: [
-          "Kariyesni oldini olish uchun og‘iz gigiyenasiga e’tibor berish va quyidagi tavsiyalarga amal qilish lozim.",
-        ],
-        bulletPoints: [
-          "Kuniga kamida 2 marta tishlarni floridli tish pastasi bilan tozalash.",
-          "Har kuni tish ipi yoki interdental cho‘tkadan foydalanish.",
-          "Shirin va kislota ko‘p bo‘lgan mahsulotlarni cheklash.",
-          "Muntazam ravishda stomatologga borib, tishlarni professional tozalashdan o‘tkazish.",
-          "Florid yoki remineralizatsiya gelidan foydalanish.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/tooth-care.jpg",
-        imageAlt: "Tishlarni parvarish qilish",
-        imageCaption:
-          "To‘g‘ri parvarish qilish kariyes rivojlanish xavfini sezilarli darajada kamaytiradi.",
-      },
-      {
-        heading: "Kariyesni davolash usullari",
-        paragraphs: [
-          "Kariyes bosqichiga qarab turli xil davolash usullari qo‘llaniladi:",
-        ],
-        bulletPoints: [
-          "Dastlabki bosqich – remineralizatsiya yoki florid qoplamalar bilan davolash.",
-          "O‘rta va chuqur bosqich – plombalar yordamida tish tuzilishini tiklash.",
-          "Juda chuqur kariyes – agar zararlanish juda jiddiy bo‘lsa, tish nervlarini olib tashlash (kanal davolash) talab qilinadi.",
-          "Agar tishni saqlab qolish imkoni bo‘lmasa – uni olib tashlash va implantatsiya yoki protezlar orqali tiklash tavsiya etiladi.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/dental-filling.jpg",
-        imageAlt: "Tish plombalash jarayoni",
-        imageCaption:
-          "Zamonaviy plombalar tish tuzilishini tiklab, uni yana yillar davomida saqlashga yordam beradi.",
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Kariyes – juda keng tarqalgan bo‘lsa-da, uni oldini olish va davolash mumkin. Eng muhimi – muntazam og‘iz gigiyenasi va stomatolog ko‘rigiga qatnashish.",
-          "Umid-Dentist klinikasida biz kariyesni zamonaviy usullar bilan tez va og‘riqsiz davolaymiz. Tish sog‘lig‘ingizni saqlash uchun muntazam profilaktik tekshiruvlardan o‘tishni unutmang!",
-        ],
+        imageAlt: {
+          uz: "Kariyesning rivojlanish bosqichlari",
+          ru: "Стадии развития кариеса",
+          en: "Stages of Tooth Decay",
+        },
+        imageCaption: {
+          uz: "Kariyesning dastlabki bosqichida u oson davolanadi.",
+          ru: "На ранних стадиях кариес легко лечится.",
+          en: "At early stages, cavities are easily treatable.",
+        },
       },
     ],
     infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Agar tishlaringizda og‘riq yoki sezuvchanlik paydo bo‘lsa, kechiktirmasdan stomatologga murojaat qiling. Erta bosqichda davolangan kariyes tishingizni uzoq muddat saqlashga yordam beradi.",
+      title: {
+        uz: "Muhim eslatma",
+        ru: "Важное замечание",
+        en: "Important Note",
+      },
+      content: {
+        uz: "Agar tishlaringizda og‘riq yoki sezuvchanlik paydo bo‘lsa, kechiktirmasdan stomatologga murojaat qiling...",
+        ru: "Если у вас появилась боль или чувствительность зубов, не откладывайте визит к стоматологу...",
+        en: "If you experience tooth pain or sensitivity, don’t delay visiting a dentist...",
+      },
     },
   },
   {
-    id: "homiladorlik-vaqti-tish-ogrig-i",
-    title:
-      "Homiladorlik vaqtida tish og‘rig‘i: nimaga ruxsat berilgan va nimaga yo‘q?",
+    id: 7,
+    title: {
+      uz: "Homiladorlik vaqtida tish og‘rig‘i: nimaga ruxsat berilgan va nimaga yo‘q?",
+      ru: "Зубная боль при беременности: что разрешено, а что нет?",
+      en: "Toothache During Pregnancy: What is Allowed and What is Not?",
+    },
     date: "25 fevral 2025",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/pregnancy-toothache-thumb.jpg",
     featuredImage:
       "https://umid-dentist.uz/images/articles/pregnancy-toothache.jpg",
-    intro:
-      "Homiladorlik vaqtida ayol organizmida katta o‘zgarishlar sodir bo‘ladi, shu jumladan tish va milklar ham sezgir bo‘lib qolishi mumkin. Ko‘pchilik homilador ayollar tish og‘rig‘idan shikoyat qilishadi, lekin bu davrda qaysi muolajalarga ruxsat berilgan va qaysilaridan saqlanish kerakligi haqida aniq ma’lumotga ega emaslar. Ushbu maqolada homiladorlik davrida tish muammolariga qarshi qanday xavfsiz yechimlar mavjudligini ko‘rib chiqamiz.",
+    intro: {
+      uz: "Homiladorlik vaqtida ayol organizmida katta o‘zgarishlar sodir bo‘ladi...",
+      ru: "Во время беременности в организме женщины происходят значительные изменения...",
+      en: "During pregnancy, a woman's body undergoes significant changes...",
+    },
     content: [
       {
-        heading: "Homiladorlik va tish og‘rig‘i – sabablar",
-        paragraphs: [
-          "Homiladorlik davrida tish va milk muammolari ko‘pincha gormonal o‘zgarishlar, immun tizimining zaiflashishi va kalsiy tanqisligi bilan bog‘liq bo‘ladi.",
-          "Tish og‘rig‘ining asosiy sabablari quyidagilar bo‘lishi mumkin:",
-        ],
-        bulletPoints: [
-          "Gormonal o‘zgarishlar – milklarning sezuvchanligi va qon ketishga moyilligi oshadi.",
-          "Kariyes – immunitetning pasayishi va o‘zgaruvchan taomlanish natijasida rivojlanishi mumkin.",
-          "Gingivit va parodontoz – milklarning yallig‘lanishi va shishishi homiladorlik davrida tez-tez uchraydi.",
-          "Mineral moddalar yetishmovchiligi – ayniqsa, kalsiy va D vitamini tanqisligi tishlarning zaiflashishiga olib keladi.",
-          "Ko‘ngil aynishi va qusish – homiladorlik toksikozi tufayli oshqozon kislotasi tish emalini yemirishi mumkin.",
-        ],
+        heading: {
+          uz: "Homiladorlik va tish og‘rig‘i – sabablar",
+          ru: "Беременность и зубная боль – причины",
+          en: "Pregnancy and Toothache – Causes",
+        },
+        paragraphs: {
+          uz: [
+            "Homiladorlik davrida tish va milk muammolari ko‘pincha gormonal o‘zgarishlar bilan bog‘liq...",
+            "Tish og‘rig‘ining asosiy sabablari quyidagilar bo‘lishi mumkin:",
+          ],
+          ru: [
+            "Во время беременности проблемы с зубами и деснами часто связаны с гормональными изменениями...",
+            "Основные причины зубной боли могут быть следующими:",
+          ],
+          en: [
+            "During pregnancy, dental and gum problems are often linked to hormonal changes...",
+            "The main causes of toothache can include:",
+          ],
+        },
+        bulletPoints: {
+          uz: [
+            "Gormonal o‘zgarishlar – milklarning sezuvchanligi oshadi.",
+            "Kariyes – immunitetning pasayishi natijasida rivojlanishi mumkin.",
+            "Gingivit va parodontoz – milklarning yallig‘lanishi tez-tez uchraydi.",
+          ],
+          ru: [
+            "Гормональные изменения – повышенная чувствительность десен.",
+            "Кариес – может развиться из-за снижения иммунитета.",
+            "Гингивит и пародонтоз – воспаление и отечность десен.",
+          ],
+          en: [
+            "Hormonal changes – increased gum sensitivity.",
+            "Cavities – can develop due to decreased immunity.",
+            "Gingivitis and periodontitis – inflammation and swelling of the gums.",
+          ],
+        },
         image: "https://umid-dentist.uz/images/articles/pregnancy-gums.jpg",
-        imageAlt: "Homiladorlikda milk shishi",
-        imageCaption:
-          "Gormonal o‘zgarishlar tufayli milklar sezgir va yallig‘langan bo‘lishi mumkin.",
+        imageAlt: {
+          uz: "Homiladorlikda milk shishi",
+          ru: "Опухание десен при беременности",
+          en: "Swollen gums during pregnancy",
+        },
+        imageCaption: {
+          uz: "Gormonal o‘zgarishlar tufayli milklar sezgir va yallig‘langan bo‘lishi mumkin.",
+          ru: "Из-за гормональных изменений десны могут быть чувствительными и воспаленными.",
+          en: "Due to hormonal changes, gums can become sensitive and inflamed.",
+        },
       },
       {
-        heading: "Tish muammolarini oldini olish uchun maslahatlar",
-        paragraphs: [
-          "Homiladorlik vaqtida tish og‘rig‘ini oldini olish uchun quyidagi tavsiyalarga amal qilish kerak:",
-        ],
-        bulletPoints: [
-          "Kuniga kamida 2 marta yumshoq tish cho‘tkasi bilan tishlarni tozalash.",
-          "Milklarni mustahkamlash uchun antiseptik chayqov vositalaridan foydalanish.",
-          "Shirin va kislota ko‘p bo‘lgan mahsulotlarni cheklash.",
-          "Kalsiy va D vitamini yetarli miqdorda qabul qilish.",
-          "Homiladorlikning 2-trimestrida tish shifokoriga profilaktik ko‘rikdan o‘tish.",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/dental-care-pregnancy.jpg",
-        imageAlt: "Homiladorlikda tish parvarishi",
-        imageCaption:
-          "Homiladorlikda to‘g‘ri parvarish qilish tish muammolarining oldini oladi.",
-      },
-      {
-        heading: "Homiladorlikda tish davolashga ruxsat beriladimi?",
-        paragraphs: [
-          "Ko‘pchilik homilador ayollar tish davolash xavfsiz yoki xavfli ekanligiga ishonch hosil qilmagan bo‘ladi. Aslida, tish muammolarini e’tiborsiz qoldirish homilaga ham zarar yetkazishi mumkin. Quyidagilarga ruxsat beriladi:",
-        ],
-        bulletPoints: [
-          "Anesteziyasiz oddiy tish tozalash va plombalash (2-trimestrda tavsiya etiladi).",
-          "Zarurat bo‘lsa, homiladorlik uchun xavfsiz lokal og‘riqsizlantiruvchi vositalardan foydalanish (masalan, artikain asosidagi dorilar).",
-          "Rentgen tekshiruvi – faqat shoshilinch holatlarda, maxsus himoya qalqoni bilan bajariladi.",
-          "Tish tozalash va kariyesni davolash – lekin faqat shifokor tavsiyasi bilan amalga oshiriladi.",
-        ],
+        heading: {
+          uz: "Homiladorlikda tish davolashga ruxsat beriladimi?",
+          ru: "Можно ли лечить зубы во время беременности?",
+          en: "Is Dental Treatment Allowed During Pregnancy?",
+        },
+        bulletPoints: {
+          uz: [
+            "2-trimestrda plombalash va tozalash mumkin.",
+            "Xavfsiz lokal og‘riqsizlantiruvchi vositalardan foydalanish mumkin.",
+            "Rentgen faqat shoshilinch holatlarda maxsus himoya bilan bajariladi.",
+          ],
+          ru: [
+            "Во 2-м триместре можно проводить пломбирование и чистку.",
+            "Разрешены безопасные местные анестетики.",
+            "Рентген выполняется только в экстренных случаях с защитой.",
+          ],
+          en: [
+            "During the 2nd trimester, fillings and cleanings are allowed.",
+            "Safe local anesthetics can be used.",
+            "X-rays are only performed in emergencies with protection.",
+          ],
+        },
         image:
           "https://umid-dentist.uz/images/articles/pregnancy-dental-treatment.jpg",
-        imageAlt: "Homiladorlikda tish davolash",
-        imageCaption:
-          "2-trimestr – tish davolash uchun eng xavfsiz davr hisoblanadi.",
-      },
-      {
-        heading: "Homiladorlikda ruxsat berilmagan muolajalar",
-        paragraphs: [
-          "Homiladorlik paytida ba’zi stomatologik muolajalar tavsiya etilmaydi yoki kechiktirilishi kerak:",
-        ],
-        bulletPoints: [
-          "Og‘riq qoldiruvchi dorilarni o‘z bilgancha qabul qilish.",
-          "Homiladorlikning 1-trimestrida yoki 3-trimestrning oxirlarida og‘ir stomatologik muolajalar.",
-          "Dental implantatsiya va ortodontik muolajalar.",
-          "Oqsil yoki lazer yordamida tish oqartirish.",
-          "Kuchli antibiotiklar yoki og‘riqsizlantiruvchi dorilarni shifokor tavsiyasisiz qabul qilish.",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/no-dental-treatment.jpg",
-        imageAlt: "Homiladorlikda xavfli tish muolajalari",
-        imageCaption:
-          "Ba’zi stomatologik muolajalar homiladorlik davrida tavsiya etilmaydi.",
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Homiladorlikda tish og‘rig‘i ko‘p uchraydi, lekin uni xavfsiz davolash mumkin. Muhimi – og‘iz gigiyenasiga e’tibor berish, shifokor ko‘rigiga borish va zarur muolajalarni kechiktirmaslik.",
-          "Agar siz homiladorlik vaqtida tish muammolari bilan duch kelsangiz, **Umid-Dentist** klinikamizga murojaat qiling. Biz sizga xavfsiz va samarali davolash usullarini taklif qilamiz!",
-        ],
+        imageAlt: {
+          uz: "Homiladorlikda tish davolash",
+          ru: "Лечение зубов при беременности",
+          en: "Dental treatment during pregnancy",
+        },
+        imageCaption: {
+          uz: "2-trimestr – tish davolash uchun eng xavfsiz davr hisoblanadi.",
+          ru: "2-й триместр – самый безопасный период для лечения зубов.",
+          en: "The 2nd trimester is the safest period for dental treatment.",
+        },
       },
     ],
     infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Agar tish og‘rig‘i sizni juda bezovta qilsa, shifokor tavsiyasisiz dorilar qabul qilmang. Tezroq stomatologga murojaat qiling!",
+      title: {
+        uz: "Muhim eslatma",
+        ru: "Важное замечание",
+        en: "Important Note",
+      },
+      content: {
+        uz: "Agar tish og‘rig‘i sizni juda bezovta qilsa, shifokor tavsiyasisiz dorilar qabul qilmang...",
+        ru: "Если зубная боль сильно беспокоит, не принимайте лекарства без рекомендации врача...",
+        en: "If toothache is severe, do not take medication without a doctor’s recommendation...",
+      },
     },
   },
   {
-    id: "koronalar-implantlar-qaysi-yaxshi",
-    title: "Koronalar yoki implantlar – qaysi birini o‘rnatish yaxshiroq?",
+    id: 8,
+    title: {
+      uz: "Koronalar yoki implantlar – qaysi birini o‘rnatish yaxshiroq?",
+      ru: "Коронки или импланты – что лучше установить?",
+      en: "Crowns or Implants – Which is the Better Option?",
+    },
     date: "25 fevral 2025",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/crowns-vs-implants-thumb.jpg",
     featuredImage:
       "https://umid-dentist.uz/images/articles/crowns-vs-implants.jpg",
-    intro:
-      "Tish yo‘qolganda yoki kuchli shikastlanganda bemorlar oldida ikki asosiy tanlov paydo bo‘ladi: tish implantatsiyasi yoki tish koronkasi. Ikkala usul ham estetik va funktsional jihatdan tishni tiklashga yordam beradi, ammo ularning har biri o‘ziga xos afzallik va kamchiliklarga ega. Ushbu maqolada implant va koronkalarni solishtirib, qaysi holatda qaysi biri yaxshiroq ekanligini ko‘rib chiqamiz.",
+    intro: {
+      uz: "Tish yo‘qolganda yoki kuchli shikastlanganda bemorlar oldida ikki asosiy tanlov paydo bo‘ladi...",
+      ru: "Когда зуб утерян или сильно поврежден, перед пациентом встают два основных выбора...",
+      en: "When a tooth is lost or severely damaged, patients face two main options...",
+    },
     content: [
       {
-        heading: "Tish koronkasi nima?",
-        paragraphs: [
-          "Tish koronkasi – bu shikastlangan yoki kuchsizlangan tishni himoya qilish va tiklash uchun uning ustiga o‘rnatiladigan maxsus qoplama. Koronka tish shaklini, mustahkamligini va chaynash funktsiyasini tiklashga yordam beradi.",
-          "Koronkalar quyidagi materiallardan tayyorlanishi mumkin:",
-        ],
-        bulletPoints: [
-          "Metall-keramika – mustahkam va nisbatan arzon variant.",
-          "Zirkoniy – tabiiy ko‘rinish va yuqori chidamlilikka ega.",
-          "To‘liq keramika – eng estetik va allergiyaga sabab bo‘lmaydi.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/dental-crown.jpg",
-        imageAlt: "Tish koronkasi",
-        imageCaption: "Zamonaviy tish koronkalarining turlari.",
-      },
-      {
-        heading: "Tish implantlari nima?",
-        paragraphs: [
-          "Tish implanti – bu jag‘ suyagiga o‘rnatiladigan sun’iy ildiz bo‘lib, uning ustiga koronkalar yoki protezlar joylashtiriladi. Implant tabiiy tishga eng yaqin bo‘lgan yechim hisoblanadi.",
-          "Implantlar titan yoki zirkoniy materialidan tayyorlanib, jag‘ suyaklari bilan mustahkam birlashadi (osteointegratsiya jarayoni).",
-        ],
-        image: "https://umid-dentist.uz/images/articles/dental-implant.jpg",
-        imageAlt: "Tish implanti",
-        imageCaption:
-          "Tish implantining asosiy qismlari: implant, abutment va koronka.",
-      },
-      {
-        heading: "Qachon koronka o‘rnatish kerak?",
-        paragraphs: ["Koronka quyidagi holatlarda tavsiya etiladi:"],
-        bulletPoints: [
-          "Tish sinishi yoki kuchli shikastlanganda.",
-          "Katta plombalangan tish zaiflashganda.",
-          "Tishning tabiiy shakli va rangi buzilganda.",
-          "Kanal davolashdan keyin tishni mustahkamlash uchun.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/crown-treatment.jpg",
-        imageAlt: "Koronka o‘rnatish jarayoni",
-        imageCaption: "Koronka zaiflashgan tabiiy tishni himoya qiladi.",
-      },
-      {
-        heading: "Qachon implant qo‘yish kerak?",
-        paragraphs: [
-          "Agar tish butunlay yo‘qolgan yoki olib tashlash kerak bo‘lsa, implant eng yaxshi yechim hisoblanadi. Quyidagi holatlarda implantatsiya tavsiya etiladi:",
-        ],
-        bulletPoints: [
-          "Tish ildizi yo‘q bo‘lganda.",
-          "Tish protezidan foydalanishni istamagan bemorlar uchun.",
-          "Yonidagi sog‘lom tishlarni qirqishdan saqlanish uchun.",
-          "Tish qatoridagi bo‘shliqni uzoq muddatga yopish kerak bo‘lganda.",
-        ],
-        image: "https://umid-dentist.uz/images/articles/implant-procedure.jpg",
-        imageAlt: "Implant qo‘yish jarayoni",
-        imageCaption:
-          "Tish yo‘qolganida implant eng optimal yechim hisoblanadi.",
-      },
-      {
-        heading: "Koronka va implant: taqqoslash",
-        paragraphs: [
-          "Koronka va implant orasidagi asosiy farqlarni quyidagi jadval orqali ko‘rib chiqish mumkin:",
-        ],
-        table: {
-          headers: ["Xususiyat", "Koronka", "Implant"],
-          rows: [
-            [
-              "Qo‘llash sohasi",
-              "Shikastlangan tishni tiklash",
-              "Yo‘qolgan tish o‘rnini to‘ldirish",
-            ],
-            [
-              "Sog‘lom tishlarga ta’siri",
-              "Yonidagi tishlar qirqilishi mumkin",
-              "Yon tishlarga ta’sir qilmaydi",
-            ],
-            ["Chidamlilik", "10-15 yil", "25 yil va undan ortiq"],
-            [
-              "Estetika",
-              "Yaxshi, lekin implantga qaraganda kamroq tabiiy",
-              "Tabiiy tish ko‘rinishini mukammal taqlid qiladi",
-            ],
-            ["Narxi", "Nisbatan arzon", "Ko‘proq xarajat talab qiladi"],
-            ["Davolash muddati", "2-3 kun", "3-6 oy"],
+        heading: {
+          uz: "Tish koronkasi nima?",
+          ru: "Что такое зубная коронка?",
+          en: "What is a Dental Crown?",
+        },
+        paragraphs: {
+          uz: [
+            "Tish koronkasi – bu shikastlangan yoki kuchsizlangan tishni himoya qilish uchun o‘rnatiladigan maxsus qoplama...",
+            "Koronkalar quyidagi materiallardan tayyorlanishi mumkin:",
           ],
+          ru: [
+            "Зубная коронка – это специальное покрытие, которое защищает поврежденный или ослабленный зуб...",
+            "Коронки могут быть изготовлены из следующих материалов:",
+          ],
+          en: [
+            "A dental crown is a special covering that protects a damaged or weakened tooth...",
+            "Crowns can be made from the following materials:",
+          ],
+        },
+        bulletPoints: {
+          uz: [
+            "Metall-keramika – mustahkam va nisbatan arzon variant.",
+            "Zirkoniy – tabiiy ko‘rinish va yuqori chidamlilikka ega.",
+            "To‘liq keramika – eng estetik va allergiyaga sabab bo‘lmaydi.",
+          ],
+          ru: [
+            "Металлокерамика – прочный и относительно недорогой вариант.",
+            "Цирконий – естественный вид и высокая прочность.",
+            "Полная керамика – самый эстетичный и гипоаллергенный вариант.",
+          ],
+          en: [
+            "Metal-ceramic – durable and relatively affordable.",
+            "Zirconia – natural appearance and high durability.",
+            "Full ceramic – most aesthetic and hypoallergenic.",
+          ],
+        },
+        image: "https://umid-dentist.uz/images/articles/dental-crown.jpg",
+        imageAlt: {
+          uz: "Tish koronkasi",
+          ru: "Зубная коронка",
+          en: "Dental Crown",
+        },
+        imageCaption: {
+          uz: "Zamonaviy tish koronkalarining turlari.",
+          ru: "Виды современных зубных коронок.",
+          en: "Types of modern dental crowns.",
         },
       },
       {
-        heading: "Xulosa: qaysi birini tanlash kerak?",
-        paragraphs: [
-          "Koronka va implantning har biri turli holatlar uchun mos keladi. Agar tish ildizi sog‘lom bo‘lsa, uni saqlab qolish uchun koronkadan foydalanish maqsadga muvofiq. Agar tish ildizi shikastlangan yoki butunlay olib tashlangan bo‘lsa, implant yaxshiroq tanlov hisoblanadi.",
-          "**Umid-Dentist** klinikamizda biz sizning holatingizga qarab eng mos yechimni tavsiya qilamiz. Mutaxassislarimiz siz uchun eng qulay va samarali davolash usulini tanlashda yordam beradi.",
-        ],
+        heading: {
+          uz: "Tish implantlari nima?",
+          ru: "Что такое зубной имплант?",
+          en: "What is a Dental Implant?",
+        },
+        paragraphs: {
+          uz: [
+            "Tish implanti – bu jag‘ suyagiga o‘rnatiladigan sun’iy ildiz bo‘lib...",
+            "Implantlar titan yoki zirkoniy materialidan tayyorlanib, jag‘ suyaklari bilan mustahkam birlashadi.",
+          ],
+          ru: [
+            "Зубной имплант – это искусственный корень, который устанавливается в кость челюсти...",
+            "Импланты изготавливаются из титана или циркония и надежно соединяются с костью.",
+          ],
+          en: [
+            "A dental implant is an artificial root placed in the jawbone...",
+            "Implants are made of titanium or zirconia and integrate securely with the bone.",
+          ],
+        },
+        image: "https://umid-dentist.uz/images/articles/dental-implant.jpg",
+        imageAlt: {
+          uz: "Tish implanti",
+          ru: "Зубной имплант",
+          en: "Dental Implant",
+        },
+        imageCaption: {
+          uz: "Tish implantining asosiy qismlari: implant, abutment va koronka.",
+          ru: "Основные части зубного импланта: имплант, абатмент и коронка.",
+          en: "Main parts of a dental implant: implant, abutment, and crown.",
+        },
+      },
+      {
+        heading: {
+          uz: "Koronka va implant: taqqoslash",
+          ru: "Сравнение коронок и имплантов",
+          en: "Comparison of Crowns and Implants",
+        },
+        paragraphs: {
+          uz: [
+            "Koronka va implant orasidagi asosiy farqlarni quyidagi jadval orqali ko‘rib chiqish mumkin:",
+          ],
+          ru: [
+            "Основные различия между коронками и имплантами можно увидеть в таблице ниже:",
+          ],
+          en: [
+            "The main differences between crowns and implants can be seen in the table below:",
+          ],
+        },
+        table: {
+          headers: {
+            uz: ["Xususiyat", "Koronka", "Implant"],
+            ru: ["Характеристика", "Коронка", "Имплант"],
+            en: ["Feature", "Crown", "Implant"],
+          },
+          rows: [
+            {
+              uz: [
+                "Qo‘llash sohasi",
+                "Shikastlangan tishni tiklash",
+                "Yo‘qolgan tish o‘rnini to‘ldirish",
+              ],
+              ru: [
+                "Область применения",
+                "Восстановление поврежденного зуба",
+                "Замена отсутствующего зуба",
+              ],
+              en: [
+                "Application",
+                "Restoring a damaged tooth",
+                "Replacing a missing tooth",
+              ],
+            },
+            {
+              uz: ["Chidamlilik", "10-15 yil", "25 yil va undan ortiq"],
+              ru: ["Срок службы", "10-15 лет", "25 лет и более"],
+              en: ["Durability", "10-15 years", "25 years or more"],
+            },
+            {
+              uz: ["Narxi", "Nisbatan arzon", "Ko‘proq xarajat talab qiladi"],
+              ru: ["Цена", "Относительно недорогая", "Требует больше затрат"],
+              en: ["Cost", "Relatively affordable", "More expensive"],
+            },
+          ],
+        },
       },
     ],
     infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Tish yo‘qolgan yoki shikastlangan taqdirda, vaqtni cho‘zmasdan stomatologga murojaat qilish muhim. Har bir kechikkan kun tish holatini yomonlashtirishi mumkin!",
+      title: {
+        uz: "Muhim eslatma",
+        ru: "Важное замечание",
+        en: "Important Note",
+      },
+      content: {
+        uz: "Tish yo‘qolgan yoki shikastlangan taqdirda, vaqtni cho‘zmasdan stomatologga murojaat qilish muhim...",
+        ru: "Если зуб утрачен или поврежден, важно не откладывать визит к стоматологу...",
+        en: "If a tooth is lost or damaged, it is important not to delay a visit to the dentist...",
+      },
     },
   },
   {
-    id: "aftozli-stomatit-ogiz-yaralari",
-    title:
-      "Aftozli stomatit (og'iz yaralari): sabablari, alomatlari va davolash usullari",
+    id: 9,
+    title: {
+      uz: "Aftozli stomatit (og'iz yaralari): sabablari, alomatlari va davolash usullari",
+      ru: "Афтозный стоматит (язвы во рту): причины, симптомы и методы лечения",
+      en: "Aphthous Stomatitis (Mouth Ulcers): Causes, Symptoms, and Treatment Methods",
+    },
     date: "25 fevral 2025",
     thumbnailImage:
       "https://umid-dentist.uz/images/articles/aphthous-stomatitis-thumb.jpg",
     featuredImage:
       "https://umid-dentist.uz/images/articles/aphthous-stomatitis.jpg",
-    intro:
-      "Og'iz ichidagi og'riqli yaralar ko'pchilik uchun bezovtalik tug'diradi. Aftozli stomatit – til, milk, lab ichki qismi va yonoqlarda yuzaga keladigan kichik, ammo sezilarli noqulaylik tug'diruvchi yaralar bo‘lib, odatda bir necha kun ichida yo‘qoladi. Ushbu maqolada aftozli stomatit sabablari, uning turlari va samarali davolash usullari haqida ma’lumot beramiz.",
+    intro: {
+      uz: "Og'iz ichidagi og'riqli yaralar ko'pchilik uchun bezovtalik tug'diradi...",
+      ru: "Болезненные язвы во рту доставляют дискомфорт многим людям...",
+      en: "Painful ulcers inside the mouth cause discomfort for many people...",
+    },
     content: [
       {
-        heading: "Aftozli stomatit nima?",
-        paragraphs: [
-          "Aftozli stomatit (aftalar) – bu og'iz shilliq qavatida paydo bo‘ladigan kichik, oq yoki sarg‘ish tusli yaralar bo‘lib, ularning atrofi qizargan bo‘ladi. Ular ko‘pincha og‘riqli bo‘lib, ovqatlanish yoki gapirishda noqulaylik tug‘diradi.",
-          "Aftalar yuqumli emas va odatda 7-14 kun ichida o‘z-o‘zidan tuzalib ketadi, lekin ba’zan ular qayta-qayta paydo bo‘lishi mumkin.",
-        ],
+        heading: {
+          uz: "Aftozli stomatit nima?",
+          ru: "Что такое афтозный стоматит?",
+          en: "What is Aphthous Stomatitis?",
+        },
+        paragraphs: {
+          uz: [
+            "Aftozli stomatit (aftalar) – bu og'iz shilliq qavatida paydo bo‘ladigan kichik, oq yoki sarg‘ish tusli yaralar.",
+            "Aftalar yuqumli emas va odatda 7-14 kun ichida o‘z-o‘zidan tuzalib ketadi.",
+          ],
+          ru: [
+            "Афтозный стоматит (афта) – это небольшие, беловатые или желтоватые язвы на слизистой оболочке рта.",
+            "Афты не заразны и обычно заживают самостоятельно в течение 7-14 дней.",
+          ],
+          en: [
+            "Aphthous stomatitis (aphthae) are small, whitish or yellowish ulcers on the mucous membrane of the mouth.",
+            "Aphthae are not contagious and usually heal on their own within 7-14 days.",
+          ],
+        },
         image: "https://umid-dentist.uz/images/articles/mouth-ulcer.jpg",
-        imageAlt: "Og'iz ichida aftozli yara",
-        imageCaption:
-          "Aftozli stomatit odatda yumshoq to‘qimalarda paydo bo‘ladi.",
-      },
-      {
-        heading: "Aftozli stomatit sabablari",
-        paragraphs: [
-          "Aftozli stomatitning aniq sabablari hali to‘liq o‘rganilmagan, lekin quyidagi omillar uni keltirib chiqarishi mumkin:",
-        ],
-        bulletPoints: [
-          "Stress va charchoq",
-          "Immun tizimining zaiflashishi",
-          "Vitamin B12, temir yoki foliy kislotasi yetishmovchiligi",
-          "Og‘iz shilliq qavatining jarohatlanishi (masalan, tish cho‘tkasi yoki tish protezlari tufayli)",
-          "Allergik reaksiyalar yoki ovqatga sezuvchanlik (masalan, achchiq yoki kislotali mahsulotlar)",
-          "Gormonal o‘zgarishlar (masalan, ayollarda hayz sikli vaqtida)",
-          "Ba’zi dorilar va tibbiy muolajalar",
-          "Genetik moyillik",
-        ],
-        image: "https://umid-dentist.uz/images/articles/stomatitis-causes.jpg",
-        imageAlt: "Stomatit sabablarini tushuntiruvchi diagramma",
-        imageCaption: "Stomatit turli omillarga bog‘liq bo‘lishi mumkin.",
-      },
-      {
-        heading: "Aftozli stomatit turlari",
-        paragraphs: ["Aftozli stomatit quyidagi uch asosiy turga bo‘linadi:"],
-        bulletPoints: [
-          "**Oddiy aftalar** – kichik o‘lchamli (5 mm gacha), og‘iz ichki qismida paydo bo‘ladi va 7-10 kun ichida tuzaladi.",
-          "**Katta aftalar** – katta o‘lchamli (1 sm dan kattaroq) bo‘lib, ular uzoqroq vaqt davomida (2-4 hafta) davolanadi va iz qoldirishi mumkin.",
-          "**Gerpetiform aftalar** – juda kichik, lekin guruh-guruh bo‘lib paydo bo‘ladigan yaralar. Ular 10-14 kun ichida yo‘qoladi.",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/aphthous-stomatitis-types.jpg",
-        imageAlt: "Aftozli stomatit turlari",
-        imageCaption:
-          "Aftalar kattaligi va shakliga qarab turlicha bo‘lishi mumkin.",
-      },
-      {
-        heading: "Aftozli stomatitning alomatlari",
-        paragraphs: [
-          "Aftozli stomatitning asosiy alomatlari quyidagilar:",
-          "- Og‘iz ichida 1 yoki bir nechta yaralarning paydo bo‘lishi",
-          "- Ovqatlanish va gapirishda noqulaylik va og‘riq",
-          "- Yarani o‘rab turgan qizarish",
-          "- Ba’zan umumiy holsizlik yoki isitma (kuchli aftozli stomatitda)",
-        ],
-      },
-      {
-        heading: "Aftozli stomatitni qanday davolash mumkin?",
-        paragraphs: [
-          "Ko‘pchilik hollarda aftozli stomatit o‘z-o‘zidan tuzalib ketadi, ammo og‘riqni kamaytirish va bitish jarayonini tezlashtirish uchun quyidagi usullardan foydalanish mumkin:",
-        ],
-        bulletPoints: [
-          "Antiseptik og‘iz chayqovchi suyuqliklar (xlorgeksidin, miramistin)",
-          "Og‘riqni kamaytiruvchi gel va malhamlar (lidokain, holisal)",
-          "Vitamin va minerallar (B12, temir, foliy kislotasi)",
-          "Tabiiy davolash usullari (romashka yoki kalendula eritmalari bilan og‘iz chayqash)",
-          "Allergik mahsulotlardan voz kechish",
-          "Ovqatlanishda yumshoq va achchiq bo‘lmagan mahsulotlarni iste’mol qilish",
-        ],
-        image:
-          "https://umid-dentist.uz/images/articles/stomatitis-treatment.jpg",
-        imageAlt: "Aftozli stomatitni davolash usullari",
-        imageCaption:
-          "Og'iz gigiyenasi va antiseptik chayqovlar yaralarning tezroq bitishiga yordam beradi.",
-      },
-      {
-        heading: "Aftozli stomatit oldini olish",
-        paragraphs: [
-          "Agar aftozli stomatit tez-tez takrorlansa, uni oldini olish uchun quyidagi tavsiyalarga amal qilish kerak:",
-        ],
-        bulletPoints: [
-          "Kunlik og‘iz gigiyenasiga rioya qilish",
-          "Sog‘lom va balanslangan ovqatlanish",
-          "Stressni kamaytirish",
-          "Og‘iz shilliq qavatini jarohatlanishdan saqlash",
-          "Ba’zi mahsulotlarga (shokolad, tsitrus mevalar, achchiq taomlar) ehtiyot bo‘lish",
-        ],
-      },
-      {
-        heading: "Qachon shifokorga murojaat qilish kerak?",
-        paragraphs: [
-          "Quyidagi hollarda stomatolog yoki terapevtga murojaat qilish lozim:",
-          "- Yara 2 haftadan ko‘proq vaqt davomida tuzalmayapti",
-          "- Yaralar juda og‘riqli va ovqatlanishni qiyinlashtirmoqda",
-          "- Aftalar bilan birga yuqori isitma yoki umumiy holsizlik kuzatilmoqda",
-          "- Yaralar juda katta yoki juda ko‘p bo‘lib ketgan",
-        ],
-      },
-      {
-        heading: "Xulosa",
-        paragraphs: [
-          "Aftozli stomatit keng tarqalgan muammo bo‘lib, ko‘pchilik odamlar hayotida kamida bir marta undan aziyat chekadi. Ko‘pincha u o‘z-o‘zidan tuzaladi, ammo agar tez-tez takrorlansa, og‘riqli bo‘lsa yoki uzoq vaqt bitmasa, shifokorga murojaat qilish muhim.",
-          "**Umid-Dentist** klinikamizda stomatit bilan bog‘liq muammolarni hal qilish va individual davolash rejasini ishlab chiqish uchun tajribali mutaxassislar xizmat ko‘rsatadi.",
-        ],
+        imageAlt: {
+          uz: "Og'iz ichida aftozli yara",
+          ru: "Афта во рту",
+          en: "Aphthous ulcer in the mouth",
+        },
+        imageCaption: {
+          uz: "Aftozli stomatit odatda yumshoq to‘qimalarda paydo bo‘ladi.",
+          ru: "Афтозный стоматит обычно появляется на мягких тканях.",
+          en: "Aphthous stomatitis usually appears on soft tissues.",
+        },
       },
     ],
     infoBox: {
-      title: "Muhim eslatma",
-      content:
-        "Og‘iz yaralari uzoq davom etsa yoki og‘riq kuchli bo‘lsa, albatta mutaxassisga murojaat qiling!",
+      title: {
+        uz: "Muhim eslatma",
+        ru: "Важное примечание",
+        en: "Important Note",
+      },
+      content: {
+        uz: "Og‘iz yaralari uzoq davom etsa yoki og‘riq kuchli bo‘lsa, albatta mutaxassisga murojaat qiling!",
+        ru: "Если язвы во рту долго не проходят или вызывают сильную боль, обязательно обратитесь к специалисту!",
+        en: "If mouth ulcers persist for a long time or cause severe pain, be sure to consult a specialist!",
+      },
     },
   },
 ];

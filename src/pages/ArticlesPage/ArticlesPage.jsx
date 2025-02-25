@@ -7,6 +7,7 @@ import ArticlePageCard from "../../components/ArticlePageCard/ArticlePageCard.js
 
 function ArticlesPage() {
   const { t } = useTranslation();
+
   return (
     <>
       <div className="article-page bg-[url(https://wgl-dsites.net/medify/wp-content/uploads/2019/08/page-title-3.jpg)] bg-cover bg-no-repeat bg-scroll bg-center h-[300px] mb-[40px] py-[80px] relative z-[1] p-[10px_0] pb-[88px] bg-[#f2f2f4] w-full">
