@@ -25,7 +25,7 @@ function ArticlesPage() {
                   <IoIosArrowForward />
                 </span>
                 <Link
-                  to={"/products"}
+                  to={"/articles"}
                   className="current opacity-[1] text-darkBlue "
                 >
                   {t("articles_page.articles")}
