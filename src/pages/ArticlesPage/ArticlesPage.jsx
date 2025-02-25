@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { ArticleSectionCardData } from "../../assets/datas/datas.js";
 import ArticlePageCard from "../../components/ArticlePageCard/ArticlePageCard.jsx";
 
-function ProductsPage() {
+function ArticlesPage() {
   const { t } = useTranslation();
   return (
     <>
@@ -39,12 +39,7 @@ function ProductsPage() {
         <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-6">
             {ArticleSectionCardData.map((article) => (
               <ArticlePageCard
-                key={article.id}
-                imgSrc={article.imgSrc}
-                title={article.title}
-                date={article.date}
-                views={article.views}
-                link={article.link}
+               article={article}
               />
             ))}
           </div>
@@ -55,4 +50,4 @@ function ProductsPage() {
   );
 }
 
-export default ProductsPage;
+export default ArticlesPage;

@@ -14,14 +14,9 @@ import PricesPage from "./pages/PricesPage/PricesPage";
 import ArticlesPage from "./pages/ArticlesPage/ArticlesPage";
 import ArticleSingle from "./pages/ArticleSingle/ArticleSingle";
 import ContactPage from "./pages/ContactPage/ContactPage";
-import {
-  cardData,
-  categories,
-  servicesData,
-  images,
-} from "./assets/datas/datas";
+import { servicesData, articleSingle } from "./assets/datas/datas";
 import DoctorsSingle from "./pages/DoctorsSingle/DoctorsSingle";
-import  MedicalLoading  from "./components/Loading/MedicalLoading";
+import MedicalLoading from "./components/Loading/MedicalLoading";
 
 const LoadingWrapper = ({ children }) => {
   const navigation = useNavigation();
@@ -30,50 +25,11 @@ const LoadingWrapper = ({ children }) => {
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  const [cartItems, setCartItems] = useState(() => {
-    const savedCartItems = localStorage.getItem("cartItems");
-    return savedCartItems ? JSON.parse(savedCartItems) : [];
-  });
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
-
-  useEffect(() => {
-    if (cartItems.length > 0) {
-      localStorage.setItem("cartItems", JSON.stringify(cartItems));
-    }
-  }, [cartItems]);
-
-  const handleAddToCart = (item) => {
-    setCartItems((prevItems) => {
-      const existingItem = prevItems.find(
-        (cartItem) => cartItem.id === item.id
-      );
-      if (existingItem) {
-        return prevItems.map((cartItem) =>
-          cartItem.id === item.id
-            ? { ...cartItem, quantity: cartItem.quantity + 1 }
-            : cartItem
-        );
-      }
-      return [...prevItems, { ...item, quantity: 1 }];
-    });
-    console.log("Item added to cart: ", item);
-  };
-
-  const handleRemoveItem = (id) => {
-    setCartItems(cartItems.filter((item) => item.id !== id));
-  };
-
-  const updateItemQuantity = (id, newQuantity) => {
-    setCartItems((prevItems) =>
-      prevItems.map((item) =>
-        item.id === id ? { ...item, quantity: newQuantity } : item
-      )
-    );
-  };
 
   const router = createBrowserRouter([
     {
@@ -120,11 +76,7 @@ function App() {
           path: "articles/*",
           element: (
             <LoadingWrapper>
-              <ArticlesPage
-                cardData={cardData}
-                categories={categories}
-                handleAddToCart={handleAddToCart}
-              />
+              <ArticlesPage />
             </LoadingWrapper>
           ),
           loader: async () => {
@@ -136,12 +88,7 @@ function App() {
           path: "articles/:id",
           element: (
             <LoadingWrapper>
-              <ArticleSingle
-                initialCardData={cardData}
-                images={images}
-                handleRemoveItem={handleRemoveItem}
-                updateItemQuantity={updateItemQuantity}
-              />
+              <ArticleSingle articleSingle={articleSingle} />
             </LoadingWrapper>
           ),
           loader: async () => {
