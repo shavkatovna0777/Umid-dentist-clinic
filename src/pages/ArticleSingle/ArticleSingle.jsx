@@ -127,7 +127,7 @@ function ArticleSingle() {
                       className="flex gap-3 group"
                     >
                       <div className="w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0 rounded-md overflow-hidden">
-                        <img
+                        <Img
                           src={
                             relArticle.thumbnailImage ||
                             relArticle.featuredImage ||

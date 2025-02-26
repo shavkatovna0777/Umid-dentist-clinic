@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -6,17 +6,17 @@ import {
 } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./i18n/i18n.js";
-import Home from "./pages/Home/Home";
-import DashboardLayout from "./layouts/DashboardLayout/DashboardLayout";
-import NotFound from "./pages/NotFound/NotFound";
-import PricesPage from "./pages/PricesPage/PricesPage";
-import ArticlesPage from "./pages/ArticlesPage/ArticlesPage";
-import ArticleSingle from "./pages/ArticleSingle/ArticleSingle";
-import ContactPage from "./pages/ContactPage/ContactPage";
-import { servicesData, articleSingle } from "./assets/datas/datas";
-import DoctorsSingle from "./pages/DoctorsSingle/DoctorsSingle";
-import MedicalLoading from "./components/Loading/MedicalLoading";
+import i18n from "../i18n/i18n.js";
+import Home from "../pages/Home/Home.jsx";
+import DashboardLayout from "../layouts/DashboardLayout/DashboardLayout.jsx";
+import NotFound from "../pages/NotFound/NotFound.jsx";
+import PricesPage from "../pages/PricesPage/PricesPage.jsx";
+import ArticlesPage from "../pages/ArticlesPage/ArticlesPage.jsx";
+import ArticleSingle from "../pages/ArticleSingle/ArticleSingle.jsx";
+import ContactPage from "../pages/ContactPage/ContactPage.jsx";
+import { servicesData, articleSingle } from "../assets/datas/datas.js";
+import DoctorsSingle from "../pages/DoctorsSingle/DoctorsSingle.jsx";
+import MedicalLoading from "../components/Loading/MedicalLoading.jsx";
 
 const LoadingWrapper = ({ children }) => {
   const navigation = useNavigation();
