@@ -333,7 +333,7 @@ export const DoctorsSectionData = [
       phone: "+998932997073",
     },
     biography: {
-      uz: `Orziqulov Muhammad 1996-yilda tug‘ilgan. 2019-yilda Rossiyaning Checheniston Respublikasi Grozniy shahridagi Chechen Davlat Universitetining stomatologiya fakultetiga o‘qishga kirgan. 2021-yilda tahsilini Toshkent Davlat Stomatologiya Institutiga ko‘chirib, 2024-yilda uni muvaffaqiyatli tamomlagan. Hozirgi kunda Muhammad bemorlarga zamonaviy va sifatli stomatologik xizmat ko‘rsatib, ularning og‘iz sog‘lig‘ini yaxshilash yo‘lida samarali faoliyat yuritmoqda.`,
+      uz: `Orziqulov Muhammad 1996-yilda tug‘ilgan. 2019-yilda Rossiyaning Checheniston Respublikasi Grozniy shahridagi Chechen Davlat Universitetining stomatologiya fakultetiga o‘qishga kirgan. 2021-yilda tahsilini Toshkent Davlat Stomatologiya Institutiga ko‘chirib, 2024-yilda uni muvaffaqiyatli tamomlagan. Hozirgi kunda Doktor Muhammad bemorlarga zamonaviy va sifatli stomatologik xizmat ko'rsatib kelmoqda`,
       ru: `Орзикулов Мухаммад родился в 1996 году. В 2019 году поступил на стоматологический факультет Чеченского государственного университета в городе Грозный, Чеченская Республика, Россия. В 2021 году перевелся в Ташкентский государственный стоматологический институт и успешно окончил обучение в 2024 году. В настоящее время Мухаммад активно оказывает пациентам современные и качественные стоматологические услуги, помогая им улучшить здоровье полости рта.`,
       en: `Orziqulov Muhammad was born in 1996. In 2019, he enrolled in the Faculty of Dentistry at Chechen State University in Grozny, Chechen Republic, Russia. In 2021, he transferred to the Tashkent State Dental Institute and successfully graduated in 2024. Currently, Muhammad provides modern and high-quality dental services to his patients, helping them improve their oral health.`,
     },
@@ -658,7 +658,7 @@ export const ArticleSectionCardData = [
   {
     id: 6,
     title: {
-      uz: "Kariyes – hamma qo‘rqadigan narsa",
+      uz: "Karies – hamma qo‘rqadigan narsa",
       ru: "Кариес – это то, чего все боялись",
       en: "Caries is what everyone was scared of",
     },
@@ -737,7 +737,7 @@ export const articleSingle = [
         paragraphs: [
           "Aql tishlarining og'rig'i turli sabablar tufayli yuzaga kelishi mumkin:",
           "Agar aql tishi to'liq chiqa olmasa yoki qiyshiq chiqsa, u qisman milkda qolishi mumkin. Bu perikoronit (milkning yallig'lanishi) deb ataladigan holatga olib kelishi mumkin.",
-          "Aql tishlari ko'pincha og'izning eng orqa qismida joylashgani sababli, ularni to'g'ri tozalash qiyin bo'lishi mumkin, bu esa kariyes va milk kasalliklariga olib kelishi mumkin.",
+          "Aql tishlari ko'pincha og'izning eng orqa qismida joylashgani sababli, ularni to'g'ri tozalash qiyin bo'lishi mumkin, bu esa karies va milk kasalliklariga olib kelishi mumkin.",
           "Ba'zi hollarda, aql tishi yaqinidagi to'qimalar yoki nerv tolalarini bosishi mumkin, bu esa og'riqqa olib keladi.",
         ],
         image:
@@ -755,7 +755,7 @@ export const articleSingle = [
           "Aql tishi boshqa tishlarni siqib qo'ysa yoki tishlarning joylashishiga ta'sir qilsa",
           "Tish atrofida tez-tez infeksiya bo'lsa",
           "Aql tishi atrofida kistalar yoki o'smalar paydo bo'lsa",
-          "Aql tishi kariyes bilan zararlangan bo'lsa va uni davolash imkoni bo'lmasa",
+          "Aql tishi karies bilan zararlangan bo'lsa va uni davolash imkoni bo'lmasa",
         ],
         paragraphs: [
           "Agar aql tishlari to'g'ri chiqsa, yaxshi holatda bo'lsa va og'riq yoki muammolar tug'dirmasa, ularni olib tashlash shart emas. Ko'pgina stomatologlar profilaktika maqsadida aql tishlarini olib tashlashni tavsiya qilishsa-da, bu haqida aniq ilmiy dalillar yo'q.",
@@ -1111,7 +1111,7 @@ export const articleSingle = [
         bulletPoints: [
           "Tish emalining yupqalashishi – noto‘g‘ri tish yuvish yoki qattiq ovqatlar iste’moli tufayli",
           "Tish go‘shtining chekinishi – parodontal kasalliklar yoki noto‘g‘ri gigiyena sababli",
-          "Kariyes yoki tishning yorilishi",
+          "Karies yoki tishning yorilishi",
           "Tishlarning haddan tashqari oqartirilishi",
           "Gazlangan ichimliklar yoki nordon taomlarni ortiqcha iste’mol qilish",
           "Bruksizm (tishlarni g‘ichirlatish)",
@@ -1184,49 +1184,49 @@ export const articleSingle = [
   },
   {
     id: 6,
-    title: "Kariyes – hamma qo'rqadigan narsa",
-    subTitle: "Kariyes",
+    title: "Karies – hamma qo'rqadigan narsa",
+    subTitle: "Karies",
     date: "25 fevral 2025",
     thumbnailImage:
       "https://static5.tgcnt.ru/posts/_0/dc/dc96652e17d49c5f346b7df998d5ec76.jpg",
     featuredImage:
       "https://static5.tgcnt.ru/posts/_0/dc/dc96652e17d49c5f346b7df998d5ec76.jpg",
     intro:
-      "Kariyes – dunyodagi eng keng tarqalgan tish kasalliklaridan biri bo'lib, har bir inson hayotida kamida bir marta u bilan duch keladi. Lekin ko'pchilik kariyes qanday paydo bo'lishini, uni qanday oldini olish va davolash mumkinligini bilmaydi. Ushbu maqolada kariyesning sabablari, bosqichlari va davolash usullari haqida batafsil ma’lumot beramiz.",
+      "Karies – dunyodagi eng keng tarqalgan tish kasalliklaridan biri bo'lib, har bir inson hayotida kamida bir marta u bilan duch keladi. Lekin ko'pchilik karies qanday paydo bo'lishini, uni qanday oldini olish va davolash mumkinligini bilmaydi. Ushbu maqolada kariesning sabablari, bosqichlari va davolash usullari haqida batafsil ma’lumot beramiz.",
     content: [
       {
-        heading: "Kariyes nima va qanday paydo bo‘ladi?",
+        heading: "Karies nima va qanday paydo bo‘ladi?",
         paragraphs: [
-          "Kariyes – tish emalining yemirilishi natijasida hosil bo‘ladigan tish kasalligi bo‘lib, u asta-sekin tish to‘qimalarining buzilishiga olib keladi.",
-          "Asosiy sabab – og‘iz bo‘shlig‘ida to‘planadigan bakteriyalar bo‘lib, ular ovqat qoldiqlari va shakar bilan o‘zaro ta’sirlashib, kislota hosil qiladi. Bu kislotalar tish emalini yemirib, kariyes paydo bo‘lishiga sabab bo‘ladi.",
+          "Karies – tish emalining yemirilishi natijasida hosil bo‘ladigan tish kasalligi bo‘lib, u asta-sekin tish to‘qimalarining buzilishiga olib keladi.",
+          "Asosiy sabab – og‘iz bo‘shlig‘ida to‘planadigan bakteriyalar bo‘lib, ular ovqat qoldiqlari va shakar bilan o‘zaro ta’sirlashib, kislota hosil qiladi. Bu kislotalar tish emalini yemirib, karies paydo bo‘lishiga sabab bo‘ladi.",
         ],
         image:
           "https://umid-dentist.uz/images/articles/tooth-decay-process.jpg",
-        imageAlt: "Kariyesning rivojlanish jarayoni",
+        imageAlt: "Kariesning rivojlanish jarayoni",
         imageCaption:
-          "Kariyes dastlab tish yuzasida mayda dog‘lar shaklida paydo bo‘ladi va asta-sekin ichkariga kirib boradi.",
+          "Karies dastlab tish yuzasida mayda dog‘lar shaklida paydo bo‘ladi va asta-sekin ichkariga kirib boradi.",
       },
       {
-        heading: "Kariyesning rivojlanish bosqichlari",
+        heading: "Kariesning rivojlanish bosqichlari",
         paragraphs: [
-          "Kariyes bir necha bosqichda rivojlanadi va har bir bosqichda davolash usullari farq qiladi.",
+          "Karies bir necha bosqichda rivojlanadi va har bir bosqichda davolash usullari farq qiladi.",
         ],
         bulletPoints: [
           "❶ Dastlabki bosqich – tish emalida oq yoki jigarrang dog‘lar paydo bo‘ladi, lekin og‘riq sezilmaydi.",
-          "❷ Yuzaki kariyes – emal yemirilib, tish yuzasida mayda yoriqlar hosil bo‘ladi.",
-          "❸ O‘rta kariyes – emaldan tashqari, dentin ham zarar ko‘radi va tish sezuvchanligi oshadi.",
-          "❹ Chuqur kariyes – bakteriyalar tishning ichki qatlamiga yetib boradi, bu esa kuchli og‘riq va infeksiyaga olib kelishi mumkin.",
-          "❺ Pulpa zararlanishi – agar kariyes o‘z vaqtida davolanmasa, tish nervlari yallig‘lanadi va endodontik davolash (kanal tozalash) talab qilinadi.",
+          "❷ Yuzaki karies – emal yemirilib, tish yuzasida mayda yoriqlar hosil bo‘ladi.",
+          "❸ O‘rta karies – emaldan tashqari, dentin ham zarar ko‘radi va tish sezuvchanligi oshadi.",
+          "❹ Chuqur karies – bakteriyalar tishning ichki qatlamiga yetib boradi, bu esa kuchli og‘riq va infeksiyaga olib kelishi mumkin.",
+          "❺ Pulpa zararlanishi – agar karies o‘z vaqtida davolanmasa, tish nervlari yallig‘lanadi va endodontik davolash (kanal tozalash) talab qilinadi.",
         ],
         image: "https://umid-dentist.uz/images/articles/tooth-decay-stages.jpg",
-        imageAlt: "Kariyesning rivojlanish bosqichlari",
+        imageAlt: "Kariesning rivojlanish bosqichlari",
         imageCaption:
-          "Kariyesning dastlabki bosqichida u oson davolanadi, lekin kechiktirilsa, jiddiy muammolar paydo bo‘lishi mumkin.",
+          "Kariesning dastlabki bosqichida u oson davolanadi, lekin kechiktirilsa, jiddiy muammolar paydo bo‘lishi mumkin.",
       },
       {
-        heading: "Kariyesning oldini olish usullari",
+        heading: "Kariesning oldini olish usullari",
         paragraphs: [
-          "Kariyesni oldini olish uchun og‘iz gigiyenasiga e’tibor berish va quyidagi tavsiyalarga amal qilish lozim.",
+          "Kariesni oldini olish uchun og‘iz gigiyenasiga e’tibor berish va quyidagi tavsiyalarga amal qilish lozim.",
         ],
         bulletPoints: [
           "Kuniga kamida 2 marta tishlarni floridli tish pastasi bilan tozalash.",
@@ -1238,17 +1238,17 @@ export const articleSingle = [
         image: "https://umid-dentist.uz/images/articles/tooth-care.jpg",
         imageAlt: "Tishlarni parvarish qilish",
         imageCaption:
-          "To‘g‘ri parvarish qilish kariyes rivojlanish xavfini sezilarli darajada kamaytiradi.",
+          "To‘g‘ri parvarish qilish karies rivojlanish xavfini sezilarli darajada kamaytiradi.",
       },
       {
-        heading: "Kariyesni davolash usullari",
+        heading: "Kariesni davolash usullari",
         paragraphs: [
-          "Kariyes bosqichiga qarab turli xil davolash usullari qo‘llaniladi:",
+          "Karies bosqichiga qarab turli xil davolash usullari qo‘llaniladi:",
         ],
         bulletPoints: [
           "Dastlabki bosqich – remineralizatsiya yoki florid qoplamalar bilan davolash.",
           "O‘rta va chuqur bosqich – plombalar yordamida tish tuzilishini tiklash.",
-          "Juda chuqur kariyes – agar zararlanish juda jiddiy bo‘lsa, tish nervlarini olib tashlash (kanal davolash) talab qilinadi.",
+          "Juda chuqur karies – agar zararlanish juda jiddiy bo‘lsa, tish nervlarini olib tashlash (kanal davolash) talab qilinadi.",
           "Agar tishni saqlab qolish imkoni bo‘lmasa – uni olib tashlash va implantatsiya yoki protezlar orqali tiklash tavsiya etiladi.",
         ],
         image: "https://umid-dentist.uz/images/articles/dental-filling.jpg",
@@ -1259,15 +1259,15 @@ export const articleSingle = [
       {
         heading: "Xulosa",
         paragraphs: [
-          "Kariyes – juda keng tarqalgan bo‘lsa-da, uni oldini olish va davolash mumkin. Eng muhimi – muntazam og‘iz gigiyenasi va stomatolog ko‘rigiga qatnashish.",
-          "Umid-Dentist klinikasida biz kariyesni zamonaviy usullar bilan tez va og‘riqsiz davolaymiz. Tish sog‘lig‘ingizni saqlash uchun muntazam profilaktik tekshiruvlardan o‘tishni unutmang!",
+          "Karies – juda keng tarqalgan bo‘lsa-da, uni oldini olish va davolash mumkin. Eng muhimi – muntazam og‘iz gigiyenasi va stomatolog ko‘rigiga qatnashish.",
+          "Umid-Dentist klinikasida biz kariesni zamonaviy usullar bilan tez va og‘riqsiz davolaymiz. O'z sog‘lig‘ingizni saqlash uchun muntazam profilaktik tekshiruvlardan o‘tishni unutmang!",
         ],
       },
     ],
     infoBox: {
       title: "Muhim eslatma",
       content:
-        "Agar tishlaringizda og‘riq yoki sezuvchanlik paydo bo‘lsa, kechiktirmasdan stomatologga murojaat qiling. Erta bosqichda davolangan kariyes tishingizni uzoq muddat saqlashga yordam beradi.",
+        "Agar tishlaringizda og‘riq yoki sezuvchanlik paydo bo‘lsa, kechiktirmasdan stomatologga murojaat qiling. Erta bosqichda davolangan karies tishingizni uzoq muddat saqlashga yordam beradi.",
     },
   },
   {
@@ -1291,7 +1291,7 @@ export const articleSingle = [
         ],
         bulletPoints: [
           "Gormonal o‘zgarishlar – milklarning sezuvchanligi va qon ketishga moyilligi oshadi.",
-          "Kariyes – immunitetning pasayishi va o‘zgaruvchan taomlanish natijasida rivojlanishi mumkin.",
+          "Karies – immunitetning pasayishi va o‘zgaruvchan taomlanish natijasida rivojlanishi mumkin.",
           "Gingivit va parodontoz – milklarning yallig‘lanishi va shishishi homiladorlik davrida tez-tez uchraydi.",
           "Mineral moddalar yetishmovchiligi – ayniqsa, kalsiy va D vitamini tanqisligi tishlarning zaiflashishiga olib keladi.",
           "Ko‘ngil aynishi va qusish – homiladorlik toksikozi tufayli oshqozon kislotasi tish emalini yemirishi mumkin.",
@@ -1328,7 +1328,7 @@ export const articleSingle = [
           "Anesteziyasiz oddiy tish tozalash va plombalash (2-trimestrda tavsiya etiladi).",
           "Zarurat bo‘lsa, homiladorlik uchun xavfsiz lokal og‘riqsizlantiruvchi vositalardan foydalanish (masalan, artikain asosidagi dorilar).",
           "Rentgen tekshiruvi – faqat shoshilinch holatlarda, maxsus himoya qalqoni bilan bajariladi.",
-          "Tish tozalash va kariyesni davolash – lekin faqat shifokor tavsiyasi bilan amalga oshiriladi.",
+          "Tish tozalash va kariesni davolash – lekin faqat shifokor tavsiyasi bilan amalga oshiriladi.",
         ],
         image:
           "https://umid-dentist.uz/images/articles/pregnancy-dental-treatment.jpg",
