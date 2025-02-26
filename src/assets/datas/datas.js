@@ -1358,7 +1358,7 @@ export const articleSingle = [
         heading: "Xulosa",
         paragraphs: [
           "Homiladorlikda tish og‘rig‘i ko‘p uchraydi, lekin uni xavfsiz davolash mumkin. Muhimi – og‘iz gigiyenasiga e’tibor berish, shifokor ko‘rigiga borish va zarur muolajalarni kechiktirmaslik.",
-          "Agar siz homiladorlik vaqtida tish muammolari bilan duch kelsangiz, **Umid-Dentist** klinikamizga murojaat qiling. Biz sizga xavfsiz va samarali davolash usullarini taklif qilamiz!",
+          "Agar siz homiladorlik vaqtida tish muammolari bilan duch kelsangiz, Umid-Dentist klinikamizga murojaat qiling. Biz sizga xavfsiz va samarali davolash usullarini taklif qilamiz!",
         ],
       },
     ],
@@ -1468,7 +1468,7 @@ export const articleSingle = [
         heading: "Xulosa: qaysi birini tanlash kerak?",
         paragraphs: [
           "Koronka va implantning har biri turli holatlar uchun mos keladi. Agar tish ildizi sog‘lom bo‘lsa, uni saqlab qolish uchun koronkadan foydalanish maqsadga muvofiq. Agar tish ildizi shikastlangan yoki butunlay olib tashlangan bo‘lsa, implant yaxshiroq tanlov hisoblanadi.",
-          "**Umid-Dentist** klinikamizda biz sizning holatingizga qarab eng mos yechimni tavsiya qilamiz. Mutaxassislarimiz siz uchun eng qulay va samarali davolash usulini tanlashda yordam beradi.",
+          "Umid-Dentist klinikamizda biz sizning holatingizga qarab eng mos yechimni tavsiya qilamiz. Mutaxassislarimiz siz uchun eng qulay va samarali davolash usulini tanlashda yordam beradi.",
         ],
       },
     ],
@@ -1591,7 +1591,7 @@ export const articleSingle = [
         heading: "Xulosa",
         paragraphs: [
           "Aftozli stomatit keng tarqalgan muammo bo‘lib, ko‘pchilik odamlar hayotida kamida bir marta undan aziyat chekadi. Ko‘pincha u o‘z-o‘zidan tuzaladi, ammo agar tez-tez takrorlansa, og‘riqli bo‘lsa yoki uzoq vaqt bitmasa, shifokorga murojaat qilish muhim.",
-          "**Umid-Dentist** klinikamizda stomatit bilan bog‘liq muammolarni hal qilish va individual davolash rejasini ishlab chiqish uchun tajribali mutaxassislar xizmat ko‘rsatadi.",
+          "Umid-Dentist klinikamizda stomatit bilan bog‘liq muammolarni hal qilish va individual davolash rejasini ishlab chiqish uchun tajribali mutaxassislar xizmat ko‘rsatadi.",
         ],
       },
     ],
