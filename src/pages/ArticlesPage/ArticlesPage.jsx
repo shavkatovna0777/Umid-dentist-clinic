@@ -37,11 +37,9 @@ function ArticlesPage() {
       </div>
       <section>
         <div className="container">
-        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-6">
+          <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-6">
             {ArticleSectionCardData.map((article) => (
-              <ArticlePageCard
-               article={article}
-              />
+              <ArticlePageCard article={article} key={article.id} />
             ))}
           </div>
         </div>

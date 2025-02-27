@@ -23,11 +23,11 @@ function App() {
       element: <DashboardLayout />,
       children: [
         {
-          index: true,
+          path: "/",
           element: (
             <Suspense fallback={<MedicalLoading />}>
               <Home />
-            </Suspense>
+            </Suspense> 
           ),
         },
         {
@@ -72,7 +72,11 @@ function App() {
         },
         {
           path: "*",
-          element: <NotFound />,
+          element: (
+            <Suspense fallback={<MedicalLoading />}>
+              <NotFound />
+            </Suspense>
+          ),
         },
       ],
     },
