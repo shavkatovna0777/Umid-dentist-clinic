@@ -6,7 +6,15 @@ import i18n from "../i18n/i18n.js";
 import DashboardLayout from "../layouts/DashboardLayout/DashboardLayout.jsx";
 import { servicesData, articleSingle } from "../assets/datas/datas.js";
 import MedicalLoading from "../components/Loading/MedicalLoading.jsx";
-import { ArticleSingle, ArticlesPage, ContactPage, DoctorsSingle, Home, NotFound, PricesPage } from "../pages/index.js";
+import {
+  ArticleSingle,
+  ArticlesPage,
+  ContactPage,
+  DoctorsSingle,
+  Home,
+  NotFound,
+  PricesPage,
+} from "../pages/index.js";
 
 function App() {
   const router = createBrowserRouter([
@@ -26,7 +34,7 @@ function App() {
           path: ":id",
           element: (
             <Suspense fallback={<MedicalLoading />}>
-              <DoctorsSingle/>
+              <DoctorsSingle />
             </Suspense>
           ),
         },
