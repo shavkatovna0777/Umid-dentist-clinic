@@ -1,13 +1,14 @@
 import Header from "../Header/Header";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Footer from "../Footer/Footer";
 
 function DashboardLayout() {
+  const location = useLocation();
   return (
     <>
       <Header />
       <main className="relative">
-        <Outlet />
+        <Outlet key={location.key} />
       </main>
       <Footer />
     </>
