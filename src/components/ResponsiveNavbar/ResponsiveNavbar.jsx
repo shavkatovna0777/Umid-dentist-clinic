@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   ChevronRight,
   X,
@@ -12,12 +13,45 @@ import Logo from "../Logo/Logo";
 const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
   const navigate = useNavigate();
   const location = useLocation();
+  const [lang, setLang] = useState("uz"); 
 
   const menuItems = [
-    { title: "Home", icon: <Home size={20} />, path: "/" },
-    { title: "Prices", icon: <Wallet  size={20} />, path: "/page" },
-    { title: "Articles", icon: <Newspaper size={20} />, path: "/articles" },
-    { title: "Contacts", icon: <Contact size={20} />, path: "/contact" },
+    {
+      title: {
+        uz: "Asosiy",
+        ru: "Главная",
+        en: "Home",
+      },
+      icon: <Home size={20} />,
+      path: "/",
+    },
+    {
+      title: {
+        uz: "Narxlar",
+        ru: "Цены",
+        en: "Prices",
+      },
+      icon: <Wallet size={20} />,
+      path: "/page",
+    },
+    {
+      title: {
+        uz: "Maqolalar",
+        ru: "Статьи",
+        en: "Articles",
+      },
+      icon: <Newspaper size={20} />,
+      path: "/articles",
+    },
+    {
+      title: {
+        uz: "Kontaktlar",
+        ru: "Контакты",
+        en: "Contact",
+      },
+      icon: <Contact size={20} />,
+      path: "/contact",
+    },
   ];
 
   const handleNavigation = (path) => {
@@ -28,7 +62,7 @@ const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
   return (
     <>
       <div
-        className={`fixed inset-0 bg-[rgba(49,49,49,0.8)] bg-opacity-[1] transition-opacity duration-300 z-40 ${
+        className={`fixed inset-0 bg-[rgba(49,49,49,0.8)] transition-opacity duration-300 z-40 ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
         onClick={() => setIsOpen(false)}
@@ -41,6 +75,7 @@ const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
       >
         <div className="flex items-center justify-between p-4">
           <Logo />
+
           <button
             onClick={() => setIsOpen(false)}
             className="text-gray-400 hover:text-white"
@@ -72,7 +107,7 @@ const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
                   <span
                     className={isActive ? "text-lightBlue" : "text-gray-300"}
                   >
-                    {item.title}
+                    {item.title[lang]}
                   </span>
                 </div>
                 <ChevronRight
