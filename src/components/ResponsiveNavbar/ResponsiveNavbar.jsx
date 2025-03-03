@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   ChevronRight,
   X,
@@ -10,10 +9,9 @@ import {
 import { useNavigate, useLocation } from "react-router-dom";
 import Logo from "../Logo/Logo";
 
-const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
+const ResponsiveNavbar = ({ isOpen, setIsOpen, language }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  const [lang, setLang] = useState("uz"); 
 
   const menuItems = [
     {
@@ -75,7 +73,6 @@ const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
       >
         <div className="flex items-center justify-between p-4">
           <Logo />
-
           <button
             onClick={() => setIsOpen(false)}
             className="text-gray-400 hover:text-white"
@@ -99,15 +96,11 @@ const ResponsiveNavbar = ({ isOpen, setIsOpen }) => {
                 onClick={() => handleNavigation(item.path)}
               >
                 <div className="flex items-center space-x-3">
-                  <span
-                    className={isActive ? "text-lightBlue" : "text-gray-400"}
-                  >
+                  <span className={isActive ? "text-lightBlue" : "text-gray-400"}>
                     {item.icon}
                   </span>
-                  <span
-                    className={isActive ? "text-lightBlue" : "text-gray-300"}
-                  >
-                    {item.title[lang]}
+                  <span className={isActive ? "text-lightBlue" : "text-gray-300"}>
+                    {item.title[language]} 
                   </span>
                 </div>
                 <ChevronRight

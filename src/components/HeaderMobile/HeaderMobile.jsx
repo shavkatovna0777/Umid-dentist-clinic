@@ -6,6 +6,8 @@ import ChangeLanguage from "../ChangeLanguage/ChangeLanguage";
 
 function HeaderMobile() {
   const [isOpen, setIsOpen] = useState(false);
+  const [language, setLanguage] = useState("uz"); 
+
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -21,9 +23,13 @@ function HeaderMobile() {
           <IoMenuOutline />
         </div>
         <Logo />
-        <ChangeLanguage />
+        <ChangeLanguage onChangeLanguage={setLanguage} />
       </div>
-      <ResponsiveNavbar isOpen={isOpen} setIsOpen={setIsOpen} />
+      <ResponsiveNavbar
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        language={language}
+      />
     </>
   );
 }

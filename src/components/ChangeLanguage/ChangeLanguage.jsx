@@ -5,8 +5,8 @@ import russianFlag from "../../assets/images/russian-flag.png";
 import USFlag from "../../assets/images/united-states-flag.png";
 import Img from "../LazyLoadImg/Img";
 
-const ChangeLanguage = () => {
-  const [selectedLang, setSelectedLang] = useState("Uz"); // Default language
+const ChangeLanguage = ({ onChangeLanguage }) => {
+  const [selectedLang, setSelectedLang] = useState("Uz");
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
   const { i18n } = useTranslation();
@@ -19,38 +19,24 @@ const ChangeLanguage = () => {
     ],
     []
   );
-
   useEffect(() => {
-    const savedLanguage = localStorage.getItem('selectedLanguage');
+    const savedLanguage = localStorage.getItem("selectedLanguage");
     if (savedLanguage) {
       setSelectedLang(savedLanguage);
       i18n.changeLanguage(savedLanguage.toLowerCase());
+
+      if (onChangeLanguage) {
+        onChangeLanguage(savedLanguage.toLowerCase());
+      }
     }
   }, []);
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-
-    if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [isOpen]);
-
-  const toggleDropdown = () => setIsOpen((prev) => !prev);
 
   const selectLanguage = (langCode) => {
     setSelectedLang(langCode);
     i18n.changeLanguage(langCode.toLowerCase());
-    localStorage.setItem('selectedLanguage', langCode);
+    localStorage.setItem("selectedLanguage", langCode);
     setIsOpen(false);
+    onChangeLanguage(langCode.toLowerCase()); 
   };
 
   const selectedLanguage = useMemo(
@@ -61,10 +47,8 @@ const ChangeLanguage = () => {
   return (
     <div className="relative inline-block z-10 text-left" ref={dropdownRef}>
       <button
-        onClick={toggleDropdown}
-        className="flex items-center space-x-2 bg-lightBlue text-white px-3 py-2 rounded-[5px] transition-colors focus:outline-none"
-        aria-label="Select language"
-        aria-expanded={isOpen}
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex items-center space-x-2 bg-lightBlue text-white px-3 py-2 rounded-[5px]"
       >
         <Img
           src={selectedLanguage.flagImg}
@@ -75,30 +59,21 @@ const ChangeLanguage = () => {
       </button>
 
       {isOpen && (
-        <div
-          className="absolute mt-2 w-20 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 transform origin-top transition-transform"
-          role="menu"
-          aria-orientation="vertical"
-        >
-          {languages.map((lang) => {
-            const isActive = lang.code === selectedLang;
-            return (
-              <button
-                key={lang.code}
-                onClick={() => selectLanguage(lang.code)}
-                className={`flex items-center space-x-2 w-full px-4 py-2 text-sm transition-colors first:rounded-t-md last:rounded-b-md focus:outline-none
-                  ${isActive ? 'bg-[#98d0f1] text-white' : 'hover:bg-[#98d0f1] hover:bg-opacity-50'}`}
-                role="menuitem"
-              >
-                <Img
-                  src={lang.flagImg}
-                  alt={lang.name}
-                  className="w-5 h-5 object-cover rounded-sm"
-                />
-                <span>{lang.code}</span>
-              </button>
-            );
-          })}
+        <div className="absolute mt-2 w-20 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+          {languages.map((lang) => (
+            <button
+              key={lang.code}
+              onClick={() => selectLanguage(lang.code)}
+              className="flex items-center space-x-2 w-full px-4 py-2 text-sm hover:bg-[#98d0f1]"
+            >
+              <Img
+                src={lang.flagImg}
+                alt={lang.name}
+                className="w-5 h-5 object-cover rounded-sm"
+              />
+              <span>{lang.code}</span>
+            </button>
+          ))}
         </div>
       )}
     </div>
